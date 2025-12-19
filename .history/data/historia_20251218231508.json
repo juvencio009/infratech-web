@@ -1,0 +1,231 @@
+{
+  "disciplina": "História",
+  "nivel": "Avançado",
+  "origem": ["UEM", "UP", "UJC"],
+  "questoes": [
+
+    {
+      "id": 1,
+      "tipo": "multipla",
+      "pergunta": "A principal consequência da Conferência de Berlim (1884–1885) para África foi:",
+      "opcoes": [
+        "O fim do tráfico de escravos",
+        "A independência imediata das colónias",
+        "A partilha e ocupação efetiva do continente africano",
+        "A criação da União Africana"
+      ],
+      "resposta": 2,
+      "explicacao": "A conferência definiu regras para a ocupação colonial europeia."
+    },
+
+    {
+      "id": 2,
+      "tipo": "multipla",
+      "pergunta": "O sistema de prazos da Coroa em Moçambique caracterizava-se por:",
+      "opcoes": [
+        "Propriedade privada africana",
+        "Administração direta do Estado português",
+        "Concessão de terras a particulares com poderes administrativos",
+        "Exploração exclusiva por companhias majestáticas"
+      ],
+      "resposta": 2,
+      "explicacao": "Os prazeiros exerciam poder político e económico."
+    },
+
+    {
+      "id": 3,
+      "tipo": "vf",
+      "pergunta": "As Companhias Majestáticas tinham soberania total e independente de Portugal.",
+      "resposta": false,
+      "explicacao": "Estavam subordinadas ao Estado colonial português."
+    },
+
+    {
+      "id": 4,
+      "tipo": "multipla",
+      "pergunta": "A economia colonial moçambicana baseava-se principalmente em:",
+      "opcoes": [
+        "Industrialização pesada",
+        "Economia de subsistência africana",
+        "Exploração agrícola, mineira e mão de obra forçada",
+        "Comércio livre e igualitário"
+      ],
+      "resposta": 2,
+      "explicacao": "A economia servia os interesses da metrópole."
+    },
+
+    {
+      "id": 5,
+      "tipo": "input",
+      "pergunta": "Indique o ano da independência de Moçambique.",
+      "resposta": ["1975"],
+      "explicacao": "Moçambique tornou-se independente a 25 de junho de 1975."
+    },
+
+    {
+      "id": 6,
+      "tipo": "multipla",
+      "pergunta": "A FRELIMO foi fundada em 1962 com o principal objetivo de:",
+      "opcoes": [
+        "Defender os interesses coloniais",
+        "Promover reformas administrativas",
+        "Lutar pela independência nacional",
+        "Criar partidos regionais"
+      ],
+      "resposta": 2,
+      "explicacao": "A FRELIMO liderou a luta de libertação nacional."
+    },
+
+    {
+      "id": 7,
+      "tipo": "multipla",
+      "pergunta": "A luta armada de libertação em Moçambique iniciou-se em:",
+      "opcoes": ["1960", "1962", "1964", "1970"],
+      "resposta": 2,
+      "explicacao": "O início oficial foi em 25 de setembro de 1964."
+    },
+
+    {
+      "id": 8,
+      "tipo": "vf",
+      "pergunta": "O Acordo de Lusaka pôs fim à guerra de libertação em Moçambique.",
+      "resposta": true,
+      "explicacao": "O acordo foi assinado em 1974."
+    },
+
+    {
+      "id": 9,
+      "tipo": "multipla",
+      "pergunta": "O sistema de trabalho forçado no período colonial ficou conhecido como:",
+      "opcoes": ["Chibalo", "Mussoco", "Xibalo", "Regedorias"],
+      "resposta": 0,
+      "explicacao": "O chibalo foi amplamente utilizado."
+    },
+
+    {
+      "id": 10,
+      "tipo": "multipla",
+      "pergunta": "A Guerra Fria caracterizou-se essencialmente por:",
+      "opcoes": [
+        "Conflitos diretos entre EUA e URSS",
+        "Confronto ideológico, político e económico",
+        "Colonização da Europa",
+        "Expansão do fascismo"
+      ],
+      "resposta": 1,
+      "explicacao": "Tratou-se de um conflito indireto."
+    },
+
+    {
+      "id": 11,
+      "tipo": "vf",
+      "pergunta": "Moçambique alinhou-se inicialmente ao bloco socialista após a independência.",
+      "resposta": true,
+      "explicacao": "Adotou um modelo marxista-leninista."
+    },
+
+    {
+      "id": 12,
+      "tipo": "multipla",
+      "pergunta": "O principal objetivo da RENAMO durante a guerra civil era:",
+      "opcoes": [
+        "Restaurar o colonialismo",
+        "Defender o socialismo",
+        "Combater o regime da FRELIMO",
+        "Unificar África Austral"
+      ],
+      "resposta": 2,
+      "explicacao": "A RENAMO opôs-se ao governo da FRELIMO."
+    },
+
+    {
+      "id": 13,
+      "tipo": "input",
+      "pergunta": "Indique o ano da assinatura do Acordo Geral de Paz em Moçambique.",
+      "resposta": ["1992"],
+      "explicacao": "O acordo foi assinado em Roma."
+    },
+
+    {
+      "id": 14,
+      "tipo": "multipla",
+      "pergunta": "O Pan-Africanismo defendia principalmente:",
+      "opcoes": [
+        "A dominação europeia",
+        "A união e libertação dos povos africanos",
+        "A separação racial",
+        "A colonização interna"
+      ],
+      "resposta": 1,
+      "explicacao": "Movimento de unidade africana."
+    },
+
+    {
+      "id": 15,
+      "tipo": "vf",
+      "pergunta": "Kwame Nkrumah foi uma figura central do Pan-Africanismo.",
+      "resposta": true,
+      "explicacao": "Foi líder do Gana e defensor da unidade africana."
+    },
+
+    {
+      "id": 16,
+      "tipo": "multipla",
+      "pergunta": "A Revolução Industrial iniciou-se primeiro em:",
+      "opcoes": ["França", "Alemanha", "Inglaterra", "Estados Unidos"],
+      "resposta": 2,
+      "explicacao": "A Inglaterra reunia as condições necessárias."
+    },
+
+    {
+      "id": 17,
+      "tipo": "multipla",
+      "pergunta": "Uma consequência social direta da Revolução Industrial foi:",
+      "opcoes": [
+        "O fim das classes sociais",
+        "O surgimento do proletariado",
+        "A redução da urbanização",
+        "A abolição do trabalho infantil"
+      ],
+      "resposta": 1,
+      "explicacao": "Formou-se uma nova classe trabalhadora."
+    },
+
+    {
+      "id": 18,
+      "tipo": "vf",
+      "pergunta": "A Primeira Guerra Mundial teve início em 1914.",
+      "resposta": true,
+      "explicacao": "O estopim foi o assassinato do arquiduque Francisco Ferdinando."
+    },
+
+    {
+      "id": 19,
+      "tipo": "multipla",
+      "pergunta": "O Tratado de Versalhes foi considerado injusto porque:",
+      "opcoes": [
+        "Favoreceu excessivamente a Alemanha",
+        "Impôs duras sanções à Alemanha",
+        "Ignorou a França",
+        "Fortaleceu o Império Otomano"
+      ],
+      "resposta": 1,
+      "explicacao": "Gerou ressentimento alemão."
+    },
+
+    {
+      "id": 20,
+      "tipo": "multipla",
+      "pergunta": "O apartheid foi um regime de:",
+      "opcoes": [
+        "Integração racial",
+        "Segregação racial",
+        "Socialismo africano",
+        "Colonialismo direto"
+      ],
+      "resposta": 1,
+      "explicacao": "Sistema oficial de segregação na África do Sul."
+    }
+
+  ]
+}

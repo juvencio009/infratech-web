@@ -1,0 +1,30 @@
+{
+  "disciplina": "Inglês",
+  "questoes": [
+    {
+      "id": 1,
+      "tipo": "multipla",
+      "pergunta": "What 'Dream' means in Portuguese?",
+      "imagem": null,
+      "opcoes": ["Sonho", "mel", "significado", "nada"],
+      "resposta": 2,
+      "explicacao": "A potência mede a taxa de realização de trabalho e sua unidade SI é o Watt (W)."
+    },
+    {
+      "id": 2,
+      "tipo": "input",
+      "pergunta": "Write 'Eu mesmo' in English",
+      "imagem": null,
+      "resposta": ["i sel"],
+      "explicacao": "Para alturas pequenas em relação ao raio da Terra, g ≈ 9,8 m/s²."
+    },
+    {
+      "id": 3,
+      "tipo": "vf",
+      "pergunta": "is this correct 'how's your going? bod' correct?",
+      "imagem": null,
+      "resposta": true,
+      "explicacao": "yes.."
+    }
+  ]
+}

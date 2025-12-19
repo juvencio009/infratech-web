@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="pt" class="h-full">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Plataforma de Testes de Admissão: Simulações de exames de admissão para universidades nacionais. Escolha a disciplina e inicie o teste.">
+  <title>Gteste | Exames de Admissão</title><!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet"><!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <script src="/_sdk/element_sdk.js"></script>
+  <style>
+    body {
+      box-sizing: border-box;
+    }
+    
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    html, body {
+      height: 100%;
+      width: 100%;
+    }
+    
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #f4f6f8;
+      color: #374151;
+      overflow-x: hidden;
+    }
+    
+    .main-wrapper {
+      width: 100%;
+      min-height: 100%;
+      display: flex;
+      flex-direction: column;
+      overflow-y: auto;
+    }
+    
+    /* ===============================
+       HEADER
+    ================================ */
+    header {
+      background: #fff;
+      padding: 1.25rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    
+    .logo {
+      font-size: 1.75rem;
+      font-weight: 800;
+      color: #1d4ed8;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+    
+    .logo:hover {
+      transform: scale(1.05);
+    }
+    
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+    }
+    
+    .header-actions a {
+      color: #374151;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 0.95rem;
+      transition: color 0.3s ease;
+      position: relative;
+    }
+    
+    .header-actions a::after {
+      content: '';
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: #1d4ed8;
+      transition: width 0.3s ease;
+    }
+    
+    .header-actions a:hover {
+      color: #1d4ed8;
+    }
+    
+    .header-actions a:hover::after {
+      width: 100%;
+    }
+    
+    .header-actions button {
+      background: #1d4ed8;
+      color: white;
+      border: none;
+      padding: 0.625rem 1.5rem;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      cursor: pointer;
+      box-shadow: 0 4px 6px -1px rgba(29, 78, 216, 0.3);
+      transition: all 0.3s ease;
+    }
+    
+    .header-actions button:disabled {
+      opacity: 0.7;
+      cursor: not-allowed;
+    }
+    
+    .header-actions button:not(:disabled):hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 15px -3px rgba(29, 78, 216, 0.4);
+      background: #1e40af;
+    }
+    
+    /* ===============================
+       HERO SECTION
+    ================================ */
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: #fff;
+      margin: 2rem auto;
+      max-width: 900px;
+      border-radius: 20px;
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    }
+    
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      color: #1d4ed8;
+      margin-bottom: 1.5rem;
+      line-height: 1.2;
+    }
+    
+    .hero p {
+      font-size: 1.25rem;
+      color: #374151;
+      line-height: 1.7;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    
+    /* ===============================
+       GRID DE DISCIPLINAS
+    ================================ */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      padding: 3rem 2rem;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+    
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 2.5rem 2rem;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      position: relative;
+      overflow: hidden;
+      border: 2px solid transparent;
+    }
+    
+    .card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background: #1d4ed8;
+      transform: scaleX(0);
+      transition: transform 0.3s ease;
+    }
+    
+    .card:hover::before {
+      transform: scaleX(1);
+    }
+    
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+      border-color: #e0e7ff;
+      background: #e0e7ff;
+    }
+    
+    .card i {
+      font-size: 3.5rem;
+      color: #1d4ed8;
+      margin-bottom: 1.25rem;
+      display: block;
+    }
+    
+    .card h3 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #374151;
+      margin-bottom: 0.75rem;
+    }
+    
+    .card span {
+      color: #374151;
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+    
+    /* ===============================
+       FOOTER
+    ================================ */
+    footer {
+      background: #fff;
+      padding: 2rem;
+      text-align: center;
+      margin-top: auto;
+      box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.1);
+    }
+    
+    footer p {
+      color: #374151;
+      font-size: 0.95rem;
+    }
+    
+    footer a {
+      color: #1d4ed8;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+    
+    footer a:hover {
+      color: #1e40af;
+      text-decoration: underline;
+    }
+    
+    /* ===============================
+       RESPONSIVE
+    ================================ */
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+      }
+      
+      .header-actions {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+      }
+      
+      .hero h1 {
+        font-size: 2rem;
+      }
+      
+      .hero p {
+        font-size: 1rem;
+      }
+      
+      .grid {
+        grid-template-columns: 1fr;
+        padding: 2rem 1rem;
+        gap: 1.5rem;
+      }
+    }
+  </style>
+  <style>@view-transition { navigation: auto; }</style>
+  <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
+  <script src="https://cdn.tailwindcss.com" type="text/javascript"></script>
+ </head>
+ <body>
+  <div class="main-wrapper"><!-- HEADER -->
+   <header>
+    <div class="logo" id="site-title" onclick="location.href='index.html'">
+     Gteste
+    </div>
+    <nav class="header-actions" aria-label="Menu de navegação"><a href="register.html" aria-label="Login">Login</a> <a href="progress.html" aria-label="Ver Progresso">Progresso</a> <button disabled aria-label="Exames de Admissão">Exames de Admissão</button>
+    </nav>
+   </header><!-- HERO -->
+   <section class="hero" aria-labelledby="hero-title">
+    <h1 id="hero-title">Plataforma de Testes de Admissão</h1>
+    <p id="hero-description">Simulações realistas de exames de admissão para universidades nacionais. Escolha a disciplina e inicie o teste.</p>
+   </section><!-- DISCIPLINAS -->
+   <section class="grid" aria-labelledby="disciplines-title">
+    <div class="card" onclick="openQuiz('matematica')" role="button" tabindex="0" aria-label="Iniciar prova de Matemática" onkeypress="if(event.key==='Enter') openQuiz('matematica')"><i class="bi bi-calculator" aria-hidden="true"></i>
+     <h3>Matemática</h3><span>Prova objetiva</span>
+    </div>
+    <div class="card" onclick="openQuiz('fisica')" role="button" tabindex="0" aria-label="Iniciar prova de Física" onkeypress="if(event.key==='Enter') openQuiz('fisica')"><i class="bi bi-lightning-charge" aria-hidden="true"></i>
+     <h3>Física</h3><span>Prova objetiva</span>
+    </div>
+    <div class="card" onclick="openQuiz('quimica')" role="button" tabindex="0" aria-label="Iniciar prova de Química" onkeypress="if(event.key==='Enter') openQuiz('quimica')"><i class="bi bi-stack-overflow" aria-hidden="true"></i>
+     <h3>Química</h3><span>Prova objetiva</span>
+    </div>
+    <div class="card" onclick="openQuiz('biologia')" role="button" tabindex="0" aria-label="Iniciar prova de Biologia" onkeypress="if(event.key==='Enter') openQuiz('biologia')"><i class="bi bi-bug" aria-hidden="true"></i>
+     <h3>Biologia</h3><span>Prova objetiva</span>
+    </div>
+    <div class="card" onclick="openQuiz('portugues')" role="button" tabindex="0" aria-label="Iniciar prova de Português" onkeypress="if(event.key==='Enter') openQuiz('portugues')"><i class="bi bi-journal-text" aria-hidden="true"></i>
+     <h3>Português</h3><span>Interpretação e gramática</span>
+    </div>
+    <div class="card" onclick="openQuiz('ingles')" role="button" tabindex="0" aria-label="Iniciar prova de Inglês" onkeypress="if(event.key==='Enter') openQuiz('ingles')"><i class="bi bi-translate" aria-hidden="true"></i>
+     <h3>Inglês</h3><span>Leitura e compreensão</span>
+    </div>
+    <div class="card" onclick="openQuiz('historia')" role="button" tabindex="0" aria-label="Iniciar prova de História" onkeypress="if(event.key==='Enter') openQuiz('historia')"><i class="bi bi-book" aria-hidden="true"></i>
+     <h3>História</h3><span>História geral</span>
+    </div>
+   </section>
+   <footer>
+    <p id="footer-content">© <span id="year"></span> <a href="https://infratech-cursos.netlify.app" target="_blank" rel="noopener noreferrer">Infratech</a>. Todos os direitos reservados.</p>
+   </footer>
+  </div>
+  <script>
+    const defaultConfig = {
+      site_title: "Gteste",
+      hero_title: "Plataforma de Testes de Admissão",
+      hero_description: "Simulações realistas de exames de admissão para universidades nacionais. Escolha a disciplina e inicie o teste.",
+      footer_text: "Todos os direitos reservados",
+      background_color: "#f4f6f8",
+      card_background: "#ffffff",
+      text_color: "#374151",
+      primary_color: "#1d4ed8",
+      highlight_color: "#e0e7ff"
+    };
+
+    async function onConfigChange(config) {
+      document.getElementById('site-title').textContent = config.site_title || defaultConfig.site_title;
+      document.getElementById('hero-title').textContent = config.hero_title || defaultConfig.hero_title;
+      document.getElementById('hero-description').textContent = config.hero_description || defaultConfig.hero_description;
+      
+      const footerContent = document.getElementById('footer-content');
+      const year = new Date().getFullYear();
+      footerContent.innerHTML = `&copy; ${year} <a href="http://infratech-cursos.netlify.app" target="_blank" rel="noopener noreferrer">Infratech</a>. ${config.footer_text || defaultConfig.footer_text}`;
+      
+      const bgColor = config.background_color || defaultConfig.background_color;
+      document.body.style.background = bgColor;
+      
+      const primaryColor = config.primary_color || defaultConfig.primary_color;
+      const textColor = config.text_color || defaultConfig.text_color;
+      const highlightColor = config.highlight_color || defaultConfig.highlight_color;
+      const cardBg = config.card_background || defaultConfig.card_background;
+      
+      document.querySelector('.logo').style.color = primaryColor;
+      document.getElementById('hero-title').style.color = primaryColor;
+      
+      document.querySelectorAll('.card i').forEach(el => {
+        el.style.color = primaryColor;
+      });
+      
+      document.querySelectorAll('.header-actions button').forEach(btn => {
+        btn.style.background = primaryColor;
+      });
+      
+      document.querySelectorAll('.header-actions a').forEach(link => {
+        link.style.color = textColor;
+      });
+      
+      document.querySelectorAll('.card h3, .card span, .hero p, footer p').forEach(el => {
+        el.style.color = textColor;
+      });
+    }
+
+    function openQuiz(disciplina) {
+      window.location.href = `quiz.html?disciplina=${disciplina}`;
+    }
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    if (window.elementSdk) {
+      window.elementSdk.init({
+        defaultConfig,
+        onConfigChange,
+        mapToCapabilities: (config) => ({
+          recolorables: [
+            {
+              get: () => config.background_color || defaultConfig.background_color,
+              set: (value) => {
+                config.background_color = value;
+                window.elementSdk.setConfig({ background_color: value });
+              }
+            },
+            {
+              get: () => config.card_background || defaultConfig.card_background,
+              set: (value) => {
+                config.card_background = value;
+                window.elementSdk.setConfig({ card_background: value });
+              }
+            },
+            {
+              get: () => config.text_color || defaultConfig.text_color,
+              set: (value) => {
+                config.text_color = value;
+                window.elementSdk.setConfig({ text_color: value });
+              }
+            },
+            {
+              get: () => config.primary_color || defaultConfig.primary_color,
+              set: (value) => {
+                config.primary_color = value;
+                window.elementSdk.setConfig({ primary_color: value });
+              }
+            },
+            {
+              get: () => config.highlight_color || defaultConfig.highlight_color,
+              set: (value) => {
+                config.highlight_color = value;
+                window.elementSdk.setConfig({ highlight_color: value });
+              }
+            }
+          ],
+          borderables: [],
+          fontEditable: undefined,
+          fontSizeable: undefined
+        }),
+        mapToEditPanelValues: (config) => new Map([
+          ["site_title", config.site_title || defaultConfig.site_title],
+          ["hero_title", config.hero_title || defaultConfig.hero_title],
+          ["hero_description", config.hero_description || defaultConfig.hero_description],
+          ["footer_text", config.footer_text || defaultConfig.footer_text]
+        ])
+      });
+    }
+  </script>
+</html>

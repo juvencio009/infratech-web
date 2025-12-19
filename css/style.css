@@ -1,0 +1,229 @@
+/* ===============================
+   RESET & BASE
+================================ */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  transition: all 0.3s ease-in-out; /* Transição suave */
+}
+
+:root {
+  --primary-color: #1d4ed8;  /* Azul vibrante */
+  --secondary-color: #e5e7eb; /* Cinza claro */
+  --white: #fff;
+  --dark-gray: #374151;
+  --light-gray: #f4f6f8;
+  --highlight-color: #e0e7ff; /* Azul claro para destaque */
+}
+
+body {
+  background: var(--light-gray);
+  color: var(--dark-gray);
+  line-height: 1.6;
+  font-size: 16px;
+  padding-top: 40px; /* Espaço para header fixo */
+}
+
+/* ===============================
+   HEADER
+================================ */
+
+header {
+  background: var(--white);
+  border-bottom: 1px solid var(--secondary-color);
+  padding: 16px 40px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-actions a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.header-actions button {
+  background: transparent;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  padding: 8px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s;
+}
+
+.header-actions button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.header-actions button:hover {
+  background: var(--primary-color);
+  color: var(--white);
+}
+
+/* ===============================
+   HERO / INTRO (INDEX)
+================================ */
+
+.hero {
+  padding: 80px 40px 30px; /* Espaçamento para o header fixo */
+  background: linear-gradient(135deg, #1d4ed8, #6366f1); 
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: var(--secondary-color);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* ===============================
+   GRID DE DISCIPLINAS
+================================ */
+
+.grid {
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background: var(--white);
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+  border: 1px solid var(--secondary-color);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card i {
+  font-size: 48px;
+  color: var(--primary-color);
+  margin-bottom: 16px;
+}
+
+.card h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--dark-gray);
+  margin-bottom: 8px;
+}
+
+.card span {
+  font-size: 14px;
+  color: var(--secondary-color);
+}
+
+/* ===============================
+   FOOTER
+================================ */
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: var(--dark-gray);
+  background: var(--light-gray);
+  border-top: 2px solid var(--secondary-color);
+  margin-top: 40px;
+}
+
+footer a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* ===============================
+   RESPONSIVO
+================================ */
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .grid {
+    padding: 20px;
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  footer {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-actions {
+    gap: 10px;
+    font-size: 14px;
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  .card h3 {
+    font-size: 18px;
+  }
+
+  .hero {
+    padding: 50px 20px 30px;
+  }
+}

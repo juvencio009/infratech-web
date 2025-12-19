@@ -1,0 +1,22 @@
+{
+  "disciplina": "Física",
+  "questoes": [
+    {
+      "id": 1,
+      "tipo": "multipla",
+      "pergunta": "De que lingua deriva a lingua portuguesa?",
+      "imagem": null,
+      "opcoes": ["latin", "grego", "russo", "espanhol"],
+      "resposta": 0,
+      "explicacao": "A lingua portuguesa assim como a maior parte das linguas faladas na europa derivam da lingua portug"
+    },
+    {
+      "id": 2,
+      "tipo": "vf",
+      "pergunta": "A aceleração da gravidade na Terra é aproximadamente constante para pequenas alturas.",
+      "imagem": null,
+      "resposta": true,
+      "explicacao": "Para alturas pequenas em relação ao raio da Terra, g ≈ 9,8 m/s²."
+    }
+  ]
+}

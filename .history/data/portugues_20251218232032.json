@@ -1,0 +1,200 @@
+{
+  "disciplina": "Português",
+  "nivel": "Avançado",
+  "origem": ["UEM", "UP", "UJC"],
+  "questoes": [
+
+    {
+      "id": 1,
+      "tipo": "multipla",
+      "pergunta": "A principal função da vírgula na frase: ‘Maria, que é muito estudiosa, passou no concurso’ é:",
+      "opcoes": [
+        "Separar orações independentes",
+        "Isolar explicações ou intercalações",
+        "Indicar elipse verbal",
+        "Evitar ambiguidade"
+      ],
+      "resposta": 1,
+      "explicacao": "A vírgula isola a oração explicativa ‘que é muito estudiosa’."
+    },
+
+    {
+      "id": 2,
+      "tipo": "vf",
+      "pergunta": "O uso do ponto e vírgula em um texto é sempre obrigatório.",
+      "resposta": false,
+      "explicacao": "O uso do ponto e vírgula é opcional e depende da estrutura da frase."
+    },
+
+    {
+      "id": 3,
+      "tipo": "multipla",
+      "pergunta": "Na frase: 'Ele não foi à escola, mas estava com os livros', qual a função da palavra 'mas'?",
+      "opcoes": [
+        "Conjunção subordinativa",
+        "Conjunção coordenativa adversativa",
+        "Pronome relativo",
+        "Preposição"
+      ],
+      "resposta": 1,
+      "explicacao": "A palavra ‘mas’ é uma conjunção coordenativa adversativa, ligando orações com sentido oposto."
+    },
+
+    {
+      "id": 4,
+      "tipo": "multipla",
+      "pergunta": "No texto: 'A criança dormia tranquilamente, pois estava cansada', qual o valor semântico da conjunção 'pois'?",
+      "opcoes": [
+        "Causa",
+        "Condição",
+        "Tempo",
+        "Oposição"
+      ],
+      "resposta": 0,
+      "explicacao": "A conjunção 'pois' introduz uma causa explicativa."
+    },
+
+    {
+      "id": 5,
+      "tipo": "multipla",
+      "pergunta": "Qual a função da crase na frase: 'Vou à escola amanhã'?",
+      "opcoes": [
+        "Indicar a fusão da preposição com o artigo feminino",
+        "Indicar a fusão da preposição com o pronome feminino",
+        "Indicar uma contração do verbo com o artigo",
+        "Indicar a fusão de dois pronomes"
+      ],
+      "resposta": 0,
+      "explicacao": "A crase ocorre pela fusão da preposição 'a' com o artigo feminino 'a'."
+    },
+
+    {
+      "id": 6,
+      "tipo": "vf",
+      "pergunta": "A palavra ‘habitar’ tem um prefixo que modifica o seu significado original.",
+      "resposta": false,
+      "explicacao": "‘Habitar’ vem do latim 'habitare', e não tem prefixo que altere seu significado."
+    },
+
+    {
+      "id": 7,
+      "tipo": "multipla",
+      "pergunta": "Em qual das opções a palavra ‘conhecer’ está no sentido figurado?",
+      "opcoes": [
+        "Ele conhece todos os segredos da empresa.",
+        "Ele conhece a cidade como ninguém.",
+        "Ela conhece aquele lugar há muito tempo.",
+        "Ela conhece as minhas ideias."
+      ],
+      "resposta": 3,
+      "explicacao": "Aqui, ‘conhecer’ indica uma familiaridade com ideias, não com um lugar físico."
+    },
+
+    {
+      "id": 8,
+      "tipo": "multipla",
+      "pergunta": "Qual a definição de ‘pleonasmo’?",
+      "opcoes": [
+        "Repetição de uma ideia, utilizando palavras sinônimas",
+        "Uso excessivo de adjetivos",
+        "Uso de figuras de linguagem que criam ambiguidade",
+        "Ausência de preposição em uma oração"
+      ],
+      "resposta": 0,
+      "explicacao": "Pleonasmo é a repetição de uma ideia, como em ‘subir para cima’."
+    },
+
+    {
+      "id": 9,
+      "tipo": "multipla",
+      "pergunta": "Em qual das opções o termo ‘meio’ tem valor de substantivo?",
+      "opcoes": [
+        "Meio de transporte",
+        "Ele se sentiu meio cansado",
+        "Meio ambiente",
+        "Ele vai meio feliz"
+      ],
+      "resposta": 2,
+      "explicacao": "‘Meio ambiente’ é um substantivo composto, com o significado de ‘natureza’."
+    },
+
+    {
+      "id": 10,
+      "tipo": "multipla",
+      "pergunta": "Qual o tipo de discurso da frase: ‘Ele disse que ia estudar mais’?",
+      "opcoes": [
+        "Direto",
+        "Indireto",
+        "Indireto livre",
+        "Narrativo"
+      ],
+      "resposta": 1,
+      "explicacao": "O discurso indireto transmite a fala de alguém com alteração da estrutura da frase."
+    },
+
+    {
+      "id": 11,
+      "tipo": "multipla",
+      "pergunta": "O que caracteriza um texto argumentativo?",
+      "opcoes": [
+        "Expõe fatos de maneira objetiva e imparcial",
+        "Defende uma ideia, convencendo o leitor",
+        "Narrativa de eventos",
+        "Apresentação de uma descrição detalhada"
+      ],
+      "resposta": 1,
+      "explicacao": "O texto argumentativo visa convencer ou persuadir o leitor sobre um ponto de vista."
+    },
+
+    {
+      "id": 12,
+      "tipo": "multipla",
+      "pergunta": "Em qual das alternativas o uso de ‘que’ está correto?",
+      "opcoes": [
+        "Eu não sei que você foi embora",
+        "Acredito que ele tenha razão",
+        "A mulher que estava ali é minha amiga",
+        "Ele se esqueceu de que comprou o presente"
+      ],
+      "resposta": 2,
+      "explicacao": "A frase ‘A mulher que estava ali é minha amiga’ está correta, com o uso adequado do ‘que’."
+    },
+
+    {
+      "id": 13,
+      "tipo": "multipla",
+      "pergunta": "No período: 'O menino, cansado, caiu no sono', o termo ‘cansado’ exerce a função de:",
+      "opcoes": [
+        "Adjetivo",
+        "Substantivo",
+        "Pronome",
+        "Verbo"
+      ],
+      "resposta": 0,
+      "explicacao": "‘Cansado’ é um adjetivo que descreve o estado do sujeito."
+    },
+
+    {
+      "id": 14,
+      "tipo": "vf",
+      "pergunta": "O verbo ‘haver’ pode ser usado como sinônimo de ‘existir’ em alguns contextos.",
+      "resposta": true,
+      "explicacao": "Por exemplo, em 'Há muitas pessoas na rua', ‘haver’ equivale a ‘existir’."
+    },
+
+    {
+      "id": 15,
+      "tipo": "multipla",
+      "pergunta": "Em uma análise literária, o que é o 'narrador em primeira pessoa'?",
+      "opcoes": [
+        "Quando o narrador participa da história como personagem",
+        "Quando o narrador não participa da história, mas conhece os sentimentos de todos os personagens",
+        "Quando o narrador descreve os acontecimentos como se fosse um espectador",
+        "Quando o narrador conhece a mente de todos os personagens"
+      ],
+      "resposta": 0,
+      "explicacao": "O narrador em primeira pessoa é aquele que participa da história e usa ‘eu’ ou ‘nós’."
+    }
+
+  ]
+}

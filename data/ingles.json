@@ -1,0 +1,201 @@
+{
+  "disciplina": "Inglês",
+  "nivel": "Avançado - Exames de Admissão (UEM/UP/UJC)",
+  "questoes": [
+    {
+      "id": 1,
+      "tipo": "multipla",
+      "pergunta": "Choose the correct word to complete the sentence: \"She ___ the letter before she left.\"",
+      "opcoes": ["write", "wrote", "had written", "writes"],
+      "resposta": 2,
+      "explicacao": "Past perfect expresses an action completed before another past action."
+    },
+    {
+      "id": 2,
+      "tipo": "multipla",
+      "pergunta": "Select the best synonym for the word “beneficial”.",
+      "opcoes": ["harmful", "advantageous", "useless", "insignificant"],
+      "resposta": 1,
+      "explicacao": "Beneficial means useful or advantageous."
+    },
+    {
+      "id": 3,
+      "tipo": "multipla",
+      "pergunta": "Choose the correct option: \"If I ___ enough money, I would travel abroad.\"",
+      "opcoes": ["have", "had", "will have", "would have"],
+      "resposta": 1,
+      "explicacao": "Second conditional uses past form after if."
+    },
+    {
+      "id": 4,
+      "tipo": "multipla",
+      "pergunta": "Which sentence is written in the passive voice?",
+      "opcoes": [
+        "They wrote the report yesterday.",
+        "The report was written yesterday.",
+        "The report writes well.",
+        "Yesterday, they are writing the report."
+      ],
+      "resposta": 1,
+      "explicacao": "Passive places the object of an action as the subject."
+    },
+    {
+      "id": 5,
+      "tipo": "multipla",
+      "pergunta": "Complete the sentence: \"Despite ___ so hard, he failed the test.\"",
+      "opcoes": ["study", "studying", "to study", "studied"],
+      "resposta": 1,
+      "explicacao": "After 'despite' use gerund – studying."
+    },
+
+    {
+      "id": 6,
+      "tipo": "multipla",
+      "pergunta": "Choose the correct preposition: \"He is interested ___ learning languages.\"",
+      "opcoes": ["in", "on", "to", "for"],
+      "resposta": 0,
+      "explicacao": "Interest + in + verb-ing."
+    },
+
+    {
+      "id": 7,
+      "tipo": "multipla",
+      "pergunta": "Which option best completes the dialogue: “A: Are you coming to the party?\nB: ___”",
+      "opcoes": ["Yes, I do.", "Yes, I will.", "Yes, I am.", "Yes, I did."],
+      "resposta": 2,
+      "explicacao": "Present continuous is used for future arrangements."
+    },
+
+    {
+      "id": 8,
+      "tipo": "multipla",
+      "pergunta": "Select the word that is opposite in meaning to “scarce”.",
+      "opcoes": ["rare", "plentiful", "limited", "uncommon"],
+      "resposta": 1,
+      "explicacao": "Scarce means not enough; opposite is plentiful."
+    },
+
+    {
+      "id": 9,
+      "tipo": "multipla",
+      "pergunta": "Which sentence is grammatically correct?",
+      "opcoes": [
+        "Neither of them are ready.",
+        "None of the books is interesting.",
+        "Each students has a book.",
+        "Many information have been given."
+      ],
+      "resposta": 1,
+      "explicacao": "None can take singular verb depending on meaning."
+    },
+
+    {
+      "id": 10,
+      "tipo": "multipla",
+      "pergunta": "Choose the right option: “He said he ___ come earlier.”",
+      "opcoes": ["would", "will", "should", "must"],
+      "resposta": 0,
+      "explicacao": "Reported speech uses ‘would’ for 'will'."
+    },
+
+    {
+      "id": 11,
+      "tipo": "multipla",
+      "pergunta": "Which sentence shows a correct use of a phrasal verb?",
+      "opcoes": [
+        "They look after the children.",
+        "She gave up the book.",
+        "He turned on the question.",
+        "We ran out the finish line."
+      ],
+      "resposta": 0,
+      "explicacao": "Look after means take care of."
+    },
+
+    {
+      "id": 12,
+      "tipo": "multipla",
+      "pergunta": "Choose the correct word to complete: \"They ___ to the park every Sunday.\"",
+      "opcoes": ["go", "goes", "are going", "went"],
+      "resposta": 0,
+      "explicacao": "Habitual action uses simple present."
+    },
+
+    {
+      "id": 13,
+      "tipo": "multipla",
+      "pergunta": "Select the best answer: \"If she ___ earlier, she wouldn’t have missed the bus.\"",
+      "opcoes": ["left", "had left", "has left", "would leave"],
+      "resposta": 1,
+      "explicacao": "Third conditional uses past perfect."
+    },
+
+    {
+      "id": 14,
+      "tipo": "multipla",
+      "pergunta": "Which is a correct relative pronoun to fill: \"The man ___ car was stolen is here.\"",
+      "opcoes": ["who", "which", "whose", "whom"],
+      "resposta": 2,
+      "explicacao": "Possessive relative pronoun is whose."
+    },
+
+    {
+      "id": 15,
+      "tipo": "multipla",
+      "pergunta": "Choose the correct form: “I wish I ___ more time.”",
+      "opcoes": ["have", "had", "would have", "has"],
+      "resposta": 1,
+      "explicacao": "Wish uses past form for unreal present wishes."
+    },
+
+    {
+      "id": 16,
+      "tipo": "multipla",
+      "pergunta": "Select the best word: \"Her explanation was quite ___ and clear.\"",
+      "opcoes": ["ambiguous", "lucid", "neutral", "plain"],
+      "resposta": 1,
+      "explicacao": "Lucid means clear and easy to understand."
+    },
+
+    {
+      "id": 17,
+      "tipo": "multipla",
+      "pergunta": "Which tense is used for an action happening now?",
+      "opcoes": ["Simple past", "Present perfect", "Present continuous", "Future perfect"],
+      "resposta": 2,
+      "explicacao": "Present continuous for current ongoing actions."
+    },
+
+    {
+      "id": 18,
+      "tipo": "multipla",
+      "pergunta": "Choose the best option: \"No sooner ___ than she left.\"",
+      "opcoes": ["she arrived", "had she arrived", "did she arrive", "she had arrived"],
+      "resposta": 1,
+      "explicacao": "Inversion after no sooner."
+    },
+
+    {
+      "id": 19,
+      "tipo": "multipla",
+      "pergunta": "Select the antonym of “scarcity”.",
+      "opcoes": ["deficit", "overabundance", "shortage", "lack"],
+      "resposta": 1,
+      "explicacao": "Scarcity opposite is overabundance."
+    },
+
+    {
+      "id": 20,
+      "tipo": "multipla",
+      "pergunta": "Which sentence is correct?",
+      "opcoes": [
+        "She suggested to go early.",
+        "She suggested going early.",
+        "She suggested that to go early.",
+        "She suggested go early."
+      ],
+      "resposta": 1,
+      "explicacao": "Suggest + gerund."
+    }
+  ]
+}

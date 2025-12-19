@@ -1,0 +1,22 @@
+{
+  "disciplina": "Português",
+  "questoes": [
+    {
+      "id": 1,
+      "tipo": "multipla",
+      "pergunta": "De que lingua deriva a lingua portuguesa?",
+      "imagem": null,
+      "opcoes": ["latin", "grego", "russo", "espanhol"],
+      "resposta": 0,
+      "explicacao": "A lingua portuguesa assim como a maior parte das linguas faladas na europa derivam do latin"
+    },
+    {
+      "id": 2,
+      "tipo": "vf",
+      "pergunta": "Todo é antonimo de nenhum",
+      "imagem": null,
+      "resposta": true,
+      "explicacao": "Antonimo é o contrario do que é dito, exemplo o antonimo de falar->calar,chorar->sorrir"
+    }
+  ]
+}

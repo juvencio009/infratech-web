@@ -1,0 +1,192 @@
+{
+  "disciplina": "Biologia",
+  "nivel": "Avançado",
+  "origem": ["UEM", "UP", "UJC"],
+  "questoes": [
+
+    {
+      "id": 1,
+      "tipo": "multipla",
+      "pergunta": "A principal função dos ribossomas numa célula é:",
+      "opcoes": [
+        "Produção de energia",
+        "Síntese de proteínas",
+        "Digestão intracelular",
+        "Transporte de substâncias"
+      ],
+      "resposta": 1,
+      "explicacao": "Os ribossomas realizam a tradução do mRNA."
+    },
+
+    {
+      "id": 2,
+      "tipo": "vf",
+      "pergunta": "As mitocôndrias possuem DNA próprio.",
+      "resposta": true,
+      "explicacao": "São organelos semiautónomos."
+    },
+
+    {
+      "id": 3,
+      "tipo": "multipla",
+      "pergunta": "O processo responsável pela passagem do DNA para o RNA é chamado:",
+      "opcoes": ["tradução", "replicação", "transcrição", "mutação"],
+      "resposta": 2,
+      "explicacao": "A transcrição ocorre no núcleo."
+    },
+
+    {
+      "id": 4,
+      "tipo": "multipla",
+      "pergunta": "Qual das estruturas celulares está presente apenas em células vegetais?",
+      "opcoes": [
+        "Mitocôndria",
+        "Cloroplasto",
+        "Ribossoma",
+        "Complexo de Golgi"
+      ],
+      "resposta": 1,
+      "explicacao": "Cloroplastos realizam a fotossíntese."
+    },
+
+    {
+      "id": 5,
+      "tipo": "multipla",
+      "pergunta": "A fase da mitose em que ocorre a separação das cromátides irmãs é:",
+      "opcoes": ["prófase", "metáfase", "anáfase", "telófase"],
+      "resposta": 2,
+      "explicacao": "As cromátides migram para polos opostos."
+    },
+
+    {
+      "id": 6,
+      "tipo": "vf",
+      "pergunta": "A meiose é responsável pela produção de células somáticas.",
+      "resposta": false,
+      "explicacao": "Produz gametas haploides."
+    },
+
+    {
+      "id": 7,
+      "tipo": "multipla",
+      "pergunta": "Um indivíduo com genótipo Aa é considerado:",
+      "opcoes": ["homozigoto dominante", "homozigoto recessivo", "heterozigoto", "letal"],
+      "resposta": 2,
+      "explicacao": "Possui alelos diferentes."
+    },
+
+    {
+      "id": 8,
+      "tipo": "multipla",
+      "pergunta": "Na herança mendeliana, a proporção fenotípica esperada no cruzamento Aa × Aa é:",
+      "opcoes": ["1:1", "2:1", "3:1", "4:1"],
+      "resposta": 2,
+      "explicacao": "Dominância completa."
+    },
+
+    {
+      "id": 9,
+      "tipo": "vf",
+      "pergunta": "Mutação genética é sempre prejudicial ao organismo.",
+      "resposta": false,
+      "explicacao": "Pode ser neutra ou benéfica."
+    },
+
+    {
+      "id": 10,
+      "tipo": "multipla",
+      "pergunta": "Qual molécula armazena informação genética?",
+      "opcoes": ["RNA", "Proteína", "DNA", "ATP"],
+      "resposta": 2,
+      "explicacao": "O DNA contém os genes."
+    },
+
+    {
+      "id": 11,
+      "tipo": "multipla",
+      "pergunta": "A fotossíntese ocorre principalmente em que organelo?",
+      "opcoes": ["Mitocôndria", "Lisossoma", "Cloroplasto", "Núcleo"],
+      "resposta": 2,
+      "explicacao": "Nos cloroplastos."
+    },
+
+    {
+      "id": 12,
+      "tipo": "multipla",
+      "pergunta": "Durante a respiração celular, a maior produção de ATP ocorre na fase de:",
+      "opcoes": ["Glicólise", "Ciclo de Krebs", "Cadeia respiratória", "Fermentação"],
+      "resposta": 2,
+      "explicacao": "Fosforilação oxidativa."
+    },
+
+    {
+      "id": 13,
+      "tipo": "vf",
+      "pergunta": "Os vírus são considerados organismos vivos.",
+      "resposta": false,
+      "explicacao": "Não possuem metabolismo próprio."
+    },
+
+    {
+      "id": 14,
+      "tipo": "multipla",
+      "pergunta": "O sistema responsável pelo transporte de oxigénio no corpo humano é:",
+      "opcoes": ["digestivo", "respiratório", "circulatório", "nervoso"],
+      "resposta": 2,
+      "explicacao": "O sangue transporta oxigénio."
+    },
+
+    {
+      "id": 15,
+      "tipo": "multipla",
+      "pergunta": "Qual órgão humano é responsável pela produção de insulina?",
+      "opcoes": ["fígado", "pâncreas", "rim", "baço"],
+      "resposta": 1,
+      "explicacao": "Produzida pelas células beta."
+    },
+
+    {
+      "id": 16,
+      "tipo": "vf",
+      "pergunta": "Os antibióticos atuam contra infeções virais.",
+      "resposta": false,
+      "explicacao": "Atuam contra bactérias."
+    },
+
+    {
+      "id": 17,
+      "tipo": "multipla",
+      "pergunta": "A unidade estrutural e funcional dos rins é:",
+      "opcoes": ["neurónio", "nefrónio", "alvéolo", "hepatócito"],
+      "resposta": 1,
+      "explicacao": "Responsável pela filtração."
+    },
+
+    {
+      "id": 18,
+      "tipo": "multipla",
+      "pergunta": "Qual dos seguintes níveis ecológicos inclui indivíduos da mesma espécie?",
+      "opcoes": ["comunidade", "ecossistema", "população", "biosfera"],
+      "resposta": 2,
+      "explicacao": "População = mesma espécie."
+    },
+
+    {
+      "id": 19,
+      "tipo": "vf",
+      "pergunta": "Produtores ocupam o primeiro nível trófico.",
+      "resposta": true,
+      "explicacao": "São autotróficos."
+    },
+
+    {
+      "id": 20,
+      "tipo": "multipla",
+      "pergunta": "A teoria da evolução por seleção natural foi proposta por:",
+      "opcoes": ["Lamarck", "Darwin", "Mendel", "Pasteur"],
+      "resposta": 1,
+      "explicacao": "Charles Darwin."
+    }
+
+  ]
+}

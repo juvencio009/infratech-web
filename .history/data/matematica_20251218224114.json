@@ -1,0 +1,182 @@
+{
+  "disciplina": "Matemática",
+  "nivel": "Avançado",
+  "origem": ["UEM", "UP", "UJC"],
+  "questoes": [
+    {
+      "id": 1,
+      "tipo": "multipla",
+      "pergunta": "Seja f(x)=ln(x2-4x+3). O domínio de f é:",
+      "opcoes": [
+        "x<1 ou x>3",
+        "x≤1 ou x≥3",
+        "1<x<3",
+        "ℝ"
+      ],
+      "resposta": 0,
+      "explicacao": "x²−4x+3>0 ⇒ (x−1)(x−3)>0."
+    },
+    {
+      "id": 2,
+      "tipo": "multipla",
+      "pergunta": "Calcule o limite: lim(x→0) (e^{2x}-1-2x)/x².",
+      "opcoes": [
+        "1",
+        "2",
+        "0",
+        "4"
+      ],
+      "resposta": 1,
+      "explicacao": "Expansão de Taylor: e^{2x}=1+2x+2x²+..."
+    },
+    {
+      "id": 3,
+      "tipo": "multipla",
+      "pergunta": "Se det(A)=2 e A é 3×3, calcule det(2A⁻¹).",
+      "opcoes": [
+        "2",
+        "4",
+        "1",
+        "2"
+      ],
+      "resposta": 2,
+      "explicacao": "det(A⁻¹)=1/det(A)=1/2; det(2A⁻¹)=2³×1/2=4."
+    },
+    {
+      "id": 4,
+      "tipo": "input",
+      "pergunta": "Resolva em ℝ: ln(x−1)+ln(x−3)=ln(2).",
+      "resposta": ["x=4"],
+      "explicacao": "ln[(x−1)(x−3)]=ln2 ⇒ (x−1)(x−3)=2."
+    },
+    {
+      "id": 5,
+      "tipo": "multipla",
+      "pergunta": "O número de soluções reais da equação |x²−5|=x é:",
+      "opcoes": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "resposta": 2,
+      "explicacao": "Resolve-se por análise de casos."
+    },
+
+    {
+      "id": 6,
+      "tipo": "multipla",
+      "pergunta": "Se f(x)=x³−3x²+2, o número de extremos locais é:",
+      "opcoes": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "resposta": 2,
+      "explicacao": "f'(x)=3x²−6x ⇒ dois pontos críticos distintos."
+    },
+
+    {
+      "id": 7,
+      "tipo": "input",
+      "pergunta": "Calcule ∫₀¹ (x² ln x) dx.",
+      "resposta": ["-1/9"],
+      "explicacao": "Integração por partes."
+    },
+
+    {
+      "id": 8,
+      "tipo": "multipla",
+      "pergunta": "A equação x⁴−4x²+3=0 tem:",
+      "opcoes": [
+        "2 soluções reais",
+        "3 soluções reais",
+        "4 soluções reais",
+        "nenhuma solução real"
+      ],
+      "resposta": 2,
+      "explicacao": "Substituição y=x²."
+    },
+
+    {
+      "id": 9,
+      "tipo": "multipla",
+      "pergunta": "Se z=(1+i)/(1−i), então z é igual a:",
+      "opcoes": [
+        "i",
+        "−i",
+        "1",
+        "−1"
+      ],
+      "resposta": 0,
+      "explicacao": "Racionalização do denominador."
+    },
+
+    {
+      "id": 10,
+      "tipo": "vf",
+      "pergunta": "Toda função contínua é derivável.",
+      "resposta": false,
+      "explicacao": "Continuidade não implica derivabilidade."
+    },
+
+    {
+      "id": 11,
+      "tipo": "multipla",
+      "pergunta": "Calcule lim(x→∞) (3x³−x)/(2x³+5).",
+      "opcoes": [
+        "0",
+        "3/2",
+        "∞",
+        "1"
+      ],
+      "resposta": 1,
+      "explicacao": "Razão dos coeficientes líderes."
+    },
+
+    {
+      "id": 12,
+      "tipo": "input",
+      "pergunta": "Resolva a inequação: log₃(x²−1)≥1.",
+      "resposta": ["x≤-2 ou x≥2"],
+      "explicacao": "Domínio + inequação logarítmica."
+    },
+
+    {
+      "id": 13,
+      "tipo": "multipla",
+      "pergunta": "Se uma PG infinita tem soma 5 e primeiro termo 2, então a razão é:",
+      "opcoes": [
+        "1/2",
+        "2/3",
+        "3/2",
+        "1/3"
+      ],
+      "resposta": 1,
+      "explicacao": "S=a₁/(1−r)."
+    },
+
+    {
+      "id": 14,
+      "tipo": "multipla",
+      "pergunta": "O número de soluções reais de sen x = x/2 é:",
+      "opcoes": [
+        "0",
+        "1",
+        "2",
+        "infinitas"
+      ],
+      "resposta": 2,
+      "explicacao": "Análise gráfica."
+    },
+
+    {
+      "id": 15,
+      "tipo": "input",
+      "pergunta": "Determine o determinante da matriz [[1,2,3],[0,1,4],[0,0,2]].",
+      "resposta": ["2"],
+      "explicacao": "Matriz triangular."
+    }
+  ]
+}
