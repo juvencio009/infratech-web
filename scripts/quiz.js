@@ -11,6 +11,11 @@ const SubmeterBtn = document.getElementById("SubmeterBtn");
 const textDis = document.getElementById("subject");
 const pergunta = document.getElementById("pergunta");
 const containerOpcoes = document.getElementById("containerOpcoes");
+const finalModal = document.getElementById("finalModal");
+const retryQuizBtn = document.getElementById("retryQuiz");
+const goProgressBtn = document.getElementById("goProgress");
+const goHomeBtn = document.getElementById("goHome");
+
 
 const STORAGE_KEY = "infratech_quiz_state_v2";
 
@@ -31,21 +36,25 @@ function iniciarTimer() {
 
   pararTimer(); // Garante que não haja múltiplos timers
 
-  quizStatus.timerId = setInterval(() => {
-    if (quizStatus.finalizado) {
-      console.log("Timer Parado!");
-      pararTimer();
-      return;
-    }
+ quizStatus.timerId = setInterval(() => {
+  if (quizStatus.finalizado) {
+    pararTimer();
+    return;
+  }
 
-    quizStatus.tempoRestante--;
+  quizStatus.tempoRestante--;
+
+  if (quizStatus.tempoRestante <= 0) {
+    quizStatus.tempoRestante = 0;
     atualizarTimerUI();
+    alert("Tempo esgotado!");
+    tentarSubmeter(true);
+    return;
+  }
 
-    if (quizStatus.tempoRestante <= 0) {
-      alert("Tempo esgotado!");
-      tentarSubmeter(true);
-    }
-  }, 1000);
+  atualizarTimerUI();
+}, 1000);
+
 }
 
 function pararTimer() {
@@ -92,8 +101,13 @@ async function iniciarQuiz() {
       return;
     }
 
-    const data = await fetch(`../data/${disciplina}.json`)
-    .then(r => r.json());
+  const response = await fetch(`../data/${disciplina}.json`);
+  if (!response.ok) {
+  throw new Error(`Arquivo não encontrado: ${disciplina}.json`);
+}
+
+const data = await response.json();
+
 
     quizStatus.disciplina = data.disciplina;
     quizStatus.perguntas = data.questoes;
@@ -170,6 +184,18 @@ nextBtn.onclick = () => {
     tentarSubmeter();
   }
 }
+retryQuizBtn.onclick = () => {
+  localStorage.removeItem(STORAGE_KEY);
+  location.reload();
+};
+
+goProgressBtn.onclick = () => {
+  window.location.href = "progresso.html";
+};
+
+goHomeBtn.onclick = () => {
+  window.location.href = "../index.html";
+};
 
 /* ====================== Questões não respondidas ====================== */
 function getQuestoesNaoRespondidas() {
@@ -185,12 +211,12 @@ function tentarSubmeter(forcado = false) {
   }
   SubmeterQuiz(forcado);
 }
-
 const SubmeterQuiz = (forcado = false) => {
   if (quizStatus.finalizado) return;
 
   quizStatus.finalizado = true;
   pararTimer();
+  localStorage.removeItem(STORAGE_KEY);
 
   const progresso = {
     disciplina: quizStatus.disciplina,
@@ -199,17 +225,31 @@ const SubmeterQuiz = (forcado = false) => {
     finalizadoPorTempo: forcado
   };
 
-  localStorage.setItem("ProgressoQuizInfraTech_v2", JSON.stringify(progresso));
+  let historico = JSON.parse(
+    localStorage.getItem("ProgressoQuizInfraTech_v2") || "[]"
+  );
+
+  historico.push(progresso);
+  localStorage.setItem(
+    "ProgressoQuizInfraTech_v2",
+    JSON.stringify(historico)
+  );
+
   bloquearInteracoes();
-  recomeçarQuiz();
-  alert("O Quiz foi finalizado e salvo com sucesso!");
-  window.location.href='../index.html'
-}
+  abrirModalFinal();
+};
+
+
 
 /* ====================== Bloquear interações após submissão ====================== */
 function bloquearInteracoes() {
   document.querySelectorAll(".option").forEach(opt => opt.onclick = null);
 }
+
+function abrirModalFinal() {
+  finalModal.classList.remove("hidden");
+}
+
 
 /* ====================== Render Aside ====================== */
 function renderAside() {
@@ -251,25 +291,44 @@ function marcarAsideTodos() {
 
 /* ====================== Salvamento Local ====================== */
 function salvarStateLocal() {
-  const dados = {
-    atual: quizStatus.atual,
-    respostas: quizStatus.respostas,
-    tempoRestante: quizStatus.tempoRestante
-  }
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(dados));
+  if (quizStatus.finalizado) return;
+
+  localStorage.setItem(
+    STORAGE_KEY,
+    JSON.stringify({
+      atual: quizStatus.atual,
+      respostas: quizStatus.respostas,
+      tempoRestante: quizStatus.tempoRestante
+    })
+  );
 }
+
 
 function LoadStateLocal() {
   const dados = JSON.parse(localStorage.getItem(STORAGE_KEY));
   if (!dados) return;
 
-  quizStatus.atual = dados.atual ?? 0;
-  quizStatus.respostas = dados.respostas ?? new Array(quizStatus.perguntas.length).fill(null);
-  quizStatus.tempoRestante = dados.tempoRestante ?? quizStatus.tempoRestante;
+  quizStatus.atual = Number.isInteger(dados.atual) ? dados.atual : 0;
+
+  if (
+    Array.isArray(dados.respostas) &&
+    dados.respostas.length === quizStatus.perguntas.length
+  ) {
+    quizStatus.respostas = dados.respostas;
+  } else {
+    quizStatus.respostas = new Array(quizStatus.perguntas.length).fill(null);
+  }
+
+  if (
+    Number.isInteger(dados.tempoRestante) &&
+    dados.tempoRestante > 0
+  ) {
+    quizStatus.tempoRestante = dados.tempoRestante;
+  }
 }
 
 /* ====================== Função de recomeço manual ====================== */
-function recomeçarQuiz() {
+function recomecarQuiz() {
   pararTimer();
   introEl.style.display = "flex";
   quizEl.classList.add("hidden");
@@ -278,4 +337,8 @@ function recomeçarQuiz() {
   quizStatus.finalizado = false;
   quizStatus.atual = 0;
   quizStatus.respostas = new Array(quizStatus.perguntas.length).fill(null);
-  quizStatus.tempoRestante 
+  quizStatus.tempoRestante = quizStatus.tempototal;
+  timer.textContent = "00:00";
+}
+
+

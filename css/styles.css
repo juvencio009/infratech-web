@@ -62,7 +62,7 @@ header .logo .lg , header .logoY .lg
 {
     font-size: 2em;
     text-transform: uppercase;
-    color: var(--hover-overlay-bg);
+    color: var(--hover-overlay-bg) /*#0d6efdcc*/;
     font-weight: 600;
 }
 
