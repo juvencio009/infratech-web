@@ -1,0 +1,27 @@
+{
+  "disciplina": "Programação",
+  "duracao":1800,
+  "questoes":[
+    {
+        "id":1,
+        "tipo":"multipla",
+        "pergunta":"O que é HTML",
+        "opcoes":["Esqueleto","Estrutura","Uma linguagem de programação","Uma linguagem de marcação"],
+        "resposta":3
+    },
+    {
+        "id":2,
+        "tipo":"multipla",
+        "pergunta":"Qual das linguagens é usada para criar apps android?",
+        "opcoes":["Python","Js","Java","PHP"],
+        "resposta":2
+    },
+    {
+        "id":3,
+        "tipo":"multipla",
+        "pergunta":"Qual destas Linguagens de programação é da Quinta geração?",
+        "opcoes":["Python","Js","Java","Sql"],
+        "resposta":0
+    }
+  ]
+}

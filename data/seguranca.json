@@ -1,0 +1,14 @@
+{
+    "disciplina": "Segurança",
+    "duracao":1800,
+    "questoes": [
+    {
+      "id": 1,
+      "tipo": "multipla",
+      "pergunta": "Quantos mols existem em 88 g de CO₂?",
+      "opcoes": ["1", "2", "3", "4"],
+      "resposta": 1,
+      "explicacao": "Massa molar do CO₂ = 44 g/mol ⇒ 88/44 = 2 mol."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InfraTech | Quiz</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/quiz.css">
+</head>
+<body>
+
+<section id="intro">
+  <div class="instructions">
+    <h2 id="subject" class="subject" style="text-transform: uppercase;color: #222;">Prova</h2>
+    <p class="subtitle">Quiz de exame de admissão universitária</p>
+
+    <ul>
+      <li>Não é possível voltar questões</li>
+      <li>Apenas uma alternativa correta</li>
+      <li>Resultado exibido apenas no final</li>
+    </ul>
+
+    <button id="startBtn">
+      <i class="bi bi-play-fill"></i> Iniciar quiz
+    </button>
+  </div>
+</section>
+
+<main class="mainWrapp" style="display:flex">
+  <aside class="idQuestions hidden" id="idQuestions">
+    <!-- GERADO VIA JS -->
+  </aside>
+
+  <section id="quiz" class="hidden">
+    <header class="ctx">
+      <div class="logoY" style="display:flex;justify-content:space-between;width:100%;">
+        <h2 class="lg">Infra<span>Tech</span></h2>
+        <div class="timer">00:00</div>
+      </div>
+    </header>
+
+    <div class="question-number" id="qNumber"></div>
+    <div class="question-text" id="pergunta"></div>
+
+    <form id="containerOpcoes"></form>
+
+   <div class="buttons">
+     <button id="backBtn">Voltar</button>
+    <button id="nextBtn"></button>
+   </div>
+  </section>
+</main>
+<script src="../scripts/quiz.js">
+  
+</script>
+
+</body>
+</html>

@@ -1,15 +1,7 @@
 {
   "disciplina": "Física",
   "questoes": [
-    {
-      "id": 1,
-      "tipo": "multipla",
-      "pergunta": "Qual é a unidade de potência no Sistema Internacional?",
-      "imagem": null,
-      "opcoes": ["Joule", "Newton", "Watt", "Pascal"],
-      "resposta": 2,
-      "explicacao": "A potência mede a taxa de realização de trabalho e sua unidade SI é o Watt (W)."
-    },
+  
     {
       "id": 2,
       "tipo": "vf",

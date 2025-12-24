@@ -1,7 +1,6 @@
 {
   "disciplina": "Matemática",
-  "nivel": "Avançado",
-  "origem": ["UEM", "UP", "UJC"],
+  "duracao":1800,
   "questoes": [
     {
       "id": 1,

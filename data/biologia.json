@@ -1,7 +1,6 @@
 {
   "disciplina": "Biologia",
-  "nivel": "Avançado",
-  "origem": ["UEM", "UP", "UJC"],
+  "duracao":1800,
   "questoes": [
 
     {
@@ -45,7 +44,7 @@
         "Ribossoma",
         "Complexo de Golgi"
       ],
-      "resposta": 1,
+      "resposta": "MQ==",
       "explicacao": "Cloroplastos realizam a fotossíntese."
     },
 
@@ -71,7 +70,7 @@
       "tipo": "multipla",
       "pergunta": "Um indivíduo com genótipo Aa é considerado:",
       "opcoes": ["homozigoto dominante", "homozigoto recessivo", "heterozigoto", "letal"],
-      "resposta": 2,
+      "resposta": "Mg==",
       "explicacao": "Possui alelos diferentes."
     },
 
@@ -80,7 +79,7 @@
       "tipo": "multipla",
       "pergunta": "Na herança mendeliana, a proporção fenotípica esperada no cruzamento Aa × Aa é:",
       "opcoes": ["1:1", "2:1", "3:1", "4:1"],
-      "resposta": 2,
+      "resposta": "Mg==",
       "explicacao": "Dominância completa."
     },
 
@@ -97,7 +96,7 @@
       "tipo": "multipla",
       "pergunta": "Qual molécula armazena informação genética?",
       "opcoes": ["RNA", "Proteína", "DNA", "ATP"],
-      "resposta": 2,
+      "resposta": "Mg==",
       "explicacao": "O DNA contém os genes."
     },
 
@@ -106,7 +105,7 @@
       "tipo": "multipla",
       "pergunta": "A fotossíntese ocorre principalmente em que organelo?",
       "opcoes": ["Mitocôndria", "Lisossoma", "Cloroplasto", "Núcleo"],
-      "resposta": 2,
+      "resposta": "Mg==",
       "explicacao": "Nos cloroplastos."
     },
 
@@ -115,7 +114,7 @@
       "tipo": "multipla",
       "pergunta": "Durante a respiração celular, a maior produção de ATP ocorre na fase de:",
       "opcoes": ["Glicólise", "Ciclo de Krebs", "Cadeia respiratória", "Fermentação"],
-      "resposta": 2,
+      "resposta": "Mg==",
       "explicacao": "Fosforilação oxidativa."
     },
 
@@ -132,7 +131,7 @@
       "tipo": "multipla",
       "pergunta": "O sistema responsável pelo transporte de oxigénio no corpo humano é:",
       "opcoes": ["digestivo", "respiratório", "circulatório", "nervoso"],
-      "resposta": 2,
+      "resposta": "Mg==",
       "explicacao": "O sangue transporta oxigénio."
     },
 
@@ -141,7 +140,7 @@
       "tipo": "multipla",
       "pergunta": "Qual órgão humano é responsável pela produção de insulina?",
       "opcoes": ["fígado", "pâncreas", "rim", "baço"],
-      "resposta": 1,
+      "resposta": "MQ==",
       "explicacao": "Produzida pelas células beta."
     },
 
@@ -158,7 +157,7 @@
       "tipo": "multipla",
       "pergunta": "A unidade estrutural e funcional dos rins é:",
       "opcoes": ["neurónio", "nefrónio", "alvéolo", "hepatócito"],
-      "resposta": 1,
+      "resposta": "MQ==",
       "explicacao": "Responsável pela filtração."
     },
 
@@ -167,7 +166,7 @@
       "tipo": "multipla",
       "pergunta": "Qual dos seguintes níveis ecológicos inclui indivíduos da mesma espécie?",
       "opcoes": ["comunidade", "ecossistema", "população", "biosfera"],
-      "resposta": 2,
+      "resposta": "Mg==",
       "explicacao": "População = mesma espécie."
     },
 
@@ -184,7 +183,7 @@
       "tipo": "multipla",
       "pergunta": "A teoria da evolução por seleção natural foi proposta por:",
       "opcoes": ["Lamarck", "Darwin", "Mendel", "Pasteur"],
-      "resposta": 1,
+      "resposta": "MQ==",
       "explicacao": "Charles Darwin."
     }
 

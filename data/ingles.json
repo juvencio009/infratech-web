@@ -1,6 +1,6 @@
 {
   "disciplina": "Inglês",
-  "nivel": "Avançado - Exames de Admissão (UEM/UP/UJC)",
+  "duracao":1800,
   "questoes": [
     {
       "id": 1,

@@ -1,7 +1,6 @@
 {
   "disciplina": "Português",
-  "nivel": "Avançado",
-  "origem": ["UEM", "UP", "UJC"],
+    "duracao":1800,
   "questoes": [
 
     {

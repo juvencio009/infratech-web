@@ -1,7 +1,6 @@
 {
   "disciplina": "Química",
-  "nivel": "Avançado",
-  "origem": ["UEM", "UP", "UJC"],
+    "duracao":1800,
   "questoes": [
 
     {

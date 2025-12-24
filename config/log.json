@@ -1,0 +1,64 @@
+{
+    "type":"card",
+    "card":[
+        {
+            "disciplina":"matematica",
+            "scripts":"../assets/img4.png",
+            "parag":"Exercicíos baseados em exames de admissão dos ultimos 5 anos, das universidades nacionais",
+            "title":"Quiz De Matemática",
+            "overlay":"Visitar Agora"
+        },
+        {
+            "disciplina":"fisica",
+            "scripts":"../assets/img7.png",
+            "parag":"Exercicíos baseados em exames de admissão dos ultimos 5 anos, das universidades nacionais",
+            "title":"Quiz De Física",
+            "overlay":"Visitar Agora"
+
+        },
+        {
+            "disciplina":"quimica",
+            "scripts":"../assets/img8.png",
+            "parag":"Exercicíos baseados em exames de admissão dos ultimos 5 anos, das universidades nacionais",
+            "title":"Quiz De Química",
+            "overlay":"Visitar Agora"
+
+        },
+        {
+            "disciplina":"biologia",
+            "scripts":"../assets/img2.jpg",
+            "parag":"Exercicíos baseados em exames de admissão dos ultimos 5 anos, das universidades nacionais",
+            "title":"Quiz De Biológia",
+            "overlay":"Visitar Agora"
+        },
+        {
+            "disciplina":"portugues",
+            "scripts":"../assets/img3.png",
+            "parag":"Exercicíos baseados em exames de admissão dos ultimos 5 anos, das universidades nacionais",
+            "title":"Quiz De Português",
+            "overlay":"Visitar Agora"
+        },
+        {
+            "disciplina":"geografia",
+            "scripts":"../assets/img5.png",
+            "parag":"Exercicíos baseados em exames de admissão dos ultimos 5 anos, das universidades nacionais",
+            "title":"Quiz De Geográfia",
+            "overlay":"Visitar Agora"
+        },
+        {
+            "disciplina":"ingles",
+            "scripts":"../assets/img6.png",
+            "parag":"Exercicíos baseados em exames de admissão dos ultimos 5 anos, das universidades nacionais",
+            "title":"Quiz De Inglês",
+            "overlay":"Visitar Agora"
+        },
+        {
+            "disciplina":"programacao",
+            "scripts":"../assets/img8.png",
+            "parag":"Exercicíos baseados em exames de admissão dos ultimos 5 anos, das universidades nacionais",
+            "title":"Quiz De Programação",
+            "overlay":"Visitar Agora"
+        }
+
+    ]
+}
