@@ -127,7 +127,7 @@ const data = await response.json();
     alert("Erro ao carregar o quiz.");
   }
 }
-
+localStorage.clear("ProgressoQuizInfraTech_v2")
 /* ====================== Render Quiz ====================== */
 function renderQuiz() {
   const q = quizStatus.perguntas[quizStatus.atual];
