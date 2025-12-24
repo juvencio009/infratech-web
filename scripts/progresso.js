@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   let historico = JSON.parse(localStorage.getItem(STORAGE_HISTORICO) || "[]");
   if (!historico.length) {
-    listaQuizzes.innerHTML = "<p>Nenhum quiz realizado ainda.</p>";
+    listaQuizzes.innerHTML = "<p class='empty'>Nenhum quiz realizado ainda.</p>";
     totalQuizzesEl.textContent = 0;
     maiorNotaEl.textContent = 0;
     mediaNotasEl.textContent = 0;
@@ -32,9 +32,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     const slug = quiz.disciplina.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/\s+/g,"");
     let data;
     try {
-      const res = await fetch(`../data/${slug}.json`);
-      if (!res.ok) return null;
-      data = await res.json();
+      data = await CarregarQuestoes(`../data/${slug}.json`);
+  
       if (!Array.isArray(data.questoes)) return null;
     } catch { return null; }
 
@@ -141,3 +140,4 @@ function criarGrupo(titulo, perguntas, respostas, tipo){
   });
   return div;
 }
+

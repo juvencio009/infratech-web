@@ -94,20 +94,14 @@ function getDisciplinaFromURL() {
 }
 
 async function iniciarQuiz() {
-  try {
-    const disciplina = getDisciplinaFromURL();
-    if (!disciplina) {
-      alert("Disciplina não informada.");
-      return;
-    }
 
-  const response = await fetch(`../data/${disciplina}.json`);
-  if (!response.ok) {
-  throw new Error(`Arquivo não encontrado: ${disciplina}.json`);
-}
+  const disciplina = getDisciplinaFromURL();
+  if (!disciplina) {
+    alert("Disciplina não informada.");
+    return;
+  }
 
-const data = await response.json();
-
+  const data = await CarregarQuestoes(`../data/${disciplina}.json`)
 
     quizStatus.disciplina = data.disciplina;
     quizStatus.perguntas = data.questoes;
@@ -122,12 +116,8 @@ const data = await response.json();
     iniciarTimer();
     renderAside();
 
-  } catch (error) {
-    console.error("Erro ao iniciar quiz:", error);
-    alert("Erro ao carregar o quiz.");
   }
-}
-localStorage.clear("ProgressoQuizInfraTech_v2")
+
 /* ====================== Render Quiz ====================== */
 function renderQuiz() {
   const q = quizStatus.perguntas[quizStatus.atual];
@@ -180,6 +170,7 @@ nextBtn.onclick = () => {
     quizStatus.atual++;
     renderQuiz();
     atualAside(quizStatus.atual);
+    scrollAsidePara(quizStatus.atual);
   } else {
     tentarSubmeter();
   }
@@ -259,6 +250,7 @@ function renderAside() {
     const wrap = document.createElement("div");
     wrap.className = "alternativaFoq";
     wrap.textContent = `Questão ${i + 1}`;
+    wrap.dataset.index = i;
 
     wrap.onclick = () => {
       quizStatus.atual = i;
@@ -271,6 +263,21 @@ function renderAside() {
 
   marcarAsideTodos();
 }
+
+
+function scrollAsidePara(index) {
+  const item = asideEl.querySelector(
+    `.alternativaFoq[data-index="${index}"]`
+  );
+
+  if (item) {
+    item.scrollIntoView({
+      behavior: "smooth", // animação suave
+      block: "center"     // mantém o item visível no centro
+    });
+  }
+}
+
 
 const atualAside = (kl) => {
   const asideDivs = document.querySelectorAll(".alternativaFoq");

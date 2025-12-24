@@ -482,12 +482,150 @@ footer,.wrap-nav {
 
  
 
+/* ===========================
+   Footer
+=========================== */
+footer.footer {
+  background-color: var(--secondary-color);
+  color: #e2e8f0;
+  padding:20px;
+  font-family: 'Inter', sans-serif;
+
+}
+
+footer .footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+  gap: 30px;
+  margin: 0 auto;
+  width: 100%;
+}
+footer .footer-col{
+    border-bottom: 2px solid #5c84c579;
+    text-align: left;
+}
+footer .footer-col h3,
+footer .footer-col h4 {
+  font-family: 'DynaPuff', cursive;
+  color: #f1f5f9;
+  margin-bottom: 15px;
+}
+
+footer .footer-col p {
+  line-height: 1.6;
+  font-size: 0.95rem;
+  color: #cbd5e1;
+}
+
+footer .footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer .footer-col ul li {
+  margin-bottom: 10px;
+}
+
+* a{
+    text-decoration: none;
+}
+
+footer .footer-col  a {
+  color: #cbd5e1;
+  text-decoration: none;
+  transition: color 0.3s, transform 0.3s;
+}
+
+footer .footer-col .specialLink{
+  animation: animate 2s linear infinite;
+
+}
+
+@keyframes animate {
+    from{
+        color: #90ebb9;
+        text-shadow: 0 0 4px #0ee971b7 ;
+    }
+    to{
+        color: #0ee971;
+        text-shadow: 0 0 14px #0ee971 ;
+    }
+}
+footer .footer-col ul li a {
+  color: #cbd5e1;
+  text-decoration: none;
+  transition: color 0.3s, transform 0.3s;
+}
+
+footer .footer-col ul li a:hover {
+  color: var(--hover-overlay-bg); 
+  transform: translateX(5px);
+}
+
+footer .socials {
+  display: flex;
+  gap: 30px;
+  margin: 20px 0 ;
+}
+
+footer .socials a {
+  color: #cbd5e1;
+  font-size: 1.3rem;
+  transition: color 0.3s, transform 0.3s;
+  opacity: 0.4;
+
+}
+
+footer .socials a:hover {
+  color: var(--hover-overlay-bg);
+  transform: scale(1.2);
+    opacity: 1;
+
+}
+
+footer .footer-col form {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+footer .footer-col input[type="email"] {
+  flex: 1;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  font-size: 0.95rem;
+}
+
+footer .footer-col button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: var(--hover-overlay-bg);
+  color: #0f172a;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+footer .footer-col button:hover {
+  background-color: #0ea5e9;
+  transform: scale(1.05);
+}
+
+footer .footer-bottom {
+  text-align: center;
+  border-top: 1px solid #1e293b;
+  padding-top: 20px;
+  font-size: 0.85rem;
+  color: #94a3b8;
+}
 
 
+@media (min-width: 768px) {
 
- 
-
-
-
-
-
+  footer .footer-col {
+    flex: 1;
+  }
+}

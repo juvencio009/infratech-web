@@ -18,12 +18,10 @@ menu.addEventListener('click',()=>{
     NavMobile();
 });
 
+document.getElementById("year").textContent=`${new Date().getFullYear()}`
 
 async function CarregarCards(){
-    const res = await fetch("../config/log.json");
-    if(!res.ok) throw new Error("Erro ao carregar os dados");
-    const data =  await res.json();
-    console.log(data);
+    const data =  await CarregarQuestoes("../config/log.json")
 
     let dados = (data.card);
 
@@ -61,4 +59,36 @@ async function CarregarCards(){
     });
 }
 
-console.log(CarregarCards());
+
+document.addEventListener("DOMContentLoaded", CarregarCards);
+
+const inputFilter = document.getElementById("filter");
+
+const msgNotFound = document.createElement("p");
+msgNotFound.textContent = "Nenhuma disciplina encontrada.";
+msgNotFound.style.display = "none";
+msgNotFound.style.marginTop = "20px";
+msgNotFound.style.textAlign = "center";
+
+
+CardsContent.appendChild(msgNotFound);
+
+inputFilter.addEventListener("input", () => {
+    const value = inputFilter.value.toLowerCase();
+    const cards = document.querySelectorAll(".wrap-card");
+    let encontrou = false;
+
+    cards.forEach(card => {
+        const title = card.querySelector("h2").textContent.toLowerCase();
+        const parag = card.querySelector("p").textContent.toLowerCase();
+
+        if (title.includes(value) || parag.includes(value)) {
+            card.style.display = "block";
+            encontrou = true;
+        } else {
+            card.style.display = "none";
+        }
+    });
+
+    msgNotFound.style.display = encontrou ? "none" : "block";
+});
