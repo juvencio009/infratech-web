@@ -375,13 +375,10 @@ button:hover{
     position: relative;
 }
 
-
-
-
-
 .wrap-quiz-card
 .wrap-card
 {
+    border-bottom: 2px solid #0d6efd;
     box-shadow: 0 0 15px var(--card-shadow);
     overflow: hidden;
     border-radius: 10px;
@@ -495,7 +492,7 @@ footer.footer {
 
 footer .footer-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
   gap: 30px;
   margin: 0 auto;
   width: 100%;
@@ -538,11 +535,11 @@ footer .footer-col  a {
 }
 
 footer .footer-col .specialLink{
-  animation: animate 2s linear infinite;
+  animation: pulse 2s linear infinite;
 
 }
 
-@keyframes animate {
+@keyframes pulse {
     from{
         color: #90ebb9;
         text-shadow: 0 0 4px #0ee971b7 ;
@@ -584,31 +581,6 @@ footer .socials a:hover {
 
 }
 
-footer .footer-col form {
-  display: flex;
-  gap: 10px;
-  margin-top: 10px;
-}
-
-footer .footer-col input[type="email"] {
-  flex: 1;
-  padding: 8px 12px;
-  border-radius: 6px;
-  border: none;
-  font-size: 0.95rem;
-}
-
-footer .footer-col button {
-  padding: 8px 16px;
-  border: none;
-  border-radius: 6px;
-  background-color: var(--hover-overlay-bg);
-  color: #0f172a;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background-color 0.3s, transform 0.3s;
-}
-
 footer .footer-col button:hover {
   background-color: #0ea5e9;
   transform: scale(1.05);
@@ -620,12 +592,65 @@ footer .footer-bottom {
   padding-top: 20px;
   font-size: 0.85rem;
   color: #94a3b8;
+  display: flex;
+  flex-wrap: wrap;
+
 }
 
+@media screen and (max-width:500px) {
+    .input-wrap input{
+    width: 90%;
+}
+.input-wrap button{
+    right: 10%;
+}
+.wrap-quiz-card{
+    padding: 20px 10px;
+    gap:30px;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+}
+.wrap-card h2{
+    font-size: 1em;
+}
+.wrap-card p{
+    font-size: 0.8em;
+}
+}
+@media screen and (max-width:350px) {
+    .wrap-card h2{
+    font-size: 0.9em;
+}
+.wrap-card p{
+    font-size: 0.7em;
+}
+    footer .footer-container {
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+}
+.logo{
+    font-size: .9em;
+}
 
-@media (min-width: 768px) {
+.input-wrap input, .input-wrap button{
+    padding: 6px 10px;
+    font-size: .8em;
+}
+.content-buttons button{
+     padding: 6px 10px;
+    font-size: .8em;
+}
+.footer-bottom p{
+    font-size: 0.9em;
+}
+}
+@media screen and (max-width:300px) {
+    .logo{
+    font-size: .7em;
+}
+    footer .footer-container {
 
-  footer .footer-col {
-    flex: 1;
-  }
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+}
+.footer-bottom p{
+    font-size: 0.8em;
+}
 }
