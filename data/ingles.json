@@ -1,201 +1,306 @@
 {
   "disciplina": "Inglês",
-  "duracao":1800,
+  "duracao": 4500,
   "questoes": [
     {
       "id": 1,
-      "tipo": "multipla",
-      "pergunta": "Choose the correct word to complete the sentence: \"She ___ the letter before she left.\"",
-      "opcoes": ["write", "wrote", "had written", "writes"],
-      "resposta": 2,
-      "explicacao": "Past perfect expresses an action completed before another past action."
+      "pergunta": "Choose the word that best completes the sentence: The committee decided to _____ the proposal after a long discussion.",
+      "opcoes": ["adopt", "adept", "adapt", "adorn"],
+      "resposta": 2
     },
     {
       "id": 2,
-      "tipo": "multipla",
-      "pergunta": "Select the best synonym for the word “beneficial”.",
-      "opcoes": ["harmful", "advantageous", "useless", "insignificant"],
-      "resposta": 1,
-      "explicacao": "Beneficial means useful or advantageous."
+      "pergunta": "Identify the passive voice version of: 'The chef prepared the meal.'",
+      "opcoes": ["The meal prepared by the chef.", "The chef was prepared the meal.", "The meal was prepared by the chef.", "Prepared was the meal by the chef."],
+      "resposta": 2
     },
     {
       "id": 3,
-      "tipo": "multipla",
-      "pergunta": "Choose the correct option: \"If I ___ enough money, I would travel abroad.\"",
-      "opcoes": ["have", "had", "will have", "would have"],
-      "resposta": 1,
-      "explicacao": "Second conditional uses past form after if."
+      "pergunta": "Select the sentence with the correct use of the subjunctive mood:",
+      "opcoes": ["It is essential that he was present.", "It is essential that he has been present.", "It is essential that he is present.", "It is essential that he be present."],
+      "resposta": 3
     },
     {
       "id": 4,
-      "tipo": "multipla",
-      "pergunta": "Which sentence is written in the passive voice?",
-      "opcoes": [
-        "They wrote the report yesterday.",
-        "The report was written yesterday.",
-        "The report writes well.",
-        "Yesterday, they are writing the report."
-      ],
-      "resposta": 1,
-      "explicacao": "Passive places the object of an action as the subject."
+      "pergunta": "Which of the following words is closest in meaning to 'ephemeral'?",
+      "opcoes": ["transient", "vivid", "robust", "eternal"],
+      "resposta": 0
     },
     {
       "id": 5,
-      "tipo": "multipla",
-      "pergunta": "Complete the sentence: \"Despite ___ so hard, he failed the test.\"",
-      "opcoes": ["study", "studying", "to study", "studied"],
-      "resposta": 1,
-      "explicacao": "After 'despite' use gerund – studying."
+      "pergunta": "Choose the correct phrasal verb: She had to _____ the difficult problem on her own.",
+      "opcoes": ["give up", "look into", "figure out", "run over"],
+      "resposta": 2
     },
-
     {
       "id": 6,
-      "tipo": "multipla",
-      "pergunta": "Choose the correct preposition: \"He is interested ___ learning languages.\"",
-      "opcoes": ["in", "on", "to", "for"],
-      "resposta": 0,
-      "explicacao": "Interest + in + verb-ing."
+      "pergunta": "Select the correct conditional: If he _____ earlier, he would have caught the bus.",
+      "opcoes": ["left", "would leave", "had left", "leaves"],
+      "resposta": 2
     },
-
     {
       "id": 7,
-      "tipo": "multipla",
-      "pergunta": "Which option best completes the dialogue: “A: Are you coming to the party?\nB: ___”",
-      "opcoes": ["Yes, I do.", "Yes, I will.", "Yes, I am.", "Yes, I did."],
-      "resposta": 2,
-      "explicacao": "Present continuous is used for future arrangements."
+      "pergunta": "Identify the idiomatic expression meaning 'to betray someone':",
+      "opcoes": ["stabbed in the back", "pull the plug", "hit the sack", "spill the beans"],
+      "resposta": 0
     },
-
     {
       "id": 8,
-      "tipo": "multipla",
-      "pergunta": "Select the word that is opposite in meaning to “scarce”.",
-      "opcoes": ["rare", "plentiful", "limited", "uncommon"],
-      "resposta": 1,
-      "explicacao": "Scarce means not enough; opposite is plentiful."
+      "pergunta": "Select the sentence that correctly uses a gerund:",
+      "opcoes": ["I enjoy reads books.", "I enjoy to read books.", "I enjoy reading books.", "I enjoy read books."],
+      "resposta": 2
     },
-
     {
       "id": 9,
-      "tipo": "multipla",
-      "pergunta": "Which sentence is grammatically correct?",
-      "opcoes": [
-        "Neither of them are ready.",
-        "None of the books is interesting.",
-        "Each students has a book.",
-        "Many information have been given."
-      ],
-      "resposta": 1,
-      "explicacao": "None can take singular verb depending on meaning."
+      "pergunta": "Which word best completes: Her argument was _____, leaving no room for doubt.",
+      "opcoes": ["incontrovertible", "vicarious", "subversive", "convulsive"],
+      "resposta": 0
     },
-
     {
       "id": 10,
-      "tipo": "multipla",
-      "pergunta": "Choose the right option: “He said he ___ come earlier.”",
-      "opcoes": ["would", "will", "should", "must"],
-      "resposta": 0,
-      "explicacao": "Reported speech uses ‘would’ for 'will'."
+      "pergunta": "Choose the correct sentence using inversion for emphasis:",
+      "opcoes": ["Never I have seen such a spectacle.", "Never have I seen such a spectacle.", "I never have seen such a spectacle.", "I have never seen such a spectacle."],
+      "resposta": 1
     },
-
     {
       "id": 11,
-      "tipo": "multipla",
-      "pergunta": "Which sentence shows a correct use of a phrasal verb?",
-      "opcoes": [
-        "They look after the children.",
-        "She gave up the book.",
-        "He turned on the question.",
-        "We ran out the finish line."
-      ],
-      "resposta": 0,
-      "explicacao": "Look after means take care of."
+      "pergunta": "Select the correct relative pronoun: This is the man _____ helped me.",
+      "opcoes": ["whose", "which", "whom", "who"],
+      "resposta": 3
     },
-
     {
       "id": 12,
-      "tipo": "multipla",
-      "pergunta": "Choose the correct word to complete: \"They ___ to the park every Sunday.\"",
-      "opcoes": ["go", "goes", "are going", "went"],
-      "resposta": 0,
-      "explicacao": "Habitual action uses simple present."
+      "pergunta": "Choose the word with the opposite meaning of 'mitigate':",
+      "opcoes": ["soften", "alleviate", "aggravate", "reduce"],
+      "resposta": 2
     },
-
     {
       "id": 13,
-      "tipo": "multipla",
-      "pergunta": "Select the best answer: \"If she ___ earlier, she wouldn’t have missed the bus.\"",
-      "opcoes": ["left", "had left", "has left", "would leave"],
-      "resposta": 1,
-      "explicacao": "Third conditional uses past perfect."
+      "pergunta": "Select the sentence that correctly uses reported speech:",
+      "opcoes": ["She said she leaves.", "She said that she was leaving.", "She said she leaves.", "She says that she left."],
+      "resposta": 1
     },
-
     {
       "id": 14,
-      "tipo": "multipla",
-      "pergunta": "Which is a correct relative pronoun to fill: \"The man ___ car was stolen is here.\"",
-      "opcoes": ["who", "which", "whose", "whom"],
-      "resposta": 2,
-      "explicacao": "Possessive relative pronoun is whose."
+      "pergunta": "Choose the word that best fits: The politician's speech was full of _____ statements, carefully avoiding commitment.",
+      "opcoes": ["blunt", "unequivocal", "explicit", "equivocal"],
+      "resposta": 3
     },
-
     {
       "id": 15,
-      "tipo": "multipla",
-      "pergunta": "Choose the correct form: “I wish I ___ more time.”",
-      "opcoes": ["have", "had", "would have", "has"],
-      "resposta": 1,
-      "explicacao": "Wish uses past form for unreal present wishes."
+      "pergunta": "Which is the correct use of the subjunctive after 'if': If I _____ rich, I would travel the world.",
+      "opcoes": ["am", "were", "be", "was"],
+      "resposta": 1
     },
-
     {
       "id": 16,
-      "tipo": "multipla",
-      "pergunta": "Select the best word: \"Her explanation was quite ___ and clear.\"",
-      "opcoes": ["ambiguous", "lucid", "neutral", "plain"],
-      "resposta": 1,
-      "explicacao": "Lucid means clear and easy to understand."
+      "pergunta": "Select the correct word: His performance was _____ than expected.",
+      "opcoes": ["much better", "far well", "far good", "far better"],
+      "resposta": 3
     },
-
     {
       "id": 17,
-      "tipo": "multipla",
-      "pergunta": "Which tense is used for an action happening now?",
-      "opcoes": ["Simple past", "Present perfect", "Present continuous", "Future perfect"],
-      "resposta": 2,
-      "explicacao": "Present continuous for current ongoing actions."
+      "pergunta": "Identify the correct use of the modal verb expressing necessity:",
+      "opcoes": ["You might submit the form.", "You must submit the form.", "You may submit the form.", "You can submit the form."],
+      "resposta": 1
     },
-
     {
       "id": 18,
-      "tipo": "multipla",
-      "pergunta": "Choose the best option: \"No sooner ___ than she left.\"",
-      "opcoes": ["she arrived", "had she arrived", "did she arrive", "she had arrived"],
-      "resposta": 1,
-      "explicacao": "Inversion after no sooner."
+      "pergunta": "Choose the sentence that correctly uses 'no sooner... than':",
+      "opcoes": ["No sooner he had arrived than it started raining.", "No sooner had he arrived than it started raining.", "No sooner he arrived than it started raining.", "No sooner had he arrived it started raining."],
+      "resposta": 1
     },
-
     {
       "id": 19,
-      "tipo": "multipla",
-      "pergunta": "Select the antonym of “scarcity”.",
-      "opcoes": ["deficit", "overabundance", "shortage", "lack"],
-      "resposta": 1,
-      "explicacao": "Scarcity opposite is overabundance."
+      "pergunta": "Select the correct word to complete: He made a _____ decision without consulting anyone.",
+      "opcoes": ["hash", "flash", "brash", "rash"],
+      "resposta": 3
     },
-
     {
       "id": 20,
-      "tipo": "multipla",
-      "pergunta": "Which sentence is correct?",
-      "opcoes": [
-        "She suggested to go early.",
-        "She suggested going early.",
-        "She suggested that to go early.",
-        "She suggested go early."
-      ],
-      "resposta": 1,
-      "explicacao": "Suggest + gerund."
+      "pergunta": "Which sentence demonstrates a mixed conditional?",
+      "opcoes": ["If I had studied harder, I would be more confident now.", "If I had studied harder, I would have more confident.", "If I studied harder, I am more confident now.", "If I study harder, I will be more confident now."],
+      "resposta": 0
+    },
+    {
+      "id": 21,
+      "pergunta": "Choose the correct sentence using ellipsis appropriately:",
+      "opcoes": ["I prefer coffee, and she prefers tea.", "I prefer coffee, and she tea.", "I prefer coffee, and she does tea.", "I prefer coffee, and she prefer tea."],
+      "resposta": 1
+    },
+    {
+      "id": 22,
+      "pergunta": "Which word fits best: The scientist’s work was considered _____ groundbreaking.",
+      "opcoes": ["very", "truly", "such", "so"],
+      "resposta": 1
+    },
+    {
+      "id": 23,
+      "pergunta": "Select the correct sentence with correct collocation:",
+      "opcoes": ["She had a strong impression on the audience.", "She did a strong impression on the audience.", "She made a strong impression on the audience.", "She made a hard impression on the audience."],
+      "resposta": 2
+    },
+    {
+      "id": 24,
+      "pergunta": "Choose the sentence that uses an advanced relative clause:",
+      "opcoes": ["The book, which I search for months, was found.", "The book that I been searching for months was found.", "The book, which I had been searching for months, was finally found.", "The book which I searching months, was finally found."],
+      "resposta": 2
+    },
+    {
+      "id": 25,
+      "pergunta": "Select the correct idiomatic use: He kicked the bucket last night.",
+      "opcoes": ["He played football.", "He died.", "He failed.", "He quit his job."],
+      "resposta": 1
+    },
+    {
+      "id": 26,
+      "pergunta": "Which sentence demonstrates correct use of 'neither... nor'?",
+      "opcoes": ["Neither the manager nor assistant available.", "Neither the manager nor the assistant were available.", "Neither the manager or the assistant was available.", "Neither the manager nor the assistant was available."],
+      "resposta": 3
+    },
+    {
+      "id": 27,
+      "pergunta": "Choose the correct advanced punctuation: 'Its performance was—despite expectations—outstanding.' What type of punctuation is used?",
+      "opcoes": ["Colon", "Parenthesis", "Em dash", "Semicolon"],
+      "resposta": 2
+    },
+    {
+      "id": 28,
+      "pergunta": "Identify the correct inversion for emphasis: 'Seldom _____ such a performance.'",
+      "opcoes": ["I witnessed", "did I witness", "have I witnessed", "have witnessed I"], 
+      "resposta": 2
+    },
+    {
+      "id": 29,
+      "pergunta": "Which phrasal verb is closest in meaning to 'investigate thoroughly'?",
+      "opcoes": ["break down", "turn up", "look into", "give in"],
+      "resposta": 2
+    },
+    {
+      "id": 30,
+      "pergunta": "Advanced vocabulary: Choose the word closest in meaning to 'perfunctory'.",
+      "opcoes": ["meticulous", "cursory", "thorough", "painstaking"],
+      "resposta": 1
+    },
+    {
+      "id": 31,
+      "pergunta": "What is the official language of Mozambique?",
+      "opcoes": ["English", "Swahili", "French", "Portuguese"],
+      "resposta": 3
+    },
+    {
+      "id": 32,
+      "pergunta": " Which river is the longest in Mozambique?",
+      "opcoes": ["Zambezi", "Limpopo", "Pungwe", "Save"],
+      "resposta": 0
+    },
+    {
+      "id": 33,
+      "pergunta": "When did Mozambique gain independence?",
+      "opcoes": ["1980", "1975", "1990", "1965"],
+      "resposta": 1
+    },
+    {
+      "id": 34,
+      "pergunta": "Which is a famous city in northern Mozambique?",
+      "opcoes": ["Beira", "Pemba", "Maputo", "Xai-Xai"],
+      "resposta": 1
+    },
+    {
+      "id": 35,
+      "pergunta": "Which island is part of Mozambique?",
+      "opcoes": ["Ibo", "Madagascar", "Socotra", "Bazaruto Atoll"], 
+      "resposta": 3
+    },
+    {
+      "id": 36,
+      "pergunta": "Who wrote 'One Hundred Years of Solitude'?",
+      "opcoes": ["Gabriel García Márquez", "J.K. Rowling", "Ernest Hemingway", "Toni Morrison"],
+      "resposta": 0
+    },
+    {
+      "id": 37,
+      "pergunta": "Choose the correct past perfect sentence:",
+      "opcoes": ["She had already left when I arrived.", "She already left when I had arrived.", "She has already left when I arrived.", "She left already when I arrived."],
+      "resposta": 0
+    },
+    {
+      "id": 38,
+      "pergunta": "Which author is famous for 'Pride and Prejudice'?",
+      "opcoes": ["Charlotte Brontë", "Jane Austen", "Mary Shelley", "Emily Dickinson"],
+      "resposta": 1
+    },
+    {
+      "id": 39,
+      "pergunta": "Choose the correct sentence using advanced conditional type 3:",
+      "opcoes": ["If I had known, I would have acted differently.", "If I know, I would have acted differently.", "If I had known, I would act differently.", "If I knew, I would have acted differently."],
+      "resposta": 0
+    },
+    {
+      "id": 40,
+      "pergunta": "What is the publication year of '1984' by George Orwell?",
+      "opcoes": ["1949", "1950", "1945", "1947"],
+      "resposta": 0
+    },
+    {
+      "id": 41,
+      "pergunta": "Identify the correct word to complete: The politician’s speech was full of _____ arguments, misleading the audience.",
+      "opcoes": ["specious", "lucid", "transparent", "forthright"],
+      "resposta": 0
+    },
+    {
+      "id": 42,
+      "pergunta": "Which sentence uses the subjunctive correctly?",
+      "opcoes": ["It is crucial that she attend the meeting.", "It is crucial that she attends the meeting.", "It is crucial that she attended the meeting.", "It is crucial that she will attend the meeting."],
+      "resposta": 0
+    },
+    {
+      "id": 43,
+      "pergunta": "Who is the author of 'Hamlet'?",
+      "opcoes": ["William Shakespeare", "Christopher Marlowe", "John Milton", "Ben Jonson"],
+      "resposta": 0
+    },
+    {
+      "id": 44,
+      "pergunta": "Which of the following is the correct use of 'wish' for past regret?",
+      "opcoes": ["I wish I had studied harder.", "I wish I studied harder.", "I wish I have studied harder.", "I wish I study harder."],
+      "resposta": 0
+    },
+    {
+      "id": 45,
+      "pergunta": "When did the United States declare independence?",
+      "opcoes": ["1776", "1789", "1492", "1804"],
+      "resposta": 0
+    },
+    {
+      "id": 46,
+      "pergunta": "Choose the word closest in meaning to 'obfuscate':",
+      "opcoes": ["confuse", "clarify", "reveal", "explain"],
+      "resposta": 0
+    },
+    {
+      "id": 47,
+      "pergunta": "Who wrote 'To Kill a Mockingbird'?",
+      "opcoes": ["Harper Lee", "F. Scott Fitzgerald", "Ernest Hemingway", "Mark Twain"],
+      "resposta": 0
+    },
+    {
+      "id": 48,
+      "pergunta": "Which sentence correctly uses inversion after 'hardly'?",
+      "opcoes": ["Hardly had I entered when the alarm went off.", "Hardly I had entered when the alarm went off.", "Had I hardly entered when the alarm went off.", "I had hardly entered when the alarm went off."],
+      "resposta": 0
+    },
+    {
+      "id": 49,
+      "pergunta": "Select the sentence that uses 'neither... nor' correctly:",
+      "opcoes": ["Neither the manager nor the assistant was present.", "Neither the manager or the assistant was present.", "Neither the manager nor assistant were present.", "Neither the manager nor the assistant were present."],
+      "resposta": 0
+    },
+    {
+      "id": 50,
+      "pergunta": "Who wrote 'The Great Gatsby'?",
+      "opcoes": ["F. Scott Fitzgerald", "Ernest Hemingway", "J.D. Salinger", "T.S. Eliot"],
+      "resposta": 0
     }
   ]
 }

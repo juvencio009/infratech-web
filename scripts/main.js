@@ -18,10 +18,11 @@ menu.addEventListener('click',()=>{
     NavMobile();
 });
 
+
 document.getElementById("year").textContent=`${new Date().getFullYear()}`
 
 async function CarregarCards(){
-    const data =  await CarregarQuestoes("../config/log.json")
+    const data =  await Loader("../config/log.json")
 
     let dados = (data.card);
 

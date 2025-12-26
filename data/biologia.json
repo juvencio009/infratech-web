@@ -1,191 +1,306 @@
 {
   "disciplina": "Biologia",
-  "duracao":1800,
+  "duracao": 4500,
   "questoes": [
-
     {
       "id": 1,
-      "tipo": "multipla",
-      "pergunta": "A principal função dos ribossomas numa célula é:",
-      "opcoes": [
-        "Produção de energia",
-        "Síntese de proteínas",
-        "Digestão intracelular",
-        "Transporte de substâncias"
-      ],
-      "resposta": 1,
-      "explicacao": "Os ribossomas realizam a tradução do mRNA."
+      "pergunta": "Qual é a principal função dos ribossomas numa célula?",
+      "opcoes": ["Síntese de proteínas", "Produção de energia", "Digestão intracelular", "Transporte de substâncias"],
+      "resposta": 0
     },
-
     {
       "id": 2,
-      "tipo": "vf",
-      "pergunta": "As mitocôndrias possuem DNA próprio.",
-      "resposta": true,
-      "explicacao": "São organelos semiautónomos."
+      "pergunta": "As mitocôndrias possuem DNA próprio. Isso permite que elas:",
+      "opcoes": ["Produzam proteínas independentes", "Armazenem glicogénio", "Realizem fotossíntese", "Destruam patógenos"],
+      "resposta": 0
     },
-
     {
       "id": 3,
-      "tipo": "multipla",
-      "pergunta": "O processo responsável pela passagem do DNA para o RNA é chamado:",
-      "opcoes": ["tradução", "replicação", "transcrição", "mutação"],
-      "resposta": 2,
-      "explicacao": "A transcrição ocorre no núcleo."
+      "pergunta": "Qual molécula catalisa a ligação dos aminoácidos durante a tradução?",
+      "opcoes": ["RNA mensageiro", "Ribozima", "tRNA", "DNA polimerase"],
+      "resposta": 1
     },
-
     {
       "id": 4,
-      "tipo": "multipla",
-      "pergunta": "Qual das estruturas celulares está presente apenas em células vegetais?",
-      "opcoes": [
-        "Mitocôndria",
-        "Cloroplasto",
-        "Ribossoma",
-        "Complexo de Golgi"
-      ],
-      "resposta": "MQ==",
-      "explicacao": "Cloroplastos realizam a fotossíntese."
+      "pergunta": "O que caracteriza uma célula procariótica?",
+      "opcoes": ["Possui núcleo definido", "Não possui membrana plasmática", "Não possui organelos membranosos", "Possui mitocôndrias"],
+      "resposta": 2
     },
-
     {
       "id": 5,
-      "tipo": "multipla",
-      "pergunta": "A fase da mitose em que ocorre a separação das cromátides irmãs é:",
-      "opcoes": ["prófase", "metáfase", "anáfase", "telófase"],
-      "resposta": 2,
-      "explicacao": "As cromátides migram para polos opostos."
+      "pergunta": "Durante a anáfase da mitose, ocorre:",
+      "opcoes": ["Condensação do DNA", "Separação das cromátides irmãs", "Formação da carioteca", "Citosinese"],
+      "resposta": 1
     },
-
     {
       "id": 6,
-      "tipo": "vf",
-      "pergunta": "A meiose é responsável pela produção de células somáticas.",
-      "resposta": false,
-      "explicacao": "Produz gametas haploides."
+      "pergunta": "Em genética, o cruzamento AaBb x AaBb pode gerar a proporção fenotípica:",
+      "opcoes": ["9:3:3:1", "3:1", "1:2:1", "2:1:1"],
+      "resposta": 0
     },
-
     {
       "id": 7,
-      "tipo": "multipla",
-      "pergunta": "Um indivíduo com genótipo Aa é considerado:",
-      "opcoes": ["homozigoto dominante", "homozigoto recessivo", "heterozigoto", "letal"],
-      "resposta": "Mg==",
-      "explicacao": "Possui alelos diferentes."
+      "pergunta": "Qual é a função principal do retículo endoplasmático rugoso?",
+      "opcoes": ["Síntese de lipídios", "Síntese proteica e transporte", "Produção de ATP", "Armazenamento de glicogénio"],
+      "resposta": 1
     },
-
     {
       "id": 8,
-      "tipo": "multipla",
-      "pergunta": "Na herança mendeliana, a proporção fenotípica esperada no cruzamento Aa × Aa é:",
-      "opcoes": ["1:1", "2:1", "3:1", "4:1"],
-      "resposta": "Mg==",
-      "explicacao": "Dominância completa."
+      "pergunta": "A fotofosforilação ocorre em:",
+      "opcoes": ["Mitocôndria", "Cloroplasto", "Ribossoma", "Lisossoma"],
+      "resposta": 1
     },
-
     {
       "id": 9,
-      "tipo": "vf",
-      "pergunta": "Mutação genética é sempre prejudicial ao organismo.",
-      "resposta": false,
-      "explicacao": "Pode ser neutra ou benéfica."
+      "pergunta": "O ciclo de Krebs ocorre em:",
+      "opcoes": ["Matriz mitocondrial", "Citoplasma", "Núcleo", "Cloroplasto"],
+      "resposta": 0
     },
-
     {
       "id": 10,
-      "tipo": "multipla",
-      "pergunta": "Qual molécula armazena informação genética?",
-      "opcoes": ["RNA", "Proteína", "DNA", "ATP"],
-      "resposta": "Mg==",
-      "explicacao": "O DNA contém os genes."
+      "pergunta": "Qual é a função dos lisossomas?",
+      "opcoes": ["Produção de energia", "Digestão intracelular", "Síntese proteica", "Transporte de lipídios"],
+      "resposta": 1
     },
-
     {
       "id": 11,
-      "tipo": "multipla",
-      "pergunta": "A fotossíntese ocorre principalmente em que organelo?",
-      "opcoes": ["Mitocôndria", "Lisossoma", "Cloroplasto", "Núcleo"],
-      "resposta": "Mg==",
-      "explicacao": "Nos cloroplastos."
+      "pergunta": "Qual destes processos não contribui para a variabilidade genética?",
+      "opcoes": ["Crossing-over", "Segregação independente", "Fusão de gametas", "Mitose"],
+      "resposta": 3
     },
-
     {
       "id": 12,
-      "tipo": "multipla",
-      "pergunta": "Durante a respiração celular, a maior produção de ATP ocorre na fase de:",
-      "opcoes": ["Glicólise", "Ciclo de Krebs", "Cadeia respiratória", "Fermentação"],
-      "resposta": "Mg==",
-      "explicacao": "Fosforilação oxidativa."
+      "pergunta": "Qual destes organismos realiza fotossíntese oxigénica?",
+      "opcoes": ["Bactérias sulfurosas", "Cianobactérias", "Fungos", "Protozoários"],
+      "resposta": 1
     },
-
     {
       "id": 13,
-      "tipo": "vf",
-      "pergunta": "Os vírus são considerados organismos vivos.",
-      "resposta": false,
-      "explicacao": "Não possuem metabolismo próprio."
+      "pergunta": "Qual é a função principal da hemoglobina?",
+      "opcoes": ["Transporte de oxigénio", "Digestão de proteínas", "Síntese de ATP", "Reparação celular"],
+      "resposta": 0
     },
-
     {
       "id": 14,
-      "tipo": "multipla",
-      "pergunta": "O sistema responsável pelo transporte de oxigénio no corpo humano é:",
-      "opcoes": ["digestivo", "respiratório", "circulatório", "nervoso"],
-      "resposta": "Mg==",
-      "explicacao": "O sangue transporta oxigénio."
+      "pergunta": "Qual é o principal componente da parede celular vegetal?",
+      "opcoes": ["Quitina", "Celulose", "Peptidoglicano", "Glicogénio"],
+      "resposta": 1
     },
-
     {
       "id": 15,
-      "tipo": "multipla",
-      "pergunta": "Qual órgão humano é responsável pela produção de insulina?",
-      "opcoes": ["fígado", "pâncreas", "rim", "baço"],
-      "resposta": "MQ==",
-      "explicacao": "Produzida pelas células beta."
+      "pergunta": "O que distingue RNA mensageiro de RNA ribossômico?",
+      "opcoes": ["mRNA codifica proteínas, rRNA compõe ribossomas", "mRNA é estrutural, rRNA codifica proteínas", "Ambos codificam proteínas", "Ambos são estruturais"],
+      "resposta": 0
     },
-
     {
       "id": 16,
-      "tipo": "vf",
-      "pergunta": "Os antibióticos atuam contra infeções virais.",
-      "resposta": false,
-      "explicacao": "Atuam contra bactérias."
+      "pergunta": "A osmose é o movimento de água através de:",
+      "opcoes": ["Membrana semipermeável", "Parede celular", "Lisossoma", "Ribossoma"],
+      "resposta": 0
     },
-
     {
       "id": 17,
-      "tipo": "multipla",
-      "pergunta": "A unidade estrutural e funcional dos rins é:",
-      "opcoes": ["neurónio", "nefrónio", "alvéolo", "hepatócito"],
-      "resposta": "MQ==",
-      "explicacao": "Responsável pela filtração."
+      "pergunta": "O que ocorre durante a meiose I?",
+      "opcoes": ["Separação das cromátides irmãs", "Formação de gametas haploides", "Fusão de gametas", "Duplicação de DNA"],
+      "resposta": 1
     },
-
     {
       "id": 18,
-      "tipo": "multipla",
-      "pergunta": "Qual dos seguintes níveis ecológicos inclui indivíduos da mesma espécie?",
-      "opcoes": ["comunidade", "ecossistema", "população", "biosfera"],
-      "resposta": "Mg==",
-      "explicacao": "População = mesma espécie."
+      "pergunta": "Em ecologia, o que define uma população?",
+      "opcoes": ["Indivíduos da mesma espécie na mesma área", "Todos os organismos de uma comunidade", "Todos os ecossistemas de uma região", "Todas as espécies do planeta"],
+      "resposta": 0
     },
-
     {
       "id": 19,
-      "tipo": "vf",
-      "pergunta": "Produtores ocupam o primeiro nível trófico.",
-      "resposta": true,
-      "explicacao": "São autotróficos."
+      "pergunta": "Quais são os principais produtos da fotossíntese?",
+      "opcoes": ["O₂ e glicose", "CO₂ e água", "ATP e NADH", "Água e oxigénio"],
+      "resposta": 0
     },
-
     {
       "id": 20,
-      "tipo": "multipla",
-      "pergunta": "A teoria da evolução por seleção natural foi proposta por:",
-      "opcoes": ["Lamarck", "Darwin", "Mendel", "Pasteur"],
-      "resposta": "MQ==",
-      "explicacao": "Charles Darwin."
+      "pergunta": "Qual é o papel das enzimas na digestão?",
+      "opcoes": ["Aumentam a energia da reação", "Aceleram a reação química", "Substituem os nutrientes", "Destroem as células"],
+      "resposta": 1
+    },
+    {
+      "id": 21,
+      "pergunta": "O que caracteriza células eucarióticas vegetais comparadas a animais?",
+      "opcoes": ["Possuem centríolos", "Possuem cloroplastos", "Não têm núcleo", "Possuem lisossomas grandes"],
+      "resposta": 1
+    },
+    {
+      "id": 22,
+      "pergunta": "A glicólise ocorre no:",
+      "opcoes": ["Citoplasma", "Matriz mitocondrial", "Ribossoma", "Cloroplasto"],
+      "resposta": 0
+    },
+    {
+      "id": 23,
+      "pergunta": "Qual elemento é central nas moléculas de ATP?",
+      "opcoes": ["Carbono", "Fósforo", "Nitrogénio", "Oxigénio"],
+      "resposta": 1
+    },
+    {
+      "id": 24,
+      "pergunta": "O ciclo de Calvin ocorre em:",
+      "opcoes": ["Mitocôndria", "Cloroplasto", "Citoplasma", "Lisossoma"],
+      "resposta": 1
+    },
+    {
+      "id": 25,
+      "pergunta": "Qual é a base nitrogenada exclusiva do DNA?",
+      "opcoes": ["Uracilo", "Timina", "Adenina", "Guanina"],
+      "resposta": 1
+    },
+    {
+      "id": 26,
+      "pergunta": "Os fagócitos desempenham papel em:",
+      "opcoes": ["Produção hormonal", "Defesa imunitária", "Digestão de nutrientes", "Contração muscular"],
+      "resposta": 1
+    },
+    {
+      "id": 27,
+      "pergunta": "O que distingue eucariotos de procariontes?",
+      "opcoes": ["Presença de núcleo definido", "Tamanho menor", "Ausência de membrana plasmática", "Ausência de DNA"],
+      "resposta": 0
+    },
+    {
+      "id": 28,
+      "pergunta": "O que acontece durante a tradução do RNA?",
+      "opcoes": ["Formação de proteínas", "Síntese de DNA", "Replicação de RNA", "Degradação de proteínas"],
+      "resposta": 0
+    },
+    {
+      "id": 29,
+      "pergunta": "Qual dos seguintes é um exemplo de evolução convergente?",
+      "opcoes": ["As asas de morcegos e aves", "Penas de aves e répteis", "Plantas e fungos", "Peixes e anfíbios"],
+      "resposta": 0
+    },
+    {
+      "id": 30,
+      "pergunta": "Qual destes minerais é essencial para a síntese de hemoglobina?",
+      "opcoes": ["Ferro", "Cálcio", "Potássio", "Magnésio"],
+      "resposta": 0
+    },
+    {
+      "id": 31,
+      "pergunta": "A homeostase é:",
+      "opcoes": ["A manutenção do equilíbrio interno", "A digestão de alimentos", "A produção de energia celular", "A replicação de DNA"],
+      "resposta": 0
+    },
+    {
+      "id": 32,
+      "pergunta": "Qual destes organismos é considerado autotrófico?",
+      "opcoes": ["Algas", "Fungos", "Protozoários", "Animais"],
+      "resposta": 0
+    },
+    {
+      "id": 33,
+      "pergunta": "O que é um alelo recessivo?",
+      "opcoes": ["Expressa-se sempre no fenótipo", "Expressa-se apenas na ausência do dominante", "Expressa-se em heterozigotos", "Nunca se expressa"],
+      "resposta": 1
+    },
+    {
+      "id": 34,
+      "pergunta": "Qual é a função do sistema endócrino?",
+      "opcoes": ["Produzir hormônios", "Transportar oxigénio", "Digestão de alimentos", "Produzir anticorpos"],
+      "resposta": 0
+    },
+    {
+      "id": 35,
+      "pergunta": "Qual é o principal papel do DNA polimerase?",
+      "opcoes": ["Sintetizar proteínas", "Sintetizar DNA", "Degradar RNA", "Produzir ATP"],
+      "resposta": 1
+    },
+    {
+      "id": 36,
+      "pergunta": "O que distingue células vegetais de animais em termos de vacúolos?",
+      "opcoes": ["Vegetais possuem vacúolos pequenos e numerosos", "Vegetais possuem vacúolo grande central", "Animais não possuem vacúolos", "Animais possuem vacúolo central grande"],
+      "resposta": 1
+    },
+    {
+      "id": 37,
+      "pergunta": "Qual destes processos é anaeróbico?",
+      "opcoes": ["Fermentação láctica", "Respiração celular", "Fotossíntese", "Ciclo de Krebs"],
+      "resposta": 0
+    },
+    {
+      "id": 38,
+      "pergunta": "Qual é a função principal do fígado humano?",
+      "opcoes": ["Produzir insulina", "Metabolizar toxinas e armazenar glicogénio", "Filtrar urina", "Transportar oxigénio"],
+      "resposta": 1
+    },
+    {
+      "id": 39,
+      "pergunta": "Qual é a molécula que fornece energia imediata à célula?",
+      "opcoes": ["ATP", "ADP", "Glicose", "NADH"],
+      "resposta": 0
+    },
+    {
+      "id": 40,
+      "pergunta": "Qual destes elementos é essencial para formação de proteínas?",
+      "opcoes": ["Carbono, Nitrogénio e Enxofre", "Fósforo, Potássio e Cálcio", "Oxigénio, Hidrogénio e Hélio", "Sódio, Cloro e Magnésio"],
+      "resposta": 0
+    },
+    {
+      "id": 41,
+      "pergunta": "Qual é a função dos cloroplastos?",
+      "opcoes": ["Respiração celular", "Fotossíntese", "Síntese de proteínas", "Armazenamento de lipídios"],
+      "resposta": 1
+    },
+    {
+      "id": 42,
+      "pergunta": "O que caracteriza um ecosistema de tundra?",
+      "opcoes": ["Baixas temperaturas e vegetação rasteira", "Clima tropical e alta biodiversidade", "Florestas densas e úmidas", "Regiões desérticas quentes"],
+      "resposta": 0
+    },
+    {
+      "id": 43,
+      "pergunta": "Qual é o processo de degradação de moléculas orgânicas em ausência de oxigénio?",
+      "opcoes": ["Fermentação", "Respiração aeróbica", "Fotossíntese", "Ciclo de Krebs"],
+      "resposta": 0
+    },
+    {
+      "id": 44,
+      "pergunta": "Qual é a principal função do sistema circulatório?",
+      "opcoes": ["Transportar nutrientes, gases e hormônios", "Produzir enzimas digestivas", "Armazenar energia", "Degradar toxinas"],
+      "resposta": 0
+    },
+    {
+      "id": 45,
+      "pergunta": "O que caracteriza organismos procariontes?",
+      "opcoes": ["Ausência de núcleo definido", "Presença de mitocôndrias", "Presença de cloroplastos", "DNA linear"],
+      "resposta": 0
+    },
+    {
+      "id": 46,
+      "pergunta": "Qual destas vitaminas é solúvel em água?",
+      "opcoes": ["Vitamina C", "Vitamina A", "Vitamina D", "Vitamina K"],
+      "resposta": 0
+    },
+    {
+      "id": 47,
+      "pergunta": "Em genética, o que é codominância?",
+      "opcoes": ["Um alelo domina completamente o outro", "Ambos alelos se expressam igualmente", "Um alelo reprime o outro", "Alelos são letais"],
+      "resposta": 1
+    },
+    {
+      "id": 48,
+      "pergunta": "Qual destes processos ocorre apenas em células eucarióticas?",
+      "opcoes": ["Mitose", "Fissão binária", "Conjugação bacteriana", "Fragmentação de bactérias"],
+      "resposta": 0
+    },
+    {
+      "id": 49,
+      "pergunta": "Qual destes hormônios regula os níveis de glicose no sangue?",
+      "opcoes": ["Insulina", "Adrenalina", "Cortisol", "Tiroxina"],
+      "resposta": 0
+    },
+    {
+      "id": 50,
+      "pergunta": "Qual é o papel da membrana plasmática?",
+      "opcoes": ["Controlar entrada e saída de substâncias", "Produzir proteínas", "Gerar energia", "Realizar fotossíntese"],
+      "resposta": 0
     }
-
   ]
 }

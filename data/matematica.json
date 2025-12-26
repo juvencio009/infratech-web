@@ -1,394 +1,434 @@
 {
   "disciplina": "Matemática",
-  "duracao":1800,
+  "duracao": 6300,
   "questoes": [
     {
       "id": 1,
-      "tipo": "multipla",
-      "pergunta": "Seja f(x)=ln(x²-4x+3). O domínio de f é:",
-      "opcoes": [
-        "x<1 ou x>3",
-        "x≤1 ou x≥3",
-        "1<x<3",
-        "ℝ"
-      ],
-      "resposta": 0,
-      "explicacao": "x²−4x+3>0 ⇒ (x−1)(x−3)>0."
+      "pergunta": "Cinco estudantes distintos devem ocupar três cargos distintos (presidente, vice e secretário). Dois estudantes específicos não podem ocupar cargos simultaneamente. Quantas distribuições são possíveis?",
+      "opcoes": ["36", "48", "60", "72"],
+      "resposta": 1
     },
+
     {
       "id": 2,
-      "tipo": "multipla",
-      "pergunta": "Calcule o limite: lim(x→0) (e^{2x}-1-2x)/x².",
-      "opcoes": [
-        "1",
-        "2",
-        "0",
-        "4"
-      ],
-      "resposta": 1,
-      "explicacao": "Expansão de Taylor: e^{2x}=1+2x+2x²+..."
+      "pergunta": "Determine lim(x→0) [(ln(1+sin x) − sin x)/x²].",
+      "opcoes": ["−1/2", "0", "1/2", "−1"],
+      "resposta": 0
     },
+
     {
       "id": 3,
-      "tipo": "multipla",
-      "pergunta": "Se det(A)=2 e A é 3×3, calcule det(2A⁻¹).",
-      "opcoes": [
-        "2",
-        "4",
-        "1",
-        "2"
-      ],
-      "resposta": 2,
-      "explicacao": "det(A⁻¹)=1/det(A)=1/2; det(2A⁻¹)=2³×1/2=4."
+      "pergunta": "Uma função f(x)=ax³+bx²+cx+d tem ponto de inflexão em x=1 e tangente horizontal nesse ponto. Qual condição é necessariamente verdadeira?",
+      "opcoes": ["a+b+c=0", "3a+2b+c=0", "6a+2b=0", "a+b=0"],
+      "resposta": 2
     },
+
     {
       "id": 4,
-      "tipo": "input",
-      "pergunta": "Resolva em ℝ: ln(x−1)+ln(x−3)=ln(2).",
-      "resposta": ["x=4"],
-      "explicacao": "ln[(x−1)(x−3)]=ln2 ⇒ (x−1)(x−3)=2."
+      "pergunta": "Se f(x)=e^(x²−2x), determine o número de extremos locais de f.",
+      "opcoes": ["0", "1", "2", "3"],
+      "resposta": 1
     },
+
     {
       "id": 5,
-      "tipo": "multipla",
-      "pergunta": "O número de soluções reais da equação |x²−5|=x é:",
-      "opcoes": [
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "resposta": 2,
-      "explicacao": "Resolve-se por análise de casos."
+      "pergunta": "Uma variável aleatória discreta assume valores 1,2,3 com probabilidades proporcionais a 1,2,4. Calcule P(x≥2).",
+      "opcoes": ["3/7", "6/7", "2/3", "4/7"],
+      "resposta": 3
     },
 
     {
       "id": 6,
-      "tipo": "multipla",
-      "pergunta": "Se f(x)=x³−3x²+2, o número de extremos locais é:",
-      "opcoes": [
-        "0",
-        "1",
-        "2",
-        "3"
-      ],
-      "resposta": 2,
-      "explicacao": "f'(x)=3x²−6x ⇒ dois pontos críticos distintos."
+      "pergunta": "De um grupo de 8 pessoas, escolhe-se uma equipe de 4. Sabendo que duas pessoas específicas nunca trabalham juntas, quantas equipes são possíveis?",
+      "opcoes": ["40", "45", "50", "55"],
+      "resposta": 1
     },
 
     {
       "id": 7,
-      "tipo": "input",
-      "pergunta": "Calcule ∫₀¹ (x² ln x) dx.",
-      "resposta": ["-1/9"],
-      "explicacao": "Integração por partes."
+      "pergunta": "Calcule lim(x→0) [(1−cos x)/(x²·ln(1+x²))].",
+      "opcoes": ["1/2", "1", "0", "∞"],
+      "resposta": 0
     },
 
     {
       "id": 8,
-      "tipo": "multipla",
-      "pergunta": "A equação x⁴−4x²+3=0 tem:",
-      "opcoes": [
-        "2 soluções reais",
-        "3 soluções reais",
-        "4 soluções reais",
-        "nenhuma solução real"
-      ],
-      "resposta": 2,
-      "explicacao": "Substituição y=x²."
+      "pergunta": "Considere f(x)=(2x−1)/(x−2). Qual valor real não pertence à imagem de f?",
+      "opcoes": ["0", "−1", "1", "2"],
+      "resposta": 3
     },
 
     {
       "id": 9,
-      "tipo": "multipla",
-      "pergunta": "Se z=(1+i)/(1−i), então z é igual a:",
-      "opcoes": [
-        "i",
-        "−i",
-        "1",
-        "−1"
-      ],
-      "resposta": 0,
-      "explicacao": "Racionalização do denominador."
+      "pergunta": "Se z satisfaz |z−i|=|z+i|, o conjunto dos possíveis z representa:",
+      "opcoes": ["uma circunferência", "uma parábola", "uma reta", "um ponto"],
+      "resposta": 2
     },
 
     {
       "id": 10,
-      "tipo": "vf",
-      "pergunta": "Toda função contínua é derivável.",
-      "resposta": false,
-      "explicacao": "Continuidade não implica derivabilidade."
+      "pergunta": "O coeficiente de x⁶ em (1−2x)⁸ é:",
+      "opcoes": ["448", "−448", "112", "−112"],
+      "resposta": 1
     },
 
     {
       "id": 11,
-      "tipo": "multipla",
-      "pergunta": "Calcule lim(x→∞) (3x³−x)/(2x³+5).",
-      "opcoes": [
-        "0",
-        "3/2",
-        "∞",
-        "1"
-      ],
-      "resposta": 1,
-      "explicacao": "Razão dos coeficientes líderes."
+      "pergunta": "Uma amostra tem média 12 e desvio padrão 3. Se todos os valores aumentam em 5, o novo desvio padrão será:",
+      "opcoes": ["3", "8", "√34", "indefinido"],
+      "resposta": 0
     },
 
     {
       "id": 12,
-      "tipo": "input",
-      "pergunta": "Resolva a inequação: log₃(x²−1)≥1.",
-      "resposta": ["x≤-2 ou x≥2"],
-      "explicacao": "Domínio + inequação logarítmica."
+      "pergunta": "Determine a natureza da função f(x)=x·e^(−x²).",
+      "opcoes": ["par", "periódica", "nem par nem ímpar", "ímpar"],
+      "resposta": 3
     },
 
     {
       "id": 13,
-      "tipo": "multipla",
-      "pergunta": "Se uma PG infinita tem soma 5 e primeiro termo 2, então a razão é:",
+      "pergunta": "Simplifique a expressão algébrica com expoentes: ((2a⁻¹b²)³ · (a²b⁻¹)⁻²) / (4a⁻³b).",
       "opcoes": [
-        "1/2",
-        "2/3",
-        "3/2",
-        "1/3"
+        "8b⁶/a³",
+        "2b⁷/a⁴",
+        "2a⁴/b⁷",
+        "b⁷/(2a⁴)"
       ],
-      "resposta": 1,
-      "explicacao": "S=a₁/(1−r)."
+      "resposta": 1
     },
-
     {
       "id": 14,
-      "tipo": "multipla",
-      "pergunta": "O número de soluções reais de sen x = x/2 é:",
-      "opcoes": [
-        "0",
-        "1",
-        "2",
-        "infinitas"
-      ],
-      "resposta": 2,
-      "explicacao": "Análise gráfica."
+      "pergunta": "Determine o domínio da função f(x)=ln(x²−3x).",
+      "opcoes": ["]−∞ ; 0 [∪]3 ; +∞[", "]0;3]", "ℝ", "]−∞;0["],
+      "resposta": 0
     },
-
     {
       "id": 15,
-      "tipo": "input",
-      "pergunta": "Determine o determinante da matriz [[1,2,3],[0,1,4],[0,0,2]].",
-      "resposta": ["2"],
-      "explicacao": "Matriz triangular."
+      "pergunta": "Uma reta é tangente à curva y=x³−3x+1 no ponto x=1. Qual é a equação da reta?",
+      "opcoes": ["y=0", "y=−2x+2", "y=3x−2", "y=k, k uma constante"],
+      "resposta": 0
     },
-
     {
       "id": 16,
-      "tipo": "multipla",
-      "pergunta": "Se f(x)=|x²−4x+3|, o número de pontos onde f não é derivável é:",
-      "opcoes": ["0", "1", "2", "3"],
-      "resposta": 1,
-      "explicacao": "Não derivável onde x²−4x+3=0 ⇒ x=1 ou x=3."
+      "pergunta": "Se f é contínua em [1,4] e f(1)=−2, f(4)=5, qual teorema garante a existência de c tal que f(c)=0?",
+      "opcoes": ["Weierstrass", "Rolle", "Bolzano", "Lagrange"],
+      "resposta": 2
     },
 
     {
       "id": 17,
-      "tipo": "input",
-      "pergunta": "Resolva o sistema: { x+y+z=6 ; x²+y²+z²=14 ; xyz=6 }.",
-      "resposta": ["{1,2,3}"],
-      "explicacao": "Sistema simétrico, analisa-se por permutação."
+      "pergunta": "Determine lim(x→0) [tan(sin x)/x].",
+      "opcoes": ["0", "∞", "1", "indefinido"],
+      "resposta": 2
     },
 
     {
       "id": 18,
-      "tipo": "multipla",
-      "pergunta": "Calcule lim(x→0) (ln(1+x)−x+ x²/2)/x³.",
-      "opcoes": ["−1/3", "1/3", "0", "1"],
-      "resposta": 1,
-      "explicacao": "Série de Taylor de ln(1+x)."
+      "pergunta": "Uma função f é estritamente crescente e f(2)=5. Qual afirmação é sempre verdadeira?",
+      "opcoes": ["f(1)>5", "f(3)>5", "f(3)=5", "f é linear"],
+      "resposta": 1
     },
-
     {
       "id": 19,
-      "tipo": "multipla",
-      "pergunta": "O número de soluções reais da equação e^x = x² é:",
-      "opcoes": ["0", "1", "2", "3"],
+      "pergunta": "Resolva em ℝ: ln(x−1)+ln(x−3)=ln(2).",
+      "opcoes":["x=3","x=2","x=4","x=1"],
       "resposta": 2,
-      "explicacao": "Análise gráfica de y=e^x e y=x²."
+      "explicacao": "ln[(x−1)(x−3)]=ln2 ⇒ (x−1)(x−3)=2."
     },
 
-    {
+     {
       "id": 20,
-      "tipo": "vf",
-      "pergunta": "Se uma função é injetiva em ℝ, então é estritamente monótona.",
-      "resposta": true,
-      "explicacao": "Propriedade fundamental de funções reais."
+      "pergunta": "Seja f(x)=ln(x²-4x+3). O domínio de f é:",
+      "opcoes": [
+          "x≤1 ou x≥3",
+          "x<1 ou x>3",
+        "1<x<3",
+        "ℝ"
+      ],
+      "resposta": 1
     },
 
-    {
-      "id": 21,
-      "tipo": "input",
-      "pergunta": "Calcule ∫₁ᵉ (ln x)/x dx.",
-      "resposta": ["1/2"],
-      "explicacao": "Substituição u=ln x."
-    },
+ {
+  "id": 21,
+  "pergunta": "Simplifique a expressão trigonométrica: (sen²x − cos²x)/(sen x cos x) + (2cos x)/(sen x).",
+  "opcoes": [
+    "tan x + cot x",
+    "sen x + cos x",
+    "2tan x",
+    "tan²x"
+  ],
+  "resposta": 0
+},
 
     {
       "id": 22,
-      "tipo": "multipla",
-      "pergunta": "O número de diagonais de um polígono convexo com n lados é 54. O valor de n é:",
-      "opcoes": ["12", "13", "14", "15"],
-      "resposta": 1,
-      "explicacao": "n(n−3)/2=54."
+      "pergunta": "Determine o valor de k para que a função f(x)=|x−2|+k seja contínua e derivável em x=2.",
+      "opcoes": ["0", "1", "qualquer real", "não existe"],
+      "resposta": 3
     },
 
     {
       "id": 23,
-      "tipo": "multipla",
-      "pergunta": "Se z₁=2+ki e z₂=1−i são ortogonais no plano complexo, então k é:",
-      "opcoes": ["−2", "−1", "1", "2"],
-      "resposta": 0,
-      "explicacao": "Produto escalar nulo."
+      "pergunta": "Se logₐ(b)=2 e log_b(a)=1/3, determine ab.",
+      "opcoes": ["8", "9", "16", "27"],
+      "resposta": 3
     },
 
     {
       "id": 24,
-      "tipo": "input",
-      "pergunta": "Determine a equação da reta tangente a y=x e^{x} no ponto x=0.",
-      "resposta": ["y=1+x"],
-      "explicacao": "Derivada + ponto."
+      "pergunta": "Uma função f satisfaz f'(x)=0 para todo x∈ℝ. Qual afirmação é correta?",
+      "opcoes": [
+          "f é linear",
+          "f é constante",
+        "f é periódica",
+        "f é limitada"
+      ],
+      "resposta": 1
     },
 
     {
       "id": 25,
-      "tipo": "multipla",
-      "pergunta": "A equação cos x = x possui:",
-      "opcoes": ["nenhuma solução", "uma solução", "duas soluções", "infinitas soluções"],
-      "resposta": 1,
-      "explicacao": "Análise gráfica."
+      "pergunta": "Calcule lim(x→0⁺) x·ln(x).",
+      "opcoes": ["0", "−∞", "1", "∞"],
+      "resposta": 0
     },
 
     {
       "id": 26,
-      "tipo": "vf",
-      "pergunta": "Toda matriz diagonal é diagonalizável.",
-      "resposta": true,
-      "explicacao": "Autovalores evidentes."
+      "pergunta": "Quantas soluções reais tem a equação eˣ = x²?",
+      "opcoes": ["0", "1", "2", "3"],
+      "resposta": 2
     },
 
     {
       "id": 27,
-      "tipo": "input",
-      "pergunta": "Calcule ∫ x²·e^{x} dx.",
-      "resposta": ["e^x(x^2-2x+2)+C"],
-      "explicacao": "Integração por partes sucessivas."
+      "pergunta": "Uma variável aleatória contínua tem densidade f(x)=kx² em [0,1]. Determine k.",
+      "opcoes": ["1", "2", "3", "4"],
+      "resposta": 2
     },
 
     {
       "id": 28,
-      "tipo": "multipla",
-      "pergunta": "O número de soluções reais da inequação |x−1|+|x−3|<4 é:",
-      "opcoes": ["1", "2", "3", "infinitas"],
-      "resposta": 3,
-      "explicacao": "Intervalo aberto entre 1 e 3."
+      "pergunta": "Simplifique a expressão trigonométrica: (1 − tan²x)/(sen x cos x) · (sen²x)/(1 + tan x).",
+      "opcoes": [
+        "tan x − tan²x",
+        "sen x − cos x",
+        "1 − tan x",
+        "tan²x"
+      ],
+      "resposta": 0
     },
 
     {
       "id": 29,
-      "tipo": "multipla",
-      "pergunta": "Se det(A)=−1 e A é 4×4, então det(−A⁻¹) é:",
-      "opcoes": ["−1", "1", "−1", "1"],
-      "resposta": 1,
-      "explicacao": "det(A⁻¹)=−1; (−1)^4=1."
+      "pergunta": "Se f(x)=x³−6x²+9x+1, quantos pontos de inflexão possui?",
+      "opcoes": ["0", "1", "2", "3"],
+      "resposta": 1
     },
 
     {
       "id": 30,
-      "tipo": "vf",
-      "pergunta": "Toda função limitada admite máximo e mínimo.",
-      "resposta": false,
-      "explicacao": "Necessita intervalo fechado."
+      "pergunta": "Determine o argumento principal de z=−1−i.",
+      "opcoes": ["−3π/4", "π/4", "5π/4", "−π/4"],
+      "resposta": 0
     },
 
     {
       "id": 31,
-      "tipo": "input",
-      "pergunta": "Resolva: sen(2x)=sen x em [0,2π].",
-      "resposta": ["0, π, 2π/3, 4π/3"],
-      "explicacao": "Identidades trigonométricas."
+      "pergunta": "De quantas maneiras diferentes é possível formar uma comissão com 4 pessoas a partir de 7 homens e 5 mulheres, sabendo que a comissão deve ter pelo menos 2 mulheres?",
+      "opcoes": [
+        "260",
+        "310",
+        "350",
+        "420"
+      ],
+      "resposta": 1
     },
 
     {
       "id": 32,
-      "tipo": "multipla",
-      "pergunta": "A série ∑ (1/n²) é:",
-      "opcoes": ["divergente", "convergente", "oscilante", "indeterminada"],
-      "resposta": 1,
-      "explicacao": "Série p com p>1."
+      "pergunta": "Calcule ∫ ln(x) dx.",
+      "opcoes": [
+          "ln(x²)+C",
+          "1/x + C",
+          "x ln x − x + C",
+        "x² ln x + C"
+      ],
+      "resposta": 2
     },
-
     {
       "id": 33,
-      "tipo": "input",
-      "pergunta": "Determine o domínio de f(x)=√(ln(x−1)).",
-      "resposta": ["x≥2"],
-      "explicacao": "ln(x−1)≥0."
+      "pergunta": "Quantas anagramas distintos podem ser formados com as letras da palavra MATEMATICA?",
+      "opcoes": [
+        "151200",
+        "75600",
+        "37800",
+        "30240"
+      ],
+      "resposta": 1
     },
 
     {
       "id": 34,
-      "tipo": "multipla",
-      "pergunta": "O número de soluções reais da equação x³=3x é:",
-      "opcoes": ["1", "2", "3", "4"],
-      "resposta": 2,
-      "explicacao": "x(x²−3)=0."
+      "pergunta": "Quantos subconjuntos de ℝ com exatamente 3 elementos podem ser formados?",
+      "opcoes": ["finito", "enumerável", "não enumerável", "zero"],
+      "resposta": 2
     },
 
     {
       "id": 35,
-      "tipo": "vf",
-      "pergunta": "Se f''(x)>0 num intervalo, então f é convexa nesse intervalo.",
-      "resposta": true,
-      "explicacao": "Definição de convexidade."
+      "pergunta": "Determine lim(x→∞) ln(x)/x.",
+      "opcoes": ["0", "1", "∞", "indefinido"],
+      "resposta": 0
     },
 
     {
       "id": 36,
-      "tipo": "input",
-      "pergunta": "Calcule lim(x→0) (1−cos x)/x².",
-      "resposta": ["1/2"],
-      "explicacao": "Limite trigonométrico fundamental."
+      "pergunta": "Uma função f é tal que f''(x)>0 para todo x. O gráfico é:",
+      "opcoes": [
+        "côncavo para cima",
+        "côncavo para baixo",
+        "linear",
+        "oscilatório"
+      ],
+      "resposta": 0
     },
 
     {
       "id": 37,
-      "tipo": "multipla",
-      "pergunta": "Se uma matriz A tem autovalores 1,2 e 3, então det(A) é:",
-      "opcoes": ["6", "5", "3", "1"],
-      "resposta": 0,
-      "explicacao": "Produto dos autovalores."
+      "pergunta": "Determine o volume de uma esfera de raio r.",
+      "opcoes": [
+        "4πr³/3",
+        "πr²",
+        "2πr³",
+        "πr³"
+      ],
+      "resposta": 0
     },
 
     {
-      "id": 38,
-      "tipo": "vf",
-      "pergunta": "Uma função bijetiva admite inversa.",
-      "resposta": true,
-      "explicacao": "Definição de inversa."
-    },
+    "id": 38,
+    "pergunta": "Dada a função homográfica f(x) = (3x + 2)/(x − 1), determine o valor de x para o qual f(x) = 3.",
+    "opcoes": [
+      "x = 1",
+      "x = 5",
+      "x = −1",
+      "Não existe valor real de x"
+    ],
+    "resposta": 3
+  },
 
     {
       "id": 39,
-      "tipo": "input",
-      "pergunta": "Resolva: ln(x+1)=2ln(x−1).",
-      "resposta": ["x=3"],
-      "explicacao": "Transformação logarítmica."
+      "pergunta": "Se f(x)=|x|, em qual ponto f não é derivável?",
+      "opcoes": ["0", "1", "−1", "todos"],
+      "resposta": 0
     },
 
     {
       "id": 40,
-      "tipo": "multipla",
-      "pergunta": "O número de soluções reais de tan x = x é:",
-      "opcoes": ["0", "1", "2", "infinitas"],
-      "resposta": 3,
-      "explicacao": "Interseções periódicas."
-    }
+      "pergunta": "Determine o valor de sen(π/12).",
+      "opcoes": [
+        "(√6−√2)/4",
+        "(√3)/2",
+        "1/2",
+        "(√2)/2"
+      ],
+      "resposta": 0
+    },
 
+    {
+      "id": 41,
+      "pergunta": "Uma série geométrica converge se, e somente se:",
+      "opcoes": [
+        "|r|<1",
+        "|r|≤1",
+        "r>0",
+        "r≠1"
+      ],
+      "resposta": 0
+    },
+
+    {
+      "id": 42,
+      "pergunta": "Se z₁=1+i e z₂=1−i, então z₁·z₂ é:",
+      "opcoes": ["0", "1", "2", "4"],
+      "resposta": 3
+    },
+
+    {
+      "id": 43,
+      "pergunta": "Seja a função f(x) = -x² + 4x + 5. Determine o valor de x que maximiza f(x).",
+      "opcoes": [
+        "x = 1",
+        "x = 2",
+        "x = 3",
+        "x = 4"
+      ],
+      "resposta": 1
+    },
+
+
+    {
+      "id": 44,
+      "pergunta": "Determine o valor de det(A) se A é triangular superior com diagonal (2,−1,3).",
+      "opcoes": ["−6", "6", "0", "−12"],
+      "resposta": 0
+    },
+
+    {
+      "id": 45,
+      "pergunta": "Sejam f(x) = x² - 1 e g(x) = 3x + 2. Determine |x| tal que |(f ∘ g)(x) - (g ∘ f)(x)| = 10.",
+      "opcoes": [
+        "1 v √2",
+        "√2 - 1 v √2 + 1",
+        "2 - √2 v 2 + √2",
+        "1/2 v 3/2"
+      ],
+      "resposta": 1
+    },
+
+   {
+      "id": 46,
+      "pergunta": "Resolva: sen(2x)=sen x em [0,2π].",
+      "opcoes": ["0 ,  π/4 , 2π/3 , 4π/3","0 ,  π , 2π/3 , 4π/2","0 ,  π , 2π/3 , 4π/3","0 ,  2π , 2π/3 , 4π/3"],
+	"resposta":2,
+      "explicacao": "Identidades trigonométricas."
+    },
+
+
+    {
+      "id": 47,
+      "pergunta": "Quantos elementos tem o conjunto potência de um conjunto com 6 elementos?",
+      "opcoes": ["12", "36", "64", "720"],
+      "resposta": 2
+    },
+
+    {
+      "id": 48,
+      "pergunta": "Determine a equação da assíntota vertical de f(x)=1/(x−3).",
+      "opcoes": ["x=0", "x=1", "x=3", "y=3"],
+      "resposta": 2
+    },
+
+    {
+      "id": 49,
+      "pergunta": "Uma função é convexa se, e somente se:",
+      "opcoes": [
+        "f''(x)≥0",
+        "f'(x)=0",
+        "f é contínua",
+        "f é injetiva"
+      ],
+      "resposta": 0
+    },
+
+    {
+      "id": 50,
+      "pergunta": "Determine o valor de i^(2025).",
+      "opcoes": ["1", "i", "−1", "−i"],
+      "resposta": 1
+    }
   ]
 }

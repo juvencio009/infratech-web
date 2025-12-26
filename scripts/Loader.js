@@ -1,4 +1,4 @@
-async function CarregarQuestoes(route) {
+async function Loader(route) {
   try {
     const res = await fetch(route);
     if (!res.ok) throw new Error("Erro ao carregar os dados");
@@ -11,3 +11,6 @@ async function CarregarQuestoes(route) {
 }
 
 
+window.onload = function (){
+    document.getElementById("loader").style.display='none';
+}

@@ -1,86 +1,306 @@
 {
   "disciplina": "Física",
+  "duracao": 6300,
   "questoes": [
-  
+    {
+      "id": 1,
+      "pergunta": "Uma mola de constante k = 200 N/m é comprimida 0,1 m. Qual a energia armazenada na mola?",
+      "opcoes": ["5 J", "1 J", "10 J", "2 J"],
+      "resposta": 1
+    },
     {
       "id": 2,
-      "tipo": "vf",
-      "pergunta": "A aceleração da gravidade na Terra é aproximadamente constante para pequenas alturas.",
-      "imagem": null,
-      "resposta": true,
-      "explicacao": "Para alturas pequenas em relação ao raio da Terra, g ≈ 9,8 m/s²."
+      "pergunta": "Um bloco de massa 2 kg desliza sem atrito sobre um plano inclinado de 30° e altura 5 m. Qual sua velocidade ao chegar no final?",
+      "opcoes": ["9,9 m/s", "14 m/s", "10 m/s", "15 m/s"],
+      "resposta": 0
     },
     {
       "id": 3,
-      "tipo": "vf",
-      "pergunta": "Ondas sonoras podem propagar-se no vácuo.",
-      "imagem": null,
-      "resposta": false,
-      "explicacao": "Ondas sonoras são ondas mecânicas e necessitam de um meio material."
+      "pergunta": "Um gás ideal monoatômico sofre compressão isotérmica de 10 L para 2 L à temperatura constante. O trabalho realizado pelo gás é dado por W = nRT ln(Vf/Vi). Se nRT = 500 J, qual o trabalho?",
+      "opcoes": ["805 J", "-500 J", "500 J", "-805 J"],
+      "resposta": 3
     },
     {
       "id": 4,
-      "tipo": "vf",
-      "pergunta": "Um corpo pode estar em movimento mesmo que a força resultante sobre ele seja nula.",
-      "imagem": null,
-      "resposta": true,
-      "explicacao": "Se a força resultante for zero, o corpo pode mover-se com velocidade constante."
+      "pergunta": "Um corpo cai de uma altura de 45 m. Desprezando resistência do ar, quanto tempo leva para atingir o solo? (g = 9,8 m/s²)",
+      "opcoes": ["3,03 s", "3 s", "4,5 s", "2,5 s"],
+      "resposta": 0
     },
     {
       "id": 5,
-      "tipo": "multipla",
-      "pergunta": "Observe o gráfico posição × tempo e determine o tipo de movimento.",
-      "imagem": "img/grafico_posicao_tempo.png",
-      "opcoes": [
-        "Movimento uniforme",
-        "Movimento uniformemente variado",
-        "Movimento circular",
-        "Repouso"
-      ],
-      "resposta": 0,
-      "explicacao": "Um gráfico linear em posição × tempo indica velocidade constante."
+      "pergunta": "Uma onda sonora de frequência 440 Hz se propaga no ar com velocidade 340 m/s. Qual o comprimento de onda?",
+      "opcoes": ["0,34 m", "0,5 m", "0,77 m", "1 m"],
+      "resposta": 2
     },
     {
       "id": 6,
-      "tipo": "multipla",
-      "pergunta": "O veículo ilustrado transporta carga constante. Qual grandeza física é diretamente afetada?",
-      "imagem": "img/camiao_carga.png",
-      "opcoes": ["Velocidade", "Massa", "Tempo", "Comprimento"],
-      "resposta": 1,
-      "explicacao": "A carga influencia diretamente a massa total do sistema."
+      "pergunta": "Um resistor de 10 Ω tem uma corrente de 2 A. Qual a potência dissipada?",
+      "opcoes": ["30 W", "20 W", "10 W", "40 W"],
+      "resposta": 3
     },
     {
       "id": 7,
-      "tipo": "multipla",
-      "pergunta": "A imagem representa um circuito simples. Qual instrumento mede a corrente elétrica?",
-      "imagem": "img/circuito_simples.png",
-      "opcoes": ["Voltímetro", "Ohmímetro", "Amperímetro", "Termômetro"],
-      "resposta": 2,
-      "explicacao": "O amperímetro é o instrumento utilizado para medir corrente elétrica."
+      "pergunta": "Um projétil é lançado com velocidade 20 m/s a 45°. Qual o alcance horizontal? (g = 10 m/s²)",
+      "opcoes": ["50 m", "20 m", "40 m", "30 m"],
+      "resposta": 2
     },
     {
       "id": 8,
-      "tipo": "input",
-      "pergunta": "Qual é o valor aproximado da aceleração da gravidade na Terra (m/s²)?",
-      "imagem": null,
-      "resposta": ["9.8", "9,8"],
-      "explicacao": "O valor médio adotado é 9,8 m/s²."
+      "pergunta": "Um elétron (m = 9,1×10⁻³¹ kg) é acelerado por uma diferença de potencial de 500 V. Qual sua velocidade final?",
+      "opcoes": ["3×10⁶ m/s", "5×10⁶ m/s", "1,3×10⁷ m/s", "2×10⁷ m/s"],
+      "resposta": 2
     },
     {
       "id": 9,
-      "tipo": "input",
-      "pergunta": "Quantos metros correspondem a 2 km?",
-      "imagem": null,
-      "resposta": ["2000"],
-      "explicacao": "1 km = 1000 m, logo 2 km = 2000 m."
+      "pergunta": "Um fluido de densidade 1000 kg/m³ está a 10 m de profundidade. Qual a pressão absoluta? (g=10 m/s², pressão atmosférica=1×10⁵ Pa)",
+      "opcoes": ["1,5×10⁵ Pa", "3×10⁵ Pa", "2×10⁵ Pa", "1,1×10⁵ Pa"],
+      "resposta": 2
     },
     {
       "id": 10,
-      "tipo": "input",
-      "pergunta": "Qual é o nome da força que impede o deslizamento entre superfícies em contacto?",
-      "imagem": null,
-      "resposta": ["atrito", "força de atrito"],
-      "explicacao": "A força de atrito atua contrariando o movimento relativo entre superfícies."
+      "pergunta": "Uma barra de metal de comprimento 2 m sofre dilatação linear com coeficiente 1,2×10⁻⁵ °C⁻¹ para aumento de temperatura de 100 °C. Qual o alongamento?",
+      "opcoes": ["0,24 m", "12 mm", "1 mm", "2,4 mm"],
+      "resposta": 3
+    },
+    {
+      "id": 11,
+      "pergunta": "Um pêndulo simples de 1 m de comprimento tem aceleração máxima no ponto de equilíbrio de 5 m/s². Qual a amplitude angular aproximada?",
+      "opcoes": ["0,1 rad", "0,5 rad", "1 rad", "0,25 rad"],
+      "resposta": 1
+    },
+    {
+      "id": 12,
+      "pergunta": "Um bloco de 5 kg se move com velocidade 3 m/s. Qual sua energia cinética?",
+      "opcoes": ["45 J", "22,5 J", "30 J", "15 J"],
+      "resposta": 1
+    },
+    {
+      "id": 13,
+      "pergunta": "Um elétron em átomo de hidrogênio está no nível n=3. Qual sua energia? (Eₙ = −13,6 eV/n²)",
+      "opcoes": ["−13,6 eV", "−3,4 eV", "−1,51 eV", "−6,0 eV"],
+      "resposta": 2
+    },
+    {
+      "id": 14,
+      "pergunta": "Um cilindro de área 0,5 m² contém gás a 2×10⁵ Pa. Uma força F é aplicada sobre o êmbolo. Qual deve ser F para equilibrar a pressão?",
+      "opcoes": ["2×10⁵ N", "1×10⁵ Pa", "1×10⁵ N", "1×10⁴ N"],
+      "resposta": 2
+    },
+    {
+      "id": 15,
+      "pergunta": "Uma onda eletromagnética tem frequência 6×10¹⁴ Hz. Qual é o comprimento de onda no vácuo?",
+      "opcoes": ["6×10⁻⁷ m", "1×10⁻⁶ m", "5×10⁻⁷ m", "3×10⁻⁸ m"],
+      "resposta": 2
+    },
+    {
+      "id": 16,
+      "pergunta": "Um corpo de massa 3 kg sobe com velocidade 2 m/s e atinge altura máxima. Qual a energia potencial máxima? (g=10 m/s²)",
+      "opcoes": ["6 J", "3 J", "12 J", "0,6 J"],
+      "resposta": 0
+    },
+    {
+      "id": 17,
+      "pergunta": "Um capacitor de 10 μF é carregado a 100 V. Qual a energia armazenada?",
+      "opcoes": ["5 J", "0,05 J", "1 J", "0,1 J"],
+      "resposta": 1
+    },
+    {
+      "id": 18,
+      "pergunta": "Um raio de luz incide sobre um vidro com índice 1,5 a 30°. Qual o ângulo de refração? (Lei de Snell)",
+      "opcoes": ["30°", "19,5°", "25°", "20°"],
+      "resposta": 1
+    },
+    {
+      "id": 19,
+      "pergunta": "Um bloco de 4 kg é acelerado por força de 20 N. Qual é a aceleração?",
+      "opcoes": ["4 m/s²", "5 m/s²", "10 m/s²", "20 m/s²"],
+      "resposta": 1
+    },
+    {
+      "id": 20,
+      "pergunta": "Qual é a frequência de um pêndulo simples de 0,25 m? (g=10 m/s²)",
+      "opcoes": ["2 Hz", "1 Hz", "0,5 Hz", "4 Hz"],
+      "resposta": 1
+    },
+    {
+      "id": 21,
+      "pergunta": "Um feixe de partículas alfa tem energia cinética 5 MeV. Qual a velocidade de cada partícula? (m_α = 6,64×10⁻²⁷ kg)",
+      "opcoes": ["5×10⁶ m/s", "2×10⁶ m/s", "3×10⁷ m/s", "1,55×10⁷ m/s"],
+      "resposta": 3
+    },
+    {
+      "id": 22,
+      "pergunta": "Um gás ideal monoatômico aumenta sua temperatura de 300 K para 600 K a volume constante. Qual o aumento de energia interna? (nR = 8,31 J/mol·K, 1 mol)",
+      "opcoes": ["24,93 J", "16,62 J", "12,465 J", "8,31 J"],
+      "resposta": 2
+    },
+    {
+      "id": 23,
+      "pergunta": "Um corpo de 2 kg desliza em superfície horizontal com atrito de 0,2. Força inicial 10 N. Qual o trabalho realizado pelo atrito após 5 m?",
+      "opcoes": ["10 J", "15 J", "5 J", "20 J"],
+      "resposta": 3
+    },
+    {
+      "id": 24,
+      "pergunta": "Nível de energia de elétron em hidrogênio n=2. Qual a diferença de energia para n=1? (Eₙ = −13,6 eV/n²)",
+      "opcoes": ["3,4 eV", "13,6 eV", "10,2 eV", "1,51 eV"],
+      "resposta": 2
+    },
+    {
+      "id": 25,
+      "pergunta": "Um gás ideal realiza expansão isotérmica de 1 m³ para 4 m³ a 300 K. Se nR T = 1000 J, qual o trabalho realizado?",
+      "opcoes": ["1200 J", "1386 J", "1500 J", "1000 J"],
+      "resposta": 1
+    },
+    {
+      "id": 26,
+      "pergunta": "Uma onda mecânica de amplitude 0,02 m e frequência 50 Hz transporta energia. Qual a energia por unidade de massa se ρ=1000 kg/m³ e v = 340 m/s?",
+      "opcoes": ["34 J/kg", "20 J/kg", "50 J/kg", "40 J/kg"],
+      "resposta": 3
+    },
+    {
+      "id": 27,
+      "pergunta": "Um capacitor de 20 μF é carregado a 50 V. Qual energia armazenada?",
+      "opcoes": ["0,025 J", "0,05 J", "0,1 J", "0,5 J"],
+      "resposta": 0
+    },
+    {
+      "id": 28,
+      "pergunta": "Um feixe de partículas β tem energia 2 MeV. Qual a velocidade aproximada das partículas? (m_e = 9,1×10⁻³¹ kg)",
+      "opcoes": ["3×10⁸ m/s", "1×10⁷ m/s", "2,65×10⁸ m/s", "5×10⁶ m/s"],
+      "resposta": 2
+    },
+    {
+      "id": 29,
+      "pergunta": "Um bloco de 1 kg cai sobre mola k=100 N/m, compressão máxima 0,1 m. Qual energia cinética inicial?",
+      "opcoes": ["2 J", "1 J", "0,5 J", "5 J"],
+      "resposta": 1
+    },
+    {
+      "id": 30,
+      "pergunta": "A energia de ligação de núcleo de He-4 é aproximadamente 28 MeV. Qual a energia por nucleon?",
+      "opcoes": ["4 MeV", "14 MeV", "7 MeV", "28 MeV"],
+      "resposta": 2
+    },
+    {
+      "id": 31,
+      "pergunta": "Um bloco de 3 kg em MHS tem amplitude 0,1 m e constante elástica 120 N/m. Qual a energia total?",
+      "opcoes": ["0,36 J", "0,3 J", "0,6 J", "1,2 J"],
+      "resposta": 2
+    },
+    {
+      "id": 32,
+      "pergunta": "Um feixe de luz atravessa uma lâmina de vidro n=1,5 com 45° de incidência. Qual o ângulo de refração?",
+      "opcoes": ["19°", "28,1°", "30°", "45°"],
+      "resposta": 1
+    },
+    {
+      "id": 33,
+      "pergunta": "Um bloco de massa 2 kg recebe impulso de 10 Ns. Qual a velocidade adquirida?",
+      "opcoes": ["5 m/s", "2 m/s", "1 m/s", "10 m/s"],
+      "resposta": 0
+    },
+    {
+      "id": 34,
+      "pergunta": "Um gás monoatômico com n=1 mol aumenta a temperatura de 300 K para 600 K a volume constante. Qual o aumento de energia interna?",
+      "opcoes": ["24,93 J", "16,62 J", "12,5 J", "8,31 J"],
+      "resposta": 0
+    },
+    {
+      "id": 35,
+      "pergunta": "Uma corda de 2 m de comprimento vibrando com velocidade de onda 50 m/s. Qual a frequência do primeiro harmônico?",
+      "opcoes": ["12,5 Hz", "25 Hz", "100 Hz", "50 Hz"],
+      "resposta": 1
+    },
+    {
+      "id": 36,
+      "pergunta": "Um capacitor de 5 μF recebe carga de 10 μC. Qual a diferença de potencial?",
+      "opcoes": ["2 V", "10 V", "5 V", "20 V"],
+      "resposta": 0
+    },
+    {
+      "id": 37,
+      "pergunta": "Um bloco de 2 kg escorrega em plano inclinado sem atrito de 30° altura 4 m. Qual sua velocidade final?",
+      "opcoes": ["9 m/s", "7,5 m/s", "8,8 m/s", "10 m/s"],
+      "resposta": 2
+    },
+    {
+      "id": 38,
+      "pergunta": "Um corpo de massa 3 kg sob força de 30 N. Qual a aceleração?",
+      "opcoes": ["5 m/s²", "10 m/s²", "30 m/s²", "15 m/s²"],
+      "resposta": 1
+    },
+    {
+      "id": 39,
+      "pergunta": "Um feixe de elétrons atravessa diferença de potencial de 200 V. Qual a energia cinética adquirida?",
+      "opcoes": ["1,6×10⁻¹⁹ J", "3,2×10⁻¹⁷ J", "2×10⁻¹⁷ J", "5×10⁻¹⁷ J"],
+      "resposta": 1
+    },
+    {
+      "id": 40,
+      "pergunta": "Um bloco de 5 kg sobe com 2 m/s. Qual a energia cinética?",
+      "opcoes": ["20 J", "10 J", "5 J", "15 J"],
+      "resposta": 1
+    },
+    {
+      "id": 41,
+      "pergunta": "Um gás ideal realiza expansão isotérmica de 1 m³ para 2 m³ a 300 K. Se nR T = 1000 J, qual o trabalho realizado?",
+      "opcoes": ["693 J", "1500 J", "1200 J", "1000 J"],
+      "resposta": 0
+    },
+    {
+      "id": 42,
+      "pergunta": "Um pêndulo de 0,5 m tem período de 1,42 s. Qual a aceleração gravitacional local?",
+      "opcoes": ["8,9 m/s²", "9,8 m/s²", "10 m/s²", "9,5 m/s²"],
+      "resposta": 1
+    },
+    {
+      "id": 43,
+      "pergunta": "A energia total de um MHS de amplitude 0,1 m e k=100 N/m é?",
+      "opcoes": ["2 J", "0,1 J", "0,5 J", "1 J"],
+      "resposta": 2
+    },
+    {
+      "id": 44,
+      "pergunta": "Um feixe de partículas alfa com 5 MeV colide com núcleo. Qual a velocidade aproximada?",
+      "opcoes": ["1,55×10⁷ m/s", "3×10⁶ m/s", "2×10⁷ m/s", "5×10⁷ m/s"],
+      "resposta": 0
+    },
+    {
+      "id": 45,
+      "pergunta": "Um capacitor de 10 μF a 50 V. Qual a energia armazenada?",
+      "opcoes": ["0,025 J", "0,0125 J", "0,05 J", "0,1 J"],
+      "resposta": 1
+    },
+    {
+      "id": 46,
+      "pergunta": "Uma barra de metal 2 m dilata 0,24 mm. Qual o coeficiente linear se ΔT=100 °C?",
+      "opcoes": ["2×10⁻⁵ °C⁻¹", "1,2×10⁻⁵ °C⁻¹", "1×10⁻⁵ °C⁻¹", "0,24×10⁻³ °C⁻¹"],
+      "resposta": 1
+    },
+    {
+      "id": 47,
+      "pergunta": "Um bloco de 2 kg é lançado verticalmente com velocidade inicial 10 m/s. Qual a altura máxima atingida? (g=10 m/s²)",
+      "opcoes": ["4 m", "3 m", "2 m", "5 m"],
+      "resposta": 3
+    },
+    {
+      "id": 48,
+      "pergunta": "A energia cinética de uma partícula de massa 1,67×10⁻²⁷ kg é 2,5×10⁻¹⁵ J. Qual sua velocidade?",
+      "opcoes": ["1,7×10⁶ m/s", "2,2×10⁶ m/s", "3,0×10⁵ m/s", "1,0×10⁶ m/s"],
+      "resposta": 0
+    },
+    {
+      "id": 49,
+      "pergunta": "Um gás ideal sofre expansão adiabática PV^γ = constante, com γ = 1,4. Se a pressão inicial é 10⁵ Pa e volume dobra, qual a pressão final?",
+      "opcoes": ["4,5×10⁴ Pa", "3,8×10⁴ Pa", "5×10⁴ Pa", "2×10⁴ Pa"],
+      "resposta": 1
+    },
+    {
+      "id": 50,
+      "pergunta": "Um elétron passa de nível n=4 para n=2 em átomo de hidrogênio. Qual é a energia do fóton emitido?",
+      "opcoes": ["1,51 eV", "2,55 eV", "3,4 eV", "2,75 eV"],
+      "resposta": 1
     }
   ]
 }

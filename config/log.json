@@ -1,6 +1,13 @@
 {
     "type":"card",
     "card":[
+          {
+            "disciplina":"portugues",
+            "scripts":"../assets/img3.png",
+            "parag":"Exercicíos baseados em exames de admissão dos ultimos 5 anos, das universidades nacionais",
+            "title":"Quiz De Português",
+            "overlay":"Visitar Agora"
+        },
         {
             "disciplina":"matematica",
             "scripts":"../assets/img4.png",
@@ -17,27 +24,29 @@
 
         },
         {
+            "disciplina":"historia",
+            "scripts":"../assets/img3.png",
+            "parag":"Exercicíos baseados em exames de admissão dos ultimos 5 anos, das universidades nacionais",
+            "title":"Quiz De História",
+            "overlay":"Visitar Agora"
+
+        },
+        {
             "disciplina":"quimica",
             "scripts":"../assets/img8.png",
             "parag":"Exercicíos baseados em exames de admissão dos ultimos 5 anos, das universidades nacionais",
-            "title":"Quiz De Química",
+            "title":"Quiz De Quimica",
             "overlay":"Visitar Agora"
 
         },
         {
             "disciplina":"biologia",
-            "scripts":"../assets/img2.jpg",
+            "scripts":"../assets/img4.png",
             "parag":"Exercicíos baseados em exames de admissão dos ultimos 5 anos, das universidades nacionais",
             "title":"Quiz De Biológia",
             "overlay":"Visitar Agora"
         },
-        {
-            "disciplina":"portugues",
-            "scripts":"../assets/img3.png",
-            "parag":"Exercicíos baseados em exames de admissão dos ultimos 5 anos, das universidades nacionais",
-            "title":"Quiz De Português",
-            "overlay":"Visitar Agora"
-        },
+      
         {
             "disciplina":"geografia",
             "scripts":"../assets/img5.png",

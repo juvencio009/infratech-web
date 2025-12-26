@@ -1,196 +1,307 @@
 {
   "disciplina": "Química",
-    "duracao":1800,
+  "duracao": 6300,
   "questoes": [
-
     {
       "id": 1,
-      "tipo": "multipla",
-      "pergunta": "Quantos mols existem em 88 g de CO₂?",
-      "opcoes": ["1", "2", "3", "4"],
-      "resposta": 1,
-      "explicacao": "Massa molar do CO₂ = 44 g/mol ⇒ 88/44 = 2 mol."
+      "pergunta": "Quantos mols de H2 são necessários para reagir completamente com 2 mols de O2 formando água?",
+      "opcoes": ["4 mol", "2 mol", "1 mol", "3 mol"],
+      "resposta": 1
     },
-
     {
       "id": 2,
-      "tipo": "multipla",
-      "pergunta": "Qual é o número de átomos existentes em 0,5 mol de Na?",
-      "opcoes": [
-        "3,01×10²³",
-        "6,02×10²³",
-        "1,20×10²³",
-        "12,04×10²³"
-      ],
-      "resposta": 0,
-      "explicacao": "0,5 × 6,02×10²³."
+      "pergunta": "A entalpia de formação do H2O(l) é −285,8 kJ/mol. Qual a entalpia para formar 2 mols de água?",
+      "opcoes": ["−571,6 kJ", "−285,8 kJ", "−142,9 kJ", "−400 kJ"],
+      "resposta": 0
     },
-
     {
       "id": 3,
-      "tipo": "multipla",
-      "pergunta": "Uma solução contendo 5 g de NaCl em 250 mL apresenta concentração molar igual a:",
-      "opcoes": ["0,17 M", "0,34 M", "0,85 M", "1,00 M"],
-      "resposta": 0,
-      "explicacao": "n=5/58,5; C=n/V."
+      "pergunta": "A constante de equilíbrio Kc para a reação N2 + 3H2 ⇌ 2NH3 é 0,5. Se [N2]=0,2 M e [H2]=0,6 M, qual a concentração de NH3 no equilíbrio?",
+      "opcoes": ["0,15 M", "0,12 M", "0,18 M", "0,2 M"],
+      "resposta": 1
     },
-
     {
       "id": 4,
-      "tipo": "multipla",
-      "pergunta": "Na reação 2H₂ + O₂ → 2H₂O, qual é o reagente limitante se houver 5 mol de H₂ e 1 mol de O₂?",
-      "opcoes": ["H₂", "O₂", "H₂O", "nenhum"],
-      "resposta": 1,
-      "explicacao": "São necessários 2 mol de H₂ para 1 mol de O₂."
+      "pergunta": "O pKa do ácido acético é 4,76. Qual é o pH de uma solução 0,1 M de CH3COOH?",
+      "opcoes": ["2,88", "4,76", "3,73", "3,45"],
+      "resposta": 2
     },
-
     {
       "id": 5,
-      "tipo": "vf",
-      "pergunta": "O número de oxidação do oxigénio nos peróxidos é −2.",
-      "resposta": false,
-      "explicacao": "Nos peróxidos é −1."
+      "pergunta": "Um elemento radioativo tem meia-vida de 10 h. Qual a fração restante após 30 h?",
+      "opcoes": ["1/8", "1/2", "1/4", "1/16"],
+      "resposta": 0
     },
-
     {
       "id": 6,
-      "tipo": "multipla",
-      "pergunta": "Qual é o pH de uma solução 1×10⁻³ mol/L de HCl?",
-      "opcoes": ["1", "2", "3", "4"],
-      "resposta": 2,
-      "explicacao": "pH = −log[H⁺] = 3."
+      "pergunta": "Qual o número de isômeros estruturais do C4H10?",
+      "opcoes": ["2", "3", "4", "5"],
+      "resposta": 0
     },
-
     {
       "id": 7,
-      "tipo": "multipla",
-      "pergunta": "A ligação química predominante no NaCl é:",
-      "opcoes": ["covalente polar", "covalente apolar", "metálica", "iônica"],
-      "resposta": 3,
-      "explicacao": "Formada por transferência de elétrons."
+      "pergunta": "A energia de ligação média do H-H é 436 kJ/mol e do Cl-Cl é 243 kJ/mol. Qual a energia aproximada liberada na reação H2 + Cl2 → 2 HCl (H-Cl = 431 kJ/mol)?",
+      "opcoes": ["191 kJ", "500 kJ", "480 kJ", "150 kJ"],
+      "resposta": 0
     },
-
     {
       "id": 8,
-      "tipo": "multipla",
-      "pergunta": "Qual das substâncias apresenta maior ponto de ebulição?",
-      "opcoes": ["CH₄", "NH₃", "H₂O", "CO₂"],
-      "resposta": 2,
-      "explicacao": "Maior ligação de hidrogénio."
+      "pergunta": "O potencial padrão de eletrodo para Cu²⁺/Cu é +0,34 V. Qual a tendência de redução de Cu²⁺?",
+      "opcoes": ["Favorável", "Desfavorável", "Neutro", "Não reage"],
+      "resposta": 0
     },
-
     {
       "id": 9,
-      "tipo": "vf",
-      "pergunta": "O aumento da temperatura acelera todas as reações químicas.",
-      "resposta": true,
-      "explicacao": "Aumenta a energia cinética das partículas."
+      "pergunta": "Qual a ordem da reação A + 2B → C se a velocidade dobra quando [A] dobra mantendo [B] constante?",
+      "opcoes": ["1ª ordem em A", "2ª ordem em A", "0ª ordem em A", "3ª ordem em A"],
+      "resposta": 0
     },
-
     {
       "id": 10,
-      "tipo": "multipla",
-      "pergunta": "Qual é a configuração eletrônica do Na (Z=11)?",
-      "opcoes": [
-        "1s² 2s² 2p⁶ 3s¹",
-        "1s² 2s² 2p⁵ 3s²",
-        "1s² 2s² 2p⁶ 3p¹",
-        "1s² 2s² 2p⁶"
-      ],
-      "resposta": 0,
-      "explicacao": "Distribuição correta para Z=11."
+      "pergunta": "Qual a quantidade de elétrons transferidos na reação MnO4⁻ + 8H⁺ + 5Fe²⁺ → Mn²⁺ + 5Fe³⁺ + 4H2O?",
+      "opcoes": ["5 elétrons", "3 elétrons", "1 elétron", "8 elétrons"],
+      "resposta": 0
     },
-
     {
       "id": 11,
-      "tipo": "multipla",
-      "pergunta": "Qual é o tipo de reação: CaCO₃ → CaO + CO₂?",
-      "opcoes": ["síntese", "decomposição", "deslocamento", "dupla troca"],
-      "resposta": 1,
-      "explicacao": "Uma substância gera duas."
+      "pergunta": "O ponto de fusão do NaCl é 801 °C. Qual tipo de ligação química predomina?",
+      "opcoes": ["Iônica", "Covalente", "Metálica", "Van der Waals"],
+      "resposta": 0
     },
-
     {
       "id": 12,
-      "tipo": "vf",
-      "pergunta": "Um catalisador altera o equilíbrio químico.",
-      "resposta": false,
-      "explicacao": "Apenas acelera a reação."
+      "pergunta": "O índice de refração de um solvente é 1,33. Qual a velocidade da luz nele?",
+      "opcoes": ["2,25×10⁸ m/s", "3×10⁸ m/s", "1,5×10⁸ m/s", "2,0×10⁸ m/s"],
+      "resposta": 0
     },
-
     {
       "id": 13,
-      "tipo": "multipla",
-      "pergunta": "O valor de Kc maior que 1 indica que:",
-      "opcoes": [
-        "reagentes predominam",
-        "produtos predominam",
-        "equilíbrio não existe",
-        "reação é endotérmica"
-      ],
-      "resposta": 1,
-      "explicacao": "Produtos em maior quantidade."
+      "pergunta": "Quantas moléculas de H2 existem em 2 mols de gás?",
+      "opcoes": ["1,204×10²⁴", "2,0×10²³", "1,204×10²⁴", "1,0×10²⁴"],
+      "resposta": 0
     },
-
     {
       "id": 14,
-      "tipo": "multipla",
-      "pergunta": "Qual o nome do composto CH₃–CH₂–OH?",
-      "opcoes": ["metanol", "etanol", "propanol", "butanol"],
-      "resposta": 1,
-      "explicacao": "Álcool com dois carbonos."
+      "pergunta": "O ΔG° de uma reação é −40 kJ/mol. Qual o Keq aproximado a 298 K?",
+      "opcoes": ["1,2×10⁷", "3,0×10³", "1,0×10⁻³", "5×10²"],
+      "resposta": 0
     },
-
     {
       "id": 15,
-      "tipo": "vf",
-      "pergunta": "Os alcanos são hidrocarbonetos saturados.",
-      "resposta": true,
-      "explicacao": "Possuem apenas ligações simples."
+      "pergunta": "O C2H4 reage com Br2 em CCl4. Qual tipo de reação ocorre?",
+      "opcoes": ["Adição", "Substituição", "Eliminação", "Oxidação"],
+      "resposta": 0
     },
-
     {
       "id": 16,
-      "tipo": "multipla",
-      "pergunta": "Quantos elétrons existem em um átomo neutro de Cl⁻?",
-      "opcoes": ["16", "17", "18", "19"],
-      "resposta": 2,
-      "explicacao": "Cl tem Z=17; Cl⁻ ganhou 1 elétron."
+      "pergunta": "A constante de velocidade de uma reação 2ª ordem é 0,1 L/mol·s. Qual o tempo necessário para a concentração inicial de 0,5 M diminuir à metade?",
+      "opcoes": ["10 s", "5 s", "20 s", "2 s"],
+      "resposta": 2
     },
-
     {
       "id": 17,
-      "tipo": "multipla",
-      "pergunta": "Qual gás apresenta comportamento mais próximo do ideal?",
-      "opcoes": ["NH₃", "CO₂", "H₂", "SO₂"],
-      "resposta": 2,
-      "explicacao": "Menor interação intermolecular."
+      "pergunta": "Qual o tipo de hibridização do carbono no metano (CH4)?",
+      "opcoes": ["sp³", "sp²", "sp", "d²sp³"],
+      "resposta": 0
     },
-
     {
       "id": 18,
-      "tipo": "vf",
-      "pergunta": "A oxidação envolve perda de elétrons.",
-      "resposta": true,
-      "explicacao": "LEO – Loss of Electrons is Oxidation."
+      "pergunta": "O potencial padrão de eletrodo para Zn²⁺/Zn é −0,76 V. Qual a tendência de oxidação?",
+      "opcoes": ["Favorável", "Desfavorável", "Neutro", "Não reage"],
+      "resposta": 0
     },
-
     {
       "id": 19,
-      "tipo": "multipla",
-      "pergunta": "Qual o pH aproximado de uma solução básica forte?",
-      "opcoes": ["1", "5", "7", "13"],
-      "resposta": 3,
-      "explicacao": "Bases fortes têm pH elevado."
+      "pergunta": "Qual o ΔH° da reação: N2 + O2 → 2NO, sabendo que ΔHf° NO = 90,3 kJ/mol, ΔHf° N2 = ΔHf° O2 = 0?",
+      "opcoes": ["180,6 kJ", "90,3 kJ", "45 kJ", "0 kJ"],
+      "resposta": 0
     },
-
     {
       "id": 20,
-      "tipo": "input",
-      "pergunta": "Indique o nome do processo de separação usado para separar areia e sal.",
-      "resposta": ["dissolução e filtração"],
-      "explicacao": "O sal dissolve-se e a areia não."
+      "pergunta": "Qual o número de oxidação do Cr em K2Cr2O7?",
+      "opcoes": ["+6", "+3", "+2", "+4"],
+      "resposta": 0
+    },
+    {
+      "id": 21,
+      "pergunta": "Um complexo [Fe(CN)6]³⁻ tem geometria:",
+      "opcoes": ["Octaédrica", "Tetraédrica", "Linear", "Plana quadrada"],
+      "resposta": 0
+    },
+    {
+      "id": 22,
+      "pergunta": "A solubilidade de AgCl é 1,33×10⁻⁵ mol/L. Qual o produto de solubilidade Ksp?",
+      "opcoes": ["1,77×10⁻¹⁰", "2×10⁻⁹", "1×10⁻¹²", "3×10⁻⁸"],
+      "resposta": 0
+    },
+    {
+      "id": 23,
+      "pergunta": "Qual o número de nêutrons em U-238?",
+      "opcoes": ["146", "92", "238", "136"],
+      "resposta": 0
+    },
+    {
+      "id": 24,
+      "pergunta": "Qual é a relação de velocidades para dois gases a mesma temperatura de acordo com a lei de Graham?",
+      "opcoes": ["Raiz inversa das massas molares", "Direta das massas", "Raiz quadrada das massas", "Igual para todos"],
+      "resposta": 0
+    },
+    {
+      "id": 25,
+      "pergunta": "Qual é o número máximo de elétrons no terceiro nível principal (n=3)?",
+      "opcoes": ["18", "8", "10", "32"],
+      "resposta": 0
+    },
+    {
+      "id": 26,
+      "pergunta": "Qual a energia de ligação total de H2O sabendo que O-H = 463 kJ/mol e há 2 ligações?",
+      "opcoes": ["926 kJ/mol", "463 kJ/mol", "800 kJ/mol", "1000 kJ/mol"],
+      "resposta": 0
+    },
+    {
+      "id": 27,
+      "pergunta": "A constante de equilíbrio Kp para CO + H2O ⇌ CO2 + H2 é 0,1 a 500 K. Se [CO]=0,2 atm e [H2O]=0,5 atm, qual a fração de H2 formada no equilíbrio?",
+      "opcoes": ["0,05", "0,1", "0,2", "0,5"],
+      "resposta": 0
+    },
+    {
+      "id": 28,
+      "pergunta": "O pH de uma solução 0,01 M de NaOH é:",
+      "opcoes": ["12", "2", "7", "10"],
+      "resposta": 0
+    },
+    {
+      "id": 29,
+      "pergunta": "Quantos tipos de isomeria apresenta o 2-butanol?",
+      "opcoes": ["2", "3", "4", "1"],
+      "resposta": 1
+    },
+    {
+      "id": 30,
+      "pergunta": "O ΔS° da reação H2(g) + 1/2 O2(g) → H2O(l) é −163 J/mol·K. Qual a variação de energia livre ΔG° a 298 K?",
+      "opcoes": ["−329 kJ/mol", "−237 kJ/mol", "−285 kJ/mol", "−100 kJ/mol"],
+      "resposta": 1
+    },
+    {
+      "id": 31,
+      "pergunta": "O tempo necessário para que metade de 10 g de C-14 decaia (meia-vida = 5730 anos) é:",
+      "opcoes": ["5730 anos", "1000 anos", "2865 anos", "11460 anos"],
+      "resposta": 0
+    },
+    {
+      "id": 32,
+      "pergunta": "O índice de refração de etanol é 1,361. Qual a velocidade da luz nele?",
+      "opcoes": ["2,2×10⁸ m/s", "3×10⁸ m/s", "1,5×10⁸ m/s", "2,0×10⁸ m/s"],
+      "resposta": 0
+    },
+    {
+      "id": 33,
+      "pergunta": "Um mol de gás ideal monoatômico à 300 K tem energia interna:",
+      "opcoes": ["3,74 kJ", "2,5 kJ", "1,5 kJ", "5 kJ"],
+      "resposta": 0
+    },
+    {
+      "id": 34,
+      "pergunta": "O número de oxidação do Mn em KMnO4 é:",
+      "opcoes": ["+7", "+2", "+4", "+6"],
+      "resposta": 0
+    },
+    {
+      "id": 35,
+      "pergunta": "Qual o ΔH° de combustão de 1 mol de CH4 (C + 2H2 → CH4 ΔHf° = −74,8 kJ/mol)?",
+      "opcoes": ["−890 kJ/mol", "−800 kJ/mol", "−1000 kJ/mol", "−500 kJ/mol"],
+      "resposta": 0
+    },
+    {
+      "id": 36,
+      "pergunta": "O composto [Co(NH3)6]³⁺ possui geometria:",
+      "opcoes": ["Octaédrica", "Tetraédrica", "Linear", "Plana quadrada"],
+      "resposta": 0
+    },
+    {
+      "id": 37,
+      "pergunta": "Qual a pressão de um gás ideal de 1 mol a 300 K ocupando 10 L (R = 0,082 L·atm/mol·K)?",
+      "opcoes": ["2,46 atm", "1 atm", "3 atm", "0,5 atm"],
+      "resposta": 0
+    },
+    {
+      "id": 38,
+      "pergunta": "O ΔG° de uma reação a 298 K é +20 kJ/mol. Qual a constante de equilíbrio aproximada?",
+      "opcoes": ["0,001", "10", "1", "100"],
+      "resposta": 0
+    },
+    {
+      "id": 39,
+      "pergunta": "Qual a solubilidade de PbCl2 sabendo Ksp = 1,6×10⁻⁵?",
+      "opcoes": ["2,5×10⁻² M", "1×10⁻² M", "5×10⁻³ M", "1,6×10⁻⁵ M"],
+      "resposta": 0
+    },
+    {
+      "id": 40,
+      "pergunta": "Qual o número de nêutrons em U-235?",
+      "opcoes": ["143", "92", "235", "146"],
+      "resposta": 0
+    },
+    {
+      "id": 41,
+      "pergunta": "Qual a hibridização do carbono no eteno (C2H4)?",
+      "opcoes": ["sp²", "sp³", "sp", "d²sp³"],
+      "resposta": 0
+    },
+    {
+      "id": 42,
+      "pergunta": "O ΔH° de ligação O=O é 498 kJ/mol. Qual a energia necessária para quebrar 1 mol de O2?",
+      "opcoes": ["498 kJ", "250 kJ", "1000 kJ", "400 kJ"],
+      "resposta": 0
+    },
+    {
+      "id": 43,
+      "pergunta": "O produto de solubilidade Ksp de BaSO4 é 1,1×10⁻¹⁰. Qual a solubilidade em mol/L?",
+      "opcoes": ["1×10⁻⁵", "2×10⁻⁵", "5×10⁻⁶", "1×10⁻⁴"],
+      "resposta": 0
+    },
+    {
+      "id": 44,
+      "pergunta": "Qual o ΔS° da reação de formação da água gasosa, ΔH° = −242 kJ/mol e ΔG° = −228 kJ/mol a 298 K?",
+      "opcoes": ["47,0 J/mol·K", "50,0 J/mol·K", "40,0 J/mol·K", "30,0 J/mol·K"],
+      "resposta": 0
+    },
+    {
+      "id": 45,
+      "pergunta": "O C2H5OH sofre oxidação completa. Qual o principal produto?",
+      "opcoes": ["CH3COOH", "CH3CHO", "CO2", "H2O"],
+      "resposta": 2
+    },
+    {
+      "id": 46,
+      "pergunta": "O volume molar de um gás ideal a CNTP é:",
+      "opcoes": ["22,4 L", "24,0 L", "20,0 L", "25,0 L"],
+      "resposta": 0
+    },
+    {
+      "id": 47,
+      "pergunta": "Qual a ordem da reação 2A + B → C se a velocidade quadruplica quando [A] dobra?",
+      "opcoes": ["2ª ordem em A", "1ª ordem em A", "0ª ordem em A", "3ª ordem em A"],
+      "resposta": 0
+    },
+    {
+      "id": 48,
+      "pergunta": "Qual a energia de ligação aproximada de HCl sabendo H-Cl = 431 kJ/mol?",
+      "opcoes": ["431 kJ", "400 kJ", "450 kJ", "500 kJ"],
+      "resposta": 0
+    },
+    {
+      "id": 49,
+      "pergunta": "O composto orgânico C6H6 é:",
+      "opcoes": ["Aromático", "Alifático", "Alcano", "Cicloalcano"],
+      "resposta": 0
+    },
+    {
+      "id": 50,
+      "pergunta": "Qual o número de oxidação do Fe em Fe2O3?",
+      "opcoes": ["+3", "+2", "+6", "+4"],
+      "resposta": 0
     }
-
   ]
 }
+  

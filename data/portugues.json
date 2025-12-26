@@ -1,199 +1,246 @@
 {
-  "disciplina": "Português",
-    "duracao":1800,
+  "disciplina": "Língua Portuguesa",
+  "duracao": 4500,
   "questoes": [
-
     {
       "id": 1,
-      "tipo": "multipla",
-      "pergunta": "A principal função da vírgula na frase: ‘Maria, que é muito estudiosa, passou no concurso’ é:",
-      "opcoes": [
-        "Separar orações independentes",
-        "Isolar explicações ou intercalações",
-        "Indicar elipse verbal",
-        "Evitar ambiguidade"
-      ],
-      "resposta": 1,
-      "explicacao": "A vírgula isola a oração explicativa ‘que é muito estudiosa’."
+      "pergunta": "No trecho: “Havia uma atmosfera carregada de expectativa no ar”, a expressão “carregada de expectativa” é um exemplo de:",
+      "opcoes": ["Metáfora", "Metonímia", "Sinestesia", "Antítese"],
+      "resposta": 2
     },
-
     {
       "id": 2,
-      "tipo": "vf",
-      "pergunta": "O uso do ponto e vírgula em um texto é sempre obrigatório.",
-      "resposta": false,
-      "explicacao": "O uso do ponto e vírgula é opcional e depende da estrutura da frase."
+      "pergunta": "Assinale a alternativa em que o uso da crase está correto:",
+      "opcoes": ["Fui à escola todos os dias", "Chegou à casa de surpresa", "Referiu-se à área escolar", "Ele se opôs a ideia"],
+      "resposta": 0
     },
-
     {
       "id": 3,
-      "tipo": "multipla",
-      "pergunta": "Na frase: 'Ele não foi à escola, mas estava com os livros', qual a função da palavra 'mas'?",
-      "opcoes": [
-        "Conjunção subordinativa",
-        "Conjunção coordenativa adversativa",
-        "Pronome relativo",
-        "Preposição"
-      ],
-      "resposta": 1,
-      "explicacao": "A palavra ‘mas’ é uma conjunção coordenativa adversativa, ligando orações com sentido oposto."
+      "pergunta": "Qual das frases apresenta um erro de concordância verbal?",
+      "opcoes": ["A reunião terminou cedo", "Havia poucos motivos para duvidar", "A maioria dos alunos pediu explicações", "Vinha muitos convidados à festa"],
+      "resposta": 3
     },
-
     {
       "id": 4,
-      "tipo": "multipla",
-      "pergunta": "No texto: 'A criança dormia tranquilamente, pois estava cansada', qual o valor semântico da conjunção 'pois'?",
-      "opcoes": [
-        "Causa",
-        "Condição",
-        "Tempo",
-        "Oposição"
-      ],
-      "resposta": 0,
-      "explicacao": "A conjunção 'pois' introduz uma causa explicativa."
+      "pergunta": "O termo que substitui adequadamente “o fato de que renunciou ao cargo” é:",
+      "opcoes": ["Renunciar ao cargo", "Sua renúncia ao cargo", "Renúncia de cargo", "Renunciando cargo"],
+      "resposta": 1
     },
-
-    {
-      "id": 5,
-      "tipo": "multipla",
-      "pergunta": "Qual a função da crase na frase: 'Vou à escola amanhã'?",
-      "opcoes": [
-        "Indicar a fusão da preposição com o artigo feminino",
-        "Indicar a fusão da preposição com o pronome feminino",
-        "Indicar uma contração do verbo com o artigo",
-        "Indicar a fusão de dois pronomes"
-      ],
-      "resposta": 0,
-      "explicacao": "A crase ocorre pela fusão da preposição 'a' com o artigo feminino 'a'."
-    },
-
+  {
+    "id": 5,
+    "pergunta": "Quem é o autor moçambicano do livro 'Terra Sonâmbula', considerado uma obra-prima da literatura moçambicana contemporânea?",
+    "opcoes": ["Mia Couto", "Paulina Chiziane", "José Craveirinha", "Pepetela"],
+    "resposta": 0
+  },
     {
       "id": 6,
-      "tipo": "vf",
-      "pergunta": "A palavra ‘habitar’ tem um prefixo que modifica o seu significado original.",
-      "resposta": false,
-      "explicacao": "‘Habitar’ vem do latim 'habitare', e não tem prefixo que altere seu significado."
+      "pergunta": "Assinale a alternativa em que todos os vocábulos estão acentuados corretamente:",
+      "opcoes": ["pôde, pólen, capítão", "vôo, idéia, saúde", "júri, caráter, órgão", "você, espécie, próximo"],
+      "resposta": 3
     },
-
     {
       "id": 7,
-      "tipo": "multipla",
-      "pergunta": "Em qual das opções a palavra ‘conhecer’ está no sentido figurado?",
-      "opcoes": [
-        "Ele conhece todos os segredos da empresa.",
-        "Ele conhece a cidade como ninguém.",
-        "Ela conhece aquele lugar há muito tempo.",
-        "Ela conhece as minhas ideias."
-      ],
-      "resposta": 3,
-      "explicacao": "Aqui, ‘conhecer’ indica uma familiaridade com ideias, não com um lugar físico."
+      "pergunta": "Indique a frase em que a regência verbal está correta:",
+      "opcoes": ["Assistiu o filme ontem", "Gosto de histórias longas", "Precisa melhorar o comportamento com ninguém", "Referiu-se o caso com detalhes"],
+      "resposta": 1
     },
-
     {
       "id": 8,
-      "tipo": "multipla",
-      "pergunta": "Qual a definição de ‘pleonasmo’?",
-      "opcoes": [
-        "Repetição de uma ideia, utilizando palavras sinônimas",
-        "Uso excessivo de adjetivos",
-        "Uso de figuras de linguagem que criam ambiguidade",
-        "Ausência de preposição em uma oração"
-      ],
-      "resposta": 0,
-      "explicacao": "Pleonasmo é a repetição de uma ideia, como em ‘subir para cima’."
+      "pergunta": "No texto, a palavra 'porém' exerce a função de:",
+      "opcoes": ["Conclusão", "Adição", "Contraste", "Exemplificação"],
+      "resposta": 2
     },
-
     {
       "id": 9,
-      "tipo": "multipla",
-      "pergunta": "Em qual das opções o termo ‘meio’ tem valor de substantivo?",
-      "opcoes": [
-        "Meio de transporte",
-        "Ele se sentiu meio cansado",
-        "Meio ambiente",
-        "Ele vai meio feliz"
-      ],
-      "resposta": 2,
-      "explicacao": "‘Meio ambiente’ é um substantivo composto, com o significado de ‘natureza’."
+      "pergunta": "Assinale a alternativa em que ocorre ambiguidade:",
+      "opcoes": ["Todos os alunos entregaram suas tarefas", "Vou visitar minha tia que mora longe", "Comprei roupas novas para o inverno", "Ela viu o homem com binóculos"],
+      "resposta": 3
     },
-
     {
       "id": 10,
-      "tipo": "multipla",
-      "pergunta": "Qual o tipo de discurso da frase: ‘Ele disse que ia estudar mais’?",
-      "opcoes": [
-        "Direto",
-        "Indireto",
-        "Indireto livre",
-        "Narrativo"
-      ],
-      "resposta": 1,
-      "explicacao": "O discurso indireto transmite a fala de alguém com alteração da estrutura da frase."
+      "pergunta": "Quando se diz que um texto é coeso, significa que ele possui:",
+      "opcoes": ["Muitas palavras difíceis", "Conjunções em excesso", "Ligações lógicas entre partes do texto", "Repetições constantes"],
+      "resposta": 2
     },
-
     {
       "id": 11,
-      "tipo": "multipla",
-      "pergunta": "O que caracteriza um texto argumentativo?",
-      "opcoes": [
-        "Expõe fatos de maneira objetiva e imparcial",
-        "Defende uma ideia, convencendo o leitor",
-        "Narrativa de eventos",
-        "Apresentação de uma descrição detalhada"
-      ],
-      "resposta": 1,
-      "explicacao": "O texto argumentativo visa convencer ou persuadir o leitor sobre um ponto de vista."
+      "pergunta": "A expressão 'falou‑lhe' exemplifica:",
+      "opcoes": ["Colocação pronominal mesoclítica", "Ênclise", "Próclise", "Mesóclise"],
+      "resposta": 1
     },
-
     {
       "id": 12,
-      "tipo": "multipla",
-      "pergunta": "Em qual das alternativas o uso de ‘que’ está correto?",
-      "opcoes": [
-        "Eu não sei que você foi embora",
-        "Acredito que ele tenha razão",
-        "A mulher que estava ali é minha amiga",
-        "Ele se esqueceu de que comprou o presente"
-      ],
-      "resposta": 2,
-      "explicacao": "A frase ‘A mulher que estava ali é minha amiga’ está correta, com o uso adequado do ‘que’."
+      "pergunta": "Qual alternativa apresenta uma frase com sujeito indeterminado?",
+      "opcoes": ["Dizem que vai chover amanhã", "O governo anunciou novas medidas", "Os estudantes chegaram cedo", "Ela leu o livro inteiro"],
+      "resposta": 0
     },
-
     {
       "id": 13,
-      "tipo": "multipla",
-      "pergunta": "No período: 'O menino, cansado, caiu no sono', o termo ‘cansado’ exerce a função de:",
-      "opcoes": [
-        "Adjetivo",
-        "Substantivo",
-        "Pronome",
-        "Verbo"
-      ],
-      "resposta": 0,
-      "explicacao": "‘Cansado’ é um adjetivo que descreve o estado do sujeito."
+      "pergunta": "Em interpretação de texto, a inferência é:",
+      "opcoes": ["Repetir informação explícita", "Ler apenas a primeira linha", "Chegar a uma conclusão implícita", "Ignorar detalhes do texto"],
+      "resposta": 2
     },
-
-    {
-      "id": 14,
-      "tipo": "vf",
-      "pergunta": "O verbo ‘haver’ pode ser usado como sinônimo de ‘existir’ em alguns contextos.",
-      "resposta": true,
-      "explicacao": "Por exemplo, em 'Há muitas pessoas na rua', ‘haver’ equivale a ‘existir’."
-    },
-
+  {
+    "id": 14,
+    "pergunta": "Qual destes autores portugueses é conhecido pelo romance 'Os Maias'?",
+    "opcoes": ["Eça de Queirós", "Camilo Castelo Branco", "Fernando Pessoa", "José Saramago"],
+    "resposta": 0
+  },
     {
       "id": 15,
-      "tipo": "multipla",
-      "pergunta": "Em uma análise literária, o que é o 'narrador em primeira pessoa'?",
-      "opcoes": [
-        "Quando o narrador participa da história como personagem",
-        "Quando o narrador não participa da história, mas conhece os sentimentos de todos os personagens",
-        "Quando o narrador descreve os acontecimentos como se fosse um espectador",
-        "Quando o narrador conhece a mente de todos os personagens"
-      ],
-      "resposta": 0,
-      "explicacao": "O narrador em primeira pessoa é aquele que participa da história e usa ‘eu’ ou ‘nós’."
+      "pergunta": "O que caracteriza um texto narrativo?",
+      "opcoes": ["Argumenta uma tese", "Relata uma sequência de fatos", "Define conceitos técnicos", "Enumera leis gramaticais"],
+      "resposta": 1
+    },
+    {
+      "id": 16,
+      "pergunta": "Assinale a alternativa em que há erro de regência nominal:",
+      "opcoes": ["Orgulho de suas conquistas", "Aptidão para cantar", "Medo de altura", "Interessado em trabalhar"],
+      "resposta": 2
+    },
+    {
+      "id": 17,
+      "pergunta": "A análise de um poema para identificar imagens e sonoridade diz respeito a:",
+      "opcoes": ["Interpretação sintática", "Leitura superficial", "Análise estética de recursos linguísticos", "Reescrita do verso"],
+      "resposta": 2
+    },
+    {
+      "id": 18,
+      "pergunta": "Quando dizemos que um texto tem ambiguidade, significa que ele é:",
+      "opcoes": ["Clara e objetiva", "Passível de mais de uma interpretação", "Curto e direto", "Repetitivo"],
+      "resposta": 1
+    },
+    {
+      "id": 19,
+      "pergunta": "A frase 'Fui ao mercado e comprei fruta' está correta porque:",
+      "opcoes": ["O verbo exige crase", "Não há ocorrência de crase antes de palavra masculina", "A crase é obrigatória", "Nunca usa crase com verbo indicar movimento"],
+      "resposta": 1
+    },
+    {
+      "id": 20,
+      "pergunta": "A variação linguística se refere a:",
+      "opcoes": ["Língua morta", "Registros sociais ou regionais da língua", "Erro gramatical", "Gramática universal única"],
+      "resposta": 1
+    },
+    {
+      "id": 21,
+      "pergunta": "Assinale a alternativa em que há erro de pontuação:",
+      "opcoes": ["Fiz a tarefa, embora estivesse cansado", "Ela disse que não viria hoje", "O livro que comprei é antigo", "Trouxe‑me, por favor, o caderno"],
+      "resposta": 2
+    },
+    {
+      "id": 22,
+      "pergunta": "Em interpretação de texto, o termo ‘ideia principal’ se refere a:",
+      "opcoes": ["Um detalhe irrelevante", "A mensagem mais importante do texto", "Um sinônimo aleatório", "A história pessoal do autor"],
+      "resposta": 1
+    },
+    {
+      "id": 23,
+      "pergunta": "O uso de pronomes relativos (como 'que', 'cujo') é fundamental para:",
+      "opcoes": ["Encurtar frases sem sentido", "Estabelecer relações entre orações", "Eliminar sujeitos", "Repetir palavras"],
+      "resposta": 1
+    },
+    {
+      "id": 24,
+      "pergunta": "Quando um verbo está no subjuntivo, ele indica geralmente:",
+      "opcoes": ["Fato certo passado", "Desejo, hipótese ou condição", "Ação repetida no presente", "Período imperativo"],
+      "resposta": 1
+    },
+    {
+      "id": 25,
+      "pergunta": "A frase 'Quem estudou, passou no exame' contém um tipo de:",
+      "opcoes": ["Oração subordinada adverbial", "Oração coordenada assindética", "Oração subordinada adjetiva", "Oração subordinada substantiva"],
+      "resposta": 3
+    },
+    {
+      "id": 26,
+      "pergunta": "Assinale a alternativa cujo sentido é mais próximo de uma paráfrase correta:",
+      "opcoes": ["Repetir literalmente o texto", "Distorcer o conteúdo proposto", "Reformular mantendo o sentido", "Ignorar o sentido original"],
+      "resposta": 2
+    },
+    {
+      "id": 27,
+      "pergunta": "O emprego do acento em ‘pôde’ refere-se a:",
+      "opcoes": ["Presente do indicativo", "Pretérito perfeito do indicativo", "Subjuntivo futuro", "Imperativo negativo"],
+      "resposta": 1
+    },
+    {
+      "id": 28,
+      "pergunta": "O conectivo ‘portanto’ indica:",
+      "opcoes": ["Explicação", "Causa", "Conclusão", "Tempo"],
+      "resposta": 2
+    },
+    {
+      "id": 29,
+      "pergunta": "Uma inferência bem feita em leitura crítica consiste em:",
+      "opcoes": ["Apenas repetir dados explícitos", "Conectar informações implícitas e explícitas", "Ignorar contexto geral", "Trocar significado do texto"],
+      "resposta": 1
+    },
+    {
+      "id": 30,
+      "pergunta": "A colocação pronominal correta em ‘Entregou‑me o livro’ é um exemplo de:",
+      "opcoes": ["Próclise", "Mesóclise", "Ênclise", "Hipérbato"],
+      "resposta": 2
+    },
+    {
+      "id": 31,
+      "pergunta": "Quando uma frase apresenta polissêmica, significa que:",
+      "opcoes": ["Possui um único significado", "Apresenta múltiplos sentidos", "Não tem sujeito", "Está gramaticalmente incorreta"],
+      "resposta": 1
+    },
+  {
+    "id": 32,
+    "pergunta": "Quem escreveu o livro 'Balada de Amor ao Vento', importante na literatura moçambicana?",
+    "opcoes": ["José Craveirinha", "Mia Couto", "Paulina Chiziane", "José Eduardo Agualusa"],
+    "resposta": 0
+  },
+    {
+      "id": 33,
+      "pergunta": "Qual alternativa representa concordância nominal correta?",
+      "opcoes": ["As flores vermelho brilhante", "Os menino feliz", "As crianças estudiosas", "O livro interessante para mim"],
+      "resposta": 2
+    },
+    {
+      "id": 34,
+      "pergunta": "Uma coesão textual deficiente normalmente resulta em:",
+      "opcoes": ["Texto claro e objetivo", "Ideias desconexas e fragmentadas", "Progressão temática lógica", "Conclusão bem formada"],
+      "resposta": 1
+    },
+    {
+      "id": 35,
+      "pergunta": "A interpretação de um texto acadêmico envolve:",
+      "opcoes": ["Ignorar termos técnicos", "Compreender ideias e relações entre conceitos", "Focar apenas em rimas", "Classificar datas históricas"],
+      "resposta": 1
+    },
+    {
+      "id": 36,
+      "pergunta": "No trecho ‘Não só estudou, mas também participou’, a estrutura é de:",
+      "opcoes": ["Oposição", "Adição enfática", "Causa e efeito", "Tempo verbal"],
+      "resposta": 1
+    },
+    {
+      "id": 37,
+      "pergunta": "A norma culta da língua portuguesa refere‑se a:",
+      "opcoes": ["Variações regionais informais", "Usos formais e instituídos da língua", "Gírias urbanas modernas", "Linguagem técnica apenas para cientistas"],
+      "resposta": 1
+    },
+    {
+      "id": 38,
+      "pergunta": "Qual alternativa apresenta uso correto de regência verbal?",
+      "opcoes": ["Gosto de festa", "Preciso estudar para a prova", "Assistiu ao concerto ontem", "Referiu‑se o problema"],
+      "resposta": 1
+    },
+    {
+      "id": 39,
+      "pergunta": "Analisar ironia num texto exige:",
+      "opcoes": ["Repetir o que está dito", "Identificar sentido literal apenas", "Compreender intenção do autor e contexto", "Focar na pontuação isoladamente"],
+      "resposta": 2
+    },
+    {
+      "id": 40,
+      "pergunta": "A frase ‘Se eu tivesse estudado mais, teria passado’ é um exemplo de:",
+      "opcoes": ["Condicional real", "Condicional irreal no passado", "Imperativo negativo", "Futuro do presente"],
+      "resposta": 1
     }
-
   ]
 }

@@ -1,0 +1,245 @@
+{
+  "disciplina": "Geografia",
+  "duracao": 4500,
+  "questoes": [
+    {
+      "id": 1,
+      "pergunta": "Qual é o principal rio de Moçambique em termos de extensão e impacto socioeconómico?",
+      "opcoes": ["Rio Limpopo", "Rio Save", "Rio Zambeze", "Rio Pungwe"],
+      "resposta": 2
+    },
+    {
+      "id": 2,
+      "pergunta": "O que caracteriza o clima tropical húmido em regiões como a Bacia Amazónica?",
+      "opcoes": ["Chuvas escassas durante todo o ano", "Chuvas abundantes e temperaturas elevadas", "Invernos rigorosos", "Secas prolongadas"],
+      "resposta": 1
+    },
+    {
+      "id": 3,
+      "pergunta": "Qual é a principal causa da desertificação no Sahel, no norte de África?",
+      "opcoes": ["Urbanização acelerada", "Desmatamento e sobrepastoreio", "Aumento das chuvas", "Turismo descontrolado"],
+      "resposta": 1
+    },
+    {
+      "id": 4,
+      "pergunta": "Qual desses países africanos não faz fronteira com Moçambique?",
+      "opcoes": ["Zâmbia", "Tanzânia", "Quénia", "Zimbabwe"],
+      "resposta": 2
+    },
+    {
+      "id": 5,
+      "pergunta": "A densidade populacional é calculada por:",
+      "opcoes": ["População / área territorial", "Área urbana / número de cidades", "Taxa de natalidade / mortalidade", "Renda per capita"],
+      "resposta": 0
+    },
+    {
+      "id": 6,
+      "pergunta": "Qual biome é caracterizado por árvore espaçadas e herbáceas na África Subsaariana?",
+      "opcoes": ["Floresta tropical", "Taiga", "Savana", "Tundra"],
+      "resposta": 2
+    },
+    {
+      "id": 7,
+      "pergunta": "O fenómeno El Niño está associado a:",
+      "opcoes": ["Secas e alterações climáticas em várias regiões", "Aumento de desertificação no Ártico", "Redução do nível do mar", "Diminuição das temperaturas globais"],
+      "resposta": 0
+    },
+    {
+      "id": 8,
+      "pergunta": "Qual é a função da carta topográfica em cartografia?",
+      "opcoes": ["Medir o IDH de uma região", "Representar relevo com curvas de nível", "Mostrar dados econômicos", "Indicar zonas urbanas apenas"],
+      "resposta": 1
+    },
+    {
+      "id": 9,
+      "pergunta": "A urbanização desordenada resulta frequentemente em:",
+      "opcoes": ["Melhoria dos serviços públicos", "Construção de parques naturais", "Favelas e pressão sobre infraestrutura", "Redução da poluição"],
+      "resposta": 2
+    },
+    {
+      "id": 10,
+      "pergunta": "O principal fator que influencia a pluviosidade em grandes regiões tropicais é:",
+      "opcoes": ["Latitude apenas", "Altitude apenas", "Massas de ar e circulação atmosférica", "Proximidade ao deserto"],
+      "resposta": 2
+    },
+    {
+      "id": 11,
+      "pergunta": "As placas tectónicas são responsáveis por:",
+      "opcoes": ["Movimentar oceanos", "Formar montanhas e causar sismos", "Controlar a temperatura global", "Distribuir a população mundial"],
+      "resposta": 1
+    },
+    {
+      "id": 12,
+      "pergunta": "Qual é o continente com maior biodiversidade em florestas tropicais?",
+      "opcoes": ["América do Sul", "Europa", "Ásia Central", "Antártica"],
+      "resposta": 0
+    },
+    {
+      "id": 13,
+      "pergunta": "O Índice de Desenvolvimento Humano (IDH) integra:",
+      "opcoes": ["População total e densidade", "Educação, saúde e renda", "Urbanização e migração", "Renda per capita e fuso horário"],
+      "resposta": 1
+    },
+    {
+      "id": 14,
+      "pergunta": "Qual destes sistemas naturais caracteriza áreas com clima árido?",
+      "opcoes": ["Floresta equatorial", "Deserto", "Savana húmida", "Montanhas nevadas"],
+      "resposta": 1
+    },
+    {
+      "id": 15,
+      "pergunta": "O Planalto Central de Moçambique é formado principalmente por:",
+      "opcoes": ["Planícies costeiras", "Montanhas de elevada altitude", "Unidades de relevo planáltico e depressões", "Vulcões ativos"],
+      "resposta": 2
+    },
+    {
+      "id": 16,
+      "pergunta": "À escala global, o fenómeno de globalização refere-se a:",
+      "opcoes": ["Isolamento regional", "Aumento das fronteiras físicas", "Integração econômica e cultural", "Uniformização climática"],
+      "resposta": 2
+    },
+    {
+      "id": 17,
+      "pergunta": "Qual é o principal setor econômico responsável pela produção de alimentos em Moçambique?",
+      "opcoes": ["Setor secundário", "Setor terciário", "Setor primário agrícola", "Mineração"],
+      "resposta": 2
+    },
+    {
+      "id": 18,
+      "pergunta": "A monção é um padrão climático associado a:",
+      "opcoes": ["Ventos sazonais fortes, especialmente no sul da Ásia", "Correntes oceânicas frias", "Clima polar permanente", "Secas no deserto do Saara"],
+      "resposta": 0
+    },
+    {
+      "id": 19,
+      "pergunta": "O rio Níger está localizado em que região da África?",
+      "opcoes": ["África Austral", "África Ocidental", "Nordeste Africano", "África Oriental"],
+      "resposta": 1
+    },
+    {
+      "id": 20,
+      "pergunta": "O uso sustentável dos recursos naturais busca principalmente:",
+      "opcoes": ["Exploração máxima imediata", "Preservação para gerações futuras", "Aumento de poluição industrial", "Expansão urbana descontrolada"],
+      "resposta": 1
+    },
+    {
+      "id": 21,
+      "pergunta": "A urbanização acelerada em cidades africanas pode provocar:",
+      "opcoes": ["Redução da poluição", "Pressão sobre infraestrutura e serviços", "Aumento de áreas rurais", "Diminuição da densidade urbana"],
+      "resposta": 1
+    },
+    {
+      "id": 22,
+      "pergunta": "O deserto do Kalahari está localizado em:",
+      "opcoes": ["América do Sul", "África Austral", "Ásia Central", "Europa"],
+      "resposta": 1
+    },
+    {
+      "id": 23,
+      "pergunta": "O clima mediterrâneo apresenta:",
+      "opcoes": ["Verões secos e quentes, invernos chuvosos e amenos", "Chuvas uniformes o ano todo", "Temperaturas polarizadas", "Secas permanentes"],
+      "resposta": 0
+    },
+    {
+      "id": 24,
+      "pergunta": "A migração rural‑urbana em Moçambique ocorre principalmente devido a:",
+      "opcoes": ["Aumento da agricultura familiar", "Busca de melhores oportunidades nas cidades", "Expansão do turismo rural", "Redução da população urbana"],
+      "resposta": 1
+    },
+    {
+      "id": 25,
+      "pergunta": "Qual destes indicadores está mais diretamente relacionado ao crescimento populacional?",
+      "opcoes": ["Temperatura média anual", "Taxa de natalidade e mortalidade", "Altura do relevo", "Distribuição de solos"],
+      "resposta": 1
+    },
+    {
+      "id": 26,
+      "pergunta": "Qual rio africano é famoso por formar uma grande bacia hidrográfica tropical?",
+      "opcoes": ["Rio Congo", "Rio Zambeze", "Rio Limpopo", "Rio Ganges"],
+      "resposta": 0
+    },
+    {
+      "id": 27,
+      "pergunta": "O processo de interpretação de curvas de nível num mapa topográfico indica:",
+      "opcoes": ["Velocidade do vento", "Relevo e altitude", "Temperatura local", "Quantidade de chuva"],
+      "resposta": 1
+    },
+    {
+      "id": 28,
+      "pergunta": "A corrente marítima de Moçambique que influencia o clima costeiro é:",
+      "opcoes": ["Corrente de Benguela", "Corrente das Canárias", "Corrente de Moçambique", "Corrente do Golfo"],
+      "resposta": 2
+    },
+    {
+      "id": 29,
+      "pergunta": "A cartografia temática em exames costuma avaliar:",
+      "opcoes": ["Apenas mapas políticos", "Leitura e interpretação de mapas especializados", "Mapas econômicos ignorando físicos", "Somente mapas de relevo"],
+      "resposta": 1
+    },
+    {
+      "id": 30,
+      "pergunta": "Qual destes fatores influencia diretamente a formação do relevo?",
+      "opcoes": ["Latitude exclusivamente", "Placas tectônicas e erosão", "Globalização econômica", "População urbana"],
+      "resposta": 1
+    },
+    {
+      "id": 31,
+      "pergunta": "A agricultura de subsistência é caracterizada por:",
+      "opcoes": ["Produção voltada a mercados internacionais", "Produção para consumo familiar", "Alta mecanização", "Uso intensivo de tecnologia"],
+      "resposta": 1
+    },
+    {
+      "id": 32,
+      "pergunta": "A principal causa de inundações em regiões costeiras tropicais é:",
+      "opcoes": ["Ciclones tropicais e marés altas", "Atividade vulcânica", "Secas prolongadas", "Congelamento do solo"],
+      "resposta": 0
+    },
+    {
+      "id": 33,
+      "pergunta": "O conceito de globalização impacta:",
+      "opcoes": ["Integração econômica e cultural mundial", "Isolamento político", "Aumento de desertos", "Unificação de todas línguas"],
+      "resposta": 0
+    },
+    {
+      "id": 34,
+      "pergunta": "Qual destes países africanos possui grande diversidade de climas e relevo?",
+      "opcoes": ["Egito", "África do Sul", "Moçambique", "Somália"],
+      "resposta": 1
+    },
+    {
+      "id": 35,
+      "pergunta": "Os mapas com curvas de nível são usados para representar:",
+      "opcoes": ["Temperatura média", "Distribuição da população", "Relevo e altura", "Taxas econômicas"],
+      "resposta": 2
+    },
+    {
+      "id": 36,
+      "pergunta": "O crescimento populacional rápido pode gerar:",
+      "opcoes": ["Pressão sobre recursos e serviços", "Redução da poluição", "Diminuição da densidade urbana", "Melhoria automática do IDH"],
+      "resposta": 0
+    },
+{
+  "id": 37,
+  "pergunta": "O estudo de solos é especialmente importante porque influencia:",
+  "opcoes": ["Migração e distribuição populacional", "Práticas agrícolas e produtividade", "Relações políticas internacionais", "Fusos horários"],
+  "resposta": 1
+},
+{
+  "id": 38,
+  "pergunta": "Qual destes fatores é determinante para a formação de um deserto?",
+  "opcoes": ["Altitude elevada e correntes frias", "Chuvas frequentes e vegetação densa", "Proximidade de rios navegáveis", "Urbanização intensa"],
+  "resposta": 0
+},
+{
+  "id": 39,
+  "pergunta": "Em Moçambique, a maior parte da população vive em áreas:",
+  "opcoes": ["Rurais e agrícolas", "Urbanas industriais", "De desertos costeiros", "Em planaltos inabitáveis"],
+  "resposta": 0
+},
+{
+  "id": 40,
+  "pergunta": "O aquecimento global influencia diretamente:",
+  "opcoes": ["Aumento do nível do mar e alterações climáticas", "Distribuição de fusos horários", "Densidade populacional urbana", "Extinção de espécies de aves apenas"],
+  "resposta": 0
+}
+  ]}

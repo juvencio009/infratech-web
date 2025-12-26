@@ -1,0 +1,5 @@
+{
+    "font":"Este quiz é baseado nos modelos de avaliação das universidades nacionais, em destaque a UEM, UJC e UP.",
+    "method":["O quiz é submetido automaticamente a poís o tenho acabar","cada questão apresenta quatro (4) opções sendo apenas uma correta","Os resultados do quiz só são apresentados na página de progresso.","não é possivel alterar as respostas a pois o tempo acabar ou se for submetido","Se por alguma razão sair do quiz antes de submeter, os dados serão perdidos."],
+    "validate":"deseja começar mesmo assim?"
+}

@@ -67,9 +67,14 @@ function pararTimer() {
 
 function atualizarTimerUI() {
   const restante = quizStatus.tempoRestante;
-  const minutos = String(Math.floor(restante / 60)).padStart(2, "0");
+ 
+  const horas = String(Math.floor(restante / 3600)).padStart(2, "0");
+
+  const minutos = String(Math.floor((restante % 3600)/60)).padStart(2, "0");
+
   const segundos = String(restante % 60).padStart(2, "0");
-  timer.innerHTML = `${minutos}:${segundos}`;
+ timer.textContent=`${horas}:${minutos}:${segundos}`
+
 }
 
 /* ====================== Inicialização ====================== */
@@ -77,8 +82,6 @@ document.addEventListener("DOMContentLoaded", () => {
   introEl.style.display = "flex";
   quizEl.classList.add("hidden");
   asideEl.classList.add("hidden");
-  const w = getDisciplinaFromURL();
-  textDis.textContent = w;
 });
 
 startBtn.addEventListener("click", async () => {
@@ -101,7 +104,7 @@ async function iniciarQuiz() {
     return;
   }
 
-  const data = await CarregarQuestoes(`../data/${disciplina}.json`)
+  const data = await Loader(`../data/${disciplina}.json`)
 
     quizStatus.disciplina = data.disciplina;
     quizStatus.perguntas = data.questoes;
@@ -348,4 +351,43 @@ function recomecarQuiz() {
   timer.textContent = "00:00";
 }
 
+/*=============== INTRO ================*/
+const text = document.getElementById("textIntrution");
+const lista = document.getElementById("listIns");
+const duracao = document.querySelector(".duracao");
 
+const intros = async ()=>{
+    const dsh = getDisciplinaFromURL();
+  if (!dsh) {
+    return;
+  }
+  const dataIntro = await Loader(`../data/${dsh}.json`);
+
+  const horas = String(Math.floor(dataIntro.duracao / 3600));
+
+  const minutos = String(Math.floor(dataIntro.duracao % 3600)/60);
+
+
+  if(horas>0){
+    horas === 1 ? 
+    duracao.innerHTML = `${horas} horas e ${minutos} minutos`:duracao.innerHTML = `${horas} hora e ${minutos} minutos`;
+  }else{
+    duracao.innerHTML = `${minutos} Minutos`
+  }
+
+  textDis.textContent=dataIntro.disciplina;  
+
+  const isInfo = await Loader(`../config/infra.json`);
+
+  console.log(isInfo);
+  text.textContent=isInfo.font;
+
+  isInfo.method.forEach((el,i) => {
+    const li = document.createElement("li");
+    li.style.cssText=`border-left: 3px solid #212a30;padding: 10px; background: #1a77ce0a; border-radius: 10px;margin-bottom: 5px;font-size: 0.9em;box-shadow: 0 0 12px -4px #0966e010;cursor: pointer;`;
+    li.textContent=`${i+1} - ${el}`;
+    lista.appendChild(li)
+  });
+}
+
+  intros();

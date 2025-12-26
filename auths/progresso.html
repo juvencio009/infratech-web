@@ -3,163 +3,93 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Página de progresso dos quizes feitos na plataforma">
+<link rel="shortcut icon" href="../assets/tech.png" type="image/x-icon">
 <title>Progresso - InfraTech</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/bootstrap-icons/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="../assets/bootstrap-icons/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="../css/progresso.css">
 <style>
-/* RESET BÁSICO */
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: "Segoe UI", Roboto, Arial, sans-serif; background-color: #f5f6fa; color: #333; line-height: 1.5; padding: 20px; }
+  
+    .content-loader{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: var(--color-grey);
+        backdrop-filter: blur(18px);
+        z-index: 9999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Segoe UI', Verdana, sans-serif;
+    }
 
-/* HEADER */
-header { max-width: 900px; margin: 0 auto 30px auto; }
-header h1 { font-size: 2rem; text-align: center; margin-bottom: 15px; color: #2f3640; }
-.estatisticas { display: flex; flex-wrap: wrap; gap: 20px; font-size: 1rem; justify-content: center; }
-.estatisticas div { background: #fff; padding: 10px 15px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.05); }
+    .content-loader h2 {
+        font-size: clamp(2.2em,4.54vw,2.8em);
+        text-transform: uppercase;
+        font-weight: bold;
+        -webkit-text-stroke: 0.1vw var(--w-color); 
+        color: transparent; 
+        position: relative;
+        overflow: hidden;
+        white-space: nowrap;
+    }
 
-/* FILTRO */
-.filtro { text-align: center; margin-bottom: 20px; }
-.filtro select { padding: 6px 10px; font-size: 1rem; border-radius: 5px; border: 1px solid #ccc; }
+    .content-loader h2::before {
+        content: attr(data-load);
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: var(--w-color); 
+        -webkit-text-stroke:0;
+        overflow: hidden;
+        white-space: nowrap;
+        width: 0;
+        animation: typing 2s linear infinite;
+    }
 
-/* LISTA DE QUIZZES */
-.quizesFeitos { max-width: 900px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px; }
-
-/* ITEM DE QUIZ */
-.quizEspecifico { background: #fff; border-radius: 10px; padding: 15px 20px; box-shadow: 0 3px 8px rgba(0,0,0,0.05); transition: box-shadow 0.2s, transform 0.2s; }
-.quizEspecifico:hover { transform: translateY(-2px); box-shadow: 0 6px 15px rgba(0,0,0,0.1); }
-
-/* CABEÇALHO DO QUIZ */
-.quiz-header { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; }
-.quiz-header .disciplina { font-weight: 600; font-size: 1.1rem; }
-.quiz-header .nota { font-weight: bold; }
-.quiz-header .data { font-size: 0.9rem; color: #555; }
-.btn-toggle-detalhes { background: none; border: none; cursor: pointer; font-size: 1.2rem; display: flex; align-items: center; transition: transform 0.2s; }
-.btn-toggle-detalhes .chevron { display: inline-block; transition: transform 0.3s; }
-
-/* Tabela flex */
-.quiz-tabela { margin-top: 15px; flex-direction: column; gap: 6px; display: flex; }
-.quiz-tabela .linha { display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid #eee; }
-.quiz-tabela .linha.cabecalho { font-weight: 600; color: #555; }
-.quiz-tabela .linha div { flex: 1; text-align: center; }
-.quiz-tabela .linha div:first-child { text-align: left; }
-
-/* DETALHES DO QUIZ */
-.quiz-detalhes { margin-top: 12px; padding-top: 12px; border-top: 1px solid #eee; display: none; flex-direction: column; gap: 6px; }
-.quiz-detalhes div { margin-bottom: 8px; }
-.quiz-detalhes strong { display: block; margin-bottom: 4px; color: #2f3640; }
-
-/* STATUS DAS PERGUNTAS */
-.pergunta-item { padding: 5px 10px; border-radius: 6px; margin-bottom: 4px; font-size: 0.95rem; }
-.pergunta-item.certa { background-color: #d4edda; color: #155724; }
-.pergunta-item.errada { background-color: #f8d7da; color: #721c24; }
-.pergunta-item.nao-respondida { background-color: #fff3cd; color: #856404; }
-
-/* CORES NOTA */
-.nota.verde { color: #28a745; }
-.nota.amarela { color: #ffc107; }
-.nota.vermelha { color: #dc3545; }
-
-/* RESPONSIVO */
-@media(max-width:768px){
-  .estatisticas { flex-direction: column; gap: 10px; }
-  .quiz-header { flex-direction: column; align-items: flex-start; gap: 6px; }
-  .quiz-tabela .linha div { font-size: 0.9rem; }
-}
-@media(max-width:480px){
-  body { padding: 15px; }
-  .quizEspecifico { padding: 12px 15px; }
-  .estatisticas div { font-size: 0.9rem; }
-}
-.quizEspecifico{margin-bottom: 10px;}
-.empty{
-  text-align: center;
-  font-size: clamp(1.2em,2vw,3em);
+@keyframes typing {
+    0%{width: -120%; }
+    100% { width: 120%; } 
 }
 </style>
 </head>
 <body>
+     <div class="content-loader" id="loader">
+        <h2 data-load="INFRATECH">INFRATECH</h2>
+    </div>
 
-<header style="max-width:1200px; margin:0 auto 30px auto; text-align:center; font-family:'Inter', sans-serif;">
- <div class="lg" style="
-    font-size:2.5em; 
-    text-transform:uppercase; 
-    color:#0d6efdcc; 
-    font-weight:600; 
-    letter-spacing:2px; 
-    text-shadow: 2px 2px 6px rgba(0,0,0,0.1);
-    display:inline-block;
-    transition: transform 0.3s, color 0.3s;
-    cursor:default;
-">Infra<span style="
-      font-family:'DynaPuff', system-ui; 
-      color:#171d24; 
-      font-weight:400; 
-      background: linear-gradient(90deg, #171d24, rgb(16, 22, 39));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      display:inline-block;
-      transition: transform 0.3s;
-  ">
-    tech
-  </span>
-</div>
+  <header class="header">
+    <button style="padding: 10px;border: none; color: #123;font-size: 1.5em;background: #0000;cursor: pointer;" onclick="javascript:window.location.href='../index.html'"><i class="bi bi-box-arrow-left"></i></button>
+    <div class="logoY">
+        <h1 class="lg">Infra<span>Tech</span></h1>
+    </div>
+    <div class="estatisticas">
+        <div class="total card"><i class="bi bi-bar-chart-line-fill"></i> Todos Quizes : <span id="totalQuizzes"></span></div>    
+        <div class="max card" ><i class="bi bi-box-arrow-up-right"></i> Nota Máxima : <span id="maiorNota"></span>%
+        </div>    
+        <div class="Medio card" ><i class="bi bi-graph-up-arrow"></i> Média de todas Notas : <span id="mediaNotas"></span>%</div>    
+    </div>
+  </header>
 
-  <div class="estatisticas" style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px; margin-bottom:25px;">
-    <div style="background:#fff; padding:15px 25px; border-radius:15px; box-shadow:0 8px 20px rgba(0,0,0,0.08); font-weight:600; display:flex; align-items:center; gap:10px; transition: transform 0.3s; cursor:pointer;">
-      <span style="font-size:1.1rem; color:#2563eb;">📊 Total de Quizzes:</span> 
-      <span id="totalQuizzes" style="font-size:1.3rem; color:#111827;"></span>
-    </div>
-    <div style="background:#fff; padding:15px 25px; border-radius:15px; box-shadow:0 8px 20px rgba(0,0,0,0.08); font-weight:600; display:flex; align-items:center; gap:10px; transition: transform 0.3s; cursor:pointer;">
-      <span style="font-size:1.1rem; color:#10b981;">🏆 Maior Nota:</span> 
-      <span id="maiorNota" style="font-size:1.3rem; color:#111827;"></span>%
-    </div>
-    <div style="background:#fff; padding:15px 25px; border-radius:15px; box-shadow:0 8px 20px rgba(0,0,0,0.08); font-weight:600; display:flex; align-items:center; gap:10px; transition: transform 0.3s; cursor:pointer;">
-      <span style="font-size:1.1rem; color:#f59e0b;">📈 Percentagem Média:</span> 
-      <span id="mediaNotas" style="font-size:1.3rem; color:#111827;"></span>%
-    </div>
+  <div class="divfilteer">
+    <label for="filterDisciplina"><i class="bi bi-search"></i> Filtrar por disciplina</label>
+    <select id="filterDisciplina" class="filterDisciplina">
+        <option value="all">Todas Disciplinas</option>
+    </select>
   </div>
-</header>
 
+  <main class="quizesFeitos">
+    <div id="listaQuizzes"></div>
+  </main>
 
-<div class="filtro" style="text-align:center; margin-bottom:30px; font-family:'Inter', sans-serif;">
-  <label for="filterDisciplina" style="font-size:1rem;font-weight:600; color:#374151; margin-right:10px;">
-    🔍 Filtrar por disciplina:
-  </label>
-  <select id="filterDisciplina" style="
-      padding:10px 18px; 
-      font-size:1rem; 
-      border-radius:12px; 
-      border:1px solid #d1d5db; 
-      background:#fff; 
-      cursor:pointer; 
-      transition: all 0.25s ease;
-      box-shadow:0 4px 12px rgba(0,0,0,0.05);
-  " 
-  onmouseover="this.style.borderColor='#2563eb'; this.style.boxShadow='0 6px 18px rgba(37,99,235,0.2)';" 
-  onmouseout="this.style.borderColor='#d1d5db'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.05)';">
-    <option value="all">Todas</option>
-  </select>
-</div>
-
-
-<main class="quizesFeitos" style="
-    display:grid; 
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); 
-    gap:20px; 
-    max-width:1200px; 
-    margin:0 auto; 
-    font-family:'Inter', sans-serif;
-">
-  <div id="listaQuizzes" style="
-      display:flex; 
-      flex-direction:column; 
-      gap:15px;
-  ">
-    <!-- Cada quiz será injetado aqui dinamicamente -->
-  </div>
-</main>
-
-
-<script src="../scripts/Loader.js"></script>
-<script src="../scripts/progresso.js"></script>
-
+  <script src="../scripts/Loader.js"></script>
+  <script src="../scripts/progresso.js"></script>
 </body>
+
 </html>

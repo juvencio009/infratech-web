@@ -1,27 +1,726 @@
 {
   "disciplina": "Programação",
-  "duracao":1800,
-  "questoes":[
+  "duracao": 7200,
+  "questoes": [
     {
-        "id":1,
-        "tipo":"multipla",
-        "pergunta":"O que é HTML",
-        "opcoes":["Esqueleto","Estrutura","Uma linguagem de programação","Uma linguagem de marcação"],
-        "resposta":3
+      "id": 1,
+      "pergunta": "Qual estrutura de dados segue o princípio LIFO?",
+      "opcoes": ["Fila", "Pilha", "Lista ligada", "Árvore binária"],
+      "resposta": 1
     },
     {
-        "id":2,
-        "tipo":"multipla",
-        "pergunta":"Qual das linguagens é usada para criar apps android?",
-        "opcoes":["Python","Js","Java","PHP"],
-        "resposta":2
+      "id": 2,
+      "pergunta": "Qual estrutura de dados segue o princípio FIFO?",
+      "opcoes": ["Árvore", "HashMap", "Fila", "Pilha"],
+      "resposta": 2
     },
     {
-        "id":3,
-        "tipo":"multipla",
-        "pergunta":"Qual destas Linguagens de programação é da Quinta geração?",
-        "opcoes":["Python","Js","Java","Sql"],
-        "resposta":0
+      "id": 3,
+      "pergunta": "Em Java, qual classe é usada para armazenar pares chave-valor?",
+      "opcoes": ["Stack", "ArrayList", "LinkedList", "HashMap"],
+      "resposta": 3
+    },
+    {
+      "id": 4,
+      "pergunta": "Qual a complexidade do algoritmo de busca binária?",
+      "opcoes": ["O(n^2)", "O(n)", "O(log n)", "O(1)"],
+      "resposta": 2
+    },
+    {
+      "id": 5,
+      "pergunta": "O que é encapsulamento em POO?",
+      "opcoes": ["Alterar escopo de variável", "Ocultar detalhes internos de um objeto", "Criar interface gráfica", "Reaproveitar código"],
+      "resposta": 1
+    },
+    {
+      "id": 6,
+      "pergunta": "Em C#, como se declara um array de inteiros com 5 elementos?",
+      "opcoes": ["array numeros[5];", "int numeros(5);", "int[] numeros = new int[5];", "int numeros[] = 5;"],
+      "resposta": 2
+    },
+    {
+      "id": 7,
+      "pergunta": "Em Python, como se cria uma lista de números de 0 a 9?",
+      "opcoes": ["array(0,9)", "list(0,10)", "[0..9]", "list(range(10))"],
+      "resposta": 3
+    },
+    {
+      "id": 8,
+      "pergunta": "O que significa MVC?",
+      "opcoes": ["Main-View-Constructor", "Module-Variable-Check", "Memory-Value-Container", "Model-View-Controller"],
+      "resposta": 3
+    },
+    {
+      "id": 9,
+      "pergunta": "Em programação concorrente, qual é o problema do 'race condition'?",
+      "opcoes": ["Loop infinito", "Conflito ao acessar recursos compartilhados", "Erro de compilação", "Memória insuficiente"],
+      "resposta": 1
+    },
+    {
+      "id": 10,
+      "pergunta": "Qual das seguintes linguagens é interpretada e não compilada?",
+      "opcoes": ["Python", "C++", "Java", "C#"],
+      "resposta": 0
+    },
+    {
+      "id": 11,
+      "pergunta": "Em C++, qual operador é usado para acessar membros de um ponteiro para objeto?",
+      "opcoes": ["&", "->", ".", "*"],
+      "resposta": 1
+    },
+    {
+      "id": 12,
+      "pergunta": "O que é um framework?",
+      "opcoes": ["Conjunto de ferramentas e bibliotecas para facilitar desenvolvimento", "Banco de dados", "Editor de texto", "Compilador"], 
+      "resposta": 0
+    },
+    {
+      "id": 13,
+      "pergunta": "Qual método em JavaScript verifica se um array contém um valor?",
+      "opcoes": ["check()", "includes()", "contains()", "has()"], 
+      "resposta": 1
+    },
+    {
+      "id": 14,
+      "pergunta": "O que é recursão de cauda?",
+      "opcoes": ["Função recursiva infinita", "Recursão onde a chamada recursiva é a última instrução da função", "Loop aninhado", "Função lambda"], 
+      "resposta": 1
+    },
+    {
+      "id": 15,
+      "pergunta": "Qual é a diferença entre stack e heap na memória?",
+      "opcoes": ["Heap é mais rápido que stack", "Stack é para variáveis locais e heap para objetos dinâmicos", "Stack é memória externa, heap interna", "Não há diferença"], 
+      "resposta": 1
+    },
+    {
+      "id": 16,
+      "pergunta": "Qual destas linguagens é mais usada para desenvolvimento de jogos AAA?",
+      "opcoes": ["C++", "Python", "PHP", "JavaScript"], 
+      "resposta": 0
+    },
+    {
+      "id": 17,
+      "pergunta": "Em HTML, qual atributo define o caminho de uma imagem?",
+      "opcoes": ["link", "src", "href", "path"], 
+      "resposta": 1
+    },
+    {
+      "id": 18,
+      "pergunta": "Em CSS, qual propriedade define o espaçamento interno de um elemento?",
+      "opcoes": ["border", "padding", "margin", "spacing"], 
+      "resposta": 1
+    },
+    {
+      "id": 19,
+      "pergunta": "O que é AJAX?",
+      "opcoes": ["Banco de dados", "Editor de HTML", "Técnica para atualizar partes de uma página sem recarregá-la", "Framework para JavaScript"], 
+      "resposta": 2
+    },
+    {
+      "id": 20,
+      "pergunta": "Em programação funcional, funções puras têm qual característica?",
+      "opcoes": ["Sempre alteram variáveis globais", "Funções recursivas apenas", "Sem efeitos colaterais e mesmo retorno para mesmos argumentos", "Executam loops infinitos"], 
+      "resposta": 2
+    },
+    {
+      "id": 21,
+      "pergunta": "Qual o papel de 'super()' em Java?",
+      "opcoes": ["Define variável global", "Chama o construtor da classe pai", "Chama função externa", "Cria objeto novo"], 
+      "resposta": 1
+    },
+    {
+      "id": 22,
+      "pergunta": "O que é um deadlock em programação concorrente?",
+      "opcoes": ["Erro de compilação", "Função recursiva sem fim", "Situação onde threads ficam bloqueadas esperando recursos umas das outras", "Loop infinito"], 
+      "resposta": 2
+    },
+    {
+      "id": 23,
+      "pergunta": "Em Python, qual palavra-chave define uma função anônima?",
+      "opcoes": ["def", "lambda", "anon", "function"], 
+      "resposta": 1
+    },
+    {
+      "id": 24,
+      "pergunta": "O que é um callback em JavaScript?",
+      "opcoes": ["Função que retorna valor", "Função de loop", "Função passada como argumento para outra função", "Função assíncrona"], 
+      "resposta": 2
+    },
+    {
+      "id": 25,
+      "pergunta": "Em C#, qual comando é usado para lançar exceções?",
+      "opcoes": ["try", "catch", "throw", "raise"], 
+      "resposta": 2
+    },
+    {
+      "id": 26,
+      "pergunta": "Qual é a diferença entre GET e POST em HTTP?",
+      "opcoes": ["GET é assíncrono, POST é síncrono", "POST envia via URL, GET via corpo", "Não há diferença", "GET envia dados via URL, POST via corpo da requisição"], 
+      "resposta": 3
+    },
+    {
+      "id": 27,
+      "pergunta": "Qual dos seguintes não é um tipo de loop?",
+      "opcoes": ["switch", "for", "do-while", "while"], 
+      "resposta": 0
+    },
+    {
+      "id": 28,
+      "pergunta": "Em C++, qual palavra-chave declara uma classe abstrata?",
+      "opcoes": ["abstract", "interface", "class", "virtual"], 
+      "resposta": 3
+    },
+    {
+      "id": 29,
+      "pergunta": "O que é uma Promise em JavaScript?",
+      "opcoes": ["Função que retorna valor", "Classe de loop", "Objeto representando operação assíncrona", "Método síncrono"], 
+      "resposta": 2
+    },
+    {
+      "id": 30,
+      "pergunta": "Em programação, o que é memoização?",
+      "opcoes": ["Estrutura de dados", "Técnica de armazenar resultados de funções para otimizar desempenho", "Framework web", "Loop infinito otimizado"], 
+      "resposta": 1
+    },
+    {
+      "id": 31,
+      "pergunta": "Qual é a função do comando 'continue' em loops?",
+      "opcoes": ["Sair da função", "Reiniciar o loop", "Parar o loop", "Pular a iteração atual e continuar o loop"], 
+      "resposta": 3
+    },
+    {
+      "id": 32,
+      "pergunta": "Em Unity, qual linguagem é utilizada para scripts principais?",
+      "opcoes": ["C#", "Python", "JavaScript", "Java"], 
+      "resposta": 0
+    },
+    {
+      "id": 33,
+      "pergunta": "Qual método de array em JavaScript ordena os elementos?",
+      "opcoes": ["sequence()", "arrange()", "order()", "sort()"], 
+      "resposta": 3
+    },
+    {
+      "id": 34,
+      "pergunta": "O que é um heap em estruturas de dados?",
+      "opcoes": ["Tabela hash", "Árvore binária onde cada nó tem valor maior ou menor que filhos", "Lista encadeada", "Fila especial"], 
+      "resposta": 1
+    },
+    {
+      "id": 35,
+      "pergunta": "Qual comando SQL retorna todos os dados de uma tabela?",
+      "opcoes": ["GET tabela;", "SHOW tabela;", "SELECT * FROM tabela;", "DISPLAY tabela;"], 
+      "resposta": 2
+    },
+    {
+      "id": 36,
+      "pergunta": "Em C#, qual tipo é usado para verdadeiro/falso?",
+      "opcoes": ["char", "bool", "string", "int"], 
+      "resposta": 1
+    },
+    {
+      "id": 37,
+      "pergunta": "O que é deadlock preventivo?",
+      "opcoes": ["Exceção de compilação", "Loop infinito intencional", "Evitar condições de deadlock antes que ocorram", "Erro de sintaxe"], 
+      "resposta": 2
+    },
+    {
+      "id": 38,
+      "pergunta": "Qual a função de 'finally' em blocos try-catch?",
+      "opcoes": ["Executar código independentemente de exceção", "Chamar função externa", "Criar variável local", "Gerar exceção"], 
+      "resposta": 0
+    },
+    {
+      "id": 39,
+      "pergunta": "O que é uma expressão lambda?",
+      "opcoes": ["Função anônima de uma linha", "Classe abstrata", "Estrutura de loop", "Variável global"], 
+      "resposta": 0
+    },
+    {
+      "id": 40,
+      "pergunta": "Em Python, qual método adiciona um elemento ao final de uma lista?",
+      "opcoes": ["push()", "insert()", "add()", "append()"], 
+      "resposta": 3
+    },
+    {
+      "id": 41,
+      "pergunta": "O que é REST em desenvolvimento web?",
+      "opcoes": ["Editor de HTML", "Banco de dados", "Arquitetura para APIs baseada em recursos e HTTP", "Linguagem de programação"], 
+      "resposta": 2
+    },
+    {
+      "id": 42,
+      "pergunta": "Qual é a função de um compilador?",
+      "opcoes": ["Gerar variáveis globais", "Criar banco de dados", "Executar código linha a linha", "Transformar código fonte em código executável"], 
+      "resposta": 3
+    },
+    {
+      "id": 43,
+      "pergunta": "O que é polimorfismo paramétrico?",
+      "opcoes": ["Função recursiva infinita", "Função ou classe genérica que funciona para múltiplos tipos", "Interface de banco de dados", "Classe que herda múltiplas funções"], 
+      "resposta": 1
+    },
+    {
+      "id": 44,
+      "pergunta": "Qual é a função do comando 'yield' em Python?",
+      "opcoes": ["Executar loop infinito", "Retornar valor imediatamente", "Criar um gerador que produz valores sob demanda", "Interromper função"], 
+      "resposta": 2
+    },
+    {
+      "id": 45,
+      "pergunta": "O que é programação assíncrona?",
+      "opcoes": ["Loop infinito", "Função recursiva", "Execução de tarefas que não bloqueiam o fluxo principal", "Execução linear"], 
+      "resposta": 2
+    },
+    {
+      "id": 46,
+      "pergunta": "Em C++, qual operador compara se dois ponteiros apontam para o mesmo endereço?",
+      "opcoes": ["==", "=", "&&", "&"], 
+      "resposta": 0
+    },
+    {
+      "id": 47,
+      "pergunta": "O que é um 'singleton' em design patterns?",
+      "opcoes": ["Classe com múltiplas instâncias", "Tipo de array", "Classe que garante apenas uma instância", "Estrutura de loop"], 
+      "resposta": 2
+    },
+    {
+      "id": 48,
+      "pergunta": "Qual função em JavaScript é executada após o carregamento completo da página?",
+      "opcoes": ["document.ready", "window.onload", "page.load", "window.start"], 
+      "resposta": 1
+    },
+    {
+      "id": 49,
+      "pergunta": "Em programação orientada a objetos, o que é um objeto?",
+      "opcoes": ["Classe abstrata", "Instância de uma classe", "Interface de usuário", "Função principal"], 
+      "resposta": 1
+    },
+    {
+      "id": 50,
+      "pergunta": "Qual método de array em JavaScript remove o último elemento?",
+      "opcoes": ["pop()", "shift()", "unshift()", "push()"], 
+      "resposta": 0
+    },
+    {
+      "id": 51,
+      "pergunta": "Qual é o operador para concatenação de strings em Java?",
+      "opcoes": ["+", "&", "concat()", ".", "-"], 
+      "resposta": 0
+    },
+    {
+      "id": 52,
+      "pergunta": "Em Python, qual método retorna o número de ocorrências de um elemento em uma lista?",
+      "opcoes": ["count()", "find()", "index()", "len()"], 
+      "resposta": 0
+    },
+    {
+      "id": 53,
+      "pergunta": "O que é um closure em JavaScript?",
+      "opcoes": ["Função que fecha outra função e mantém acesso ao seu escopo", "Classe privada", "Loop recursivo", "Função assíncrona"], 
+      "resposta": 0
+    },
+    {
+      "id": 54,
+      "pergunta": "Em C++, qual palavra-chave indica que uma função não pode ser sobrescrita?",
+      "opcoes": ["final", "const", "static", "abstract"], 
+      "resposta": 0
+    },
+    {
+      "id": 55,
+      "pergunta": "Qual dos seguintes não é um tipo primitivo em Java?",
+      "opcoes": ["int", "float", "String", "boolean"], 
+      "resposta": 2
+    },
+    {
+      "id": 56,
+      "pergunta": "Em SQL, qual comando é usado para modificar dados existentes?",
+      "opcoes": ["UPDATE", "INSERT", "ALTER", "SELECT"], 
+      "resposta": 0
+    },
+    {
+      "id": 57,
+      "pergunta": "O que é um 'array associativo'?",
+      "opcoes": ["Array numérico", "Array indexado por chaves", "Array multidimensional", "Lista encadeada"], 
+      "resposta": 1
+    },
+    {
+      "id": 58,
+      "pergunta": "Qual é a diferença entre '==' e '===' em JavaScript?",
+      "opcoes": ["Nenhuma diferença", "== compara valor, === compara valor e tipo", "== compara tipo, === compara valor", "=== não existe"], 
+      "resposta": 1
+    },
+    {
+      "id": 59,
+      "pergunta": "Em C#, qual estrutura é usada para armazenar pares chave-valor?",
+      "opcoes": ["Array", "Dictionary", "Stack", "Queue"], 
+      "resposta": 1
+    },
+    {
+      "id": 60,
+      "pergunta": "Em programação orientada a objetos, qual conceito permite que uma subclasse herde características da superclasse?",
+      "opcoes": ["Polimorfismo", "Encapsulamento", "Herança", "Abstração"], 
+      "resposta": 2
+    },
+    {
+      "id": 61,
+      "pergunta": "Em Unity, qual componente é usado para detectar colisões?",
+      "opcoes": ["RigidBody", "Collider", "Animator", "Camera"], 
+      "resposta": 1
+    },
+    {
+      "id": 62,
+      "pergunta": "Qual método em Python remove e retorna o último elemento de uma lista?",
+      "opcoes": ["pop()", "remove()", "delete()", "clear()"], 
+      "resposta": 0
+    },
+    {
+      "id": 63,
+      "pergunta": "O que é JSON?",
+      "opcoes": ["Linguagem de programação", "Formato de intercâmbio de dados baseado em texto", "Banco de dados", "Framework web"], 
+      "resposta": 1
+    },
+    {
+      "id": 64,
+      "pergunta": "Qual comando em Git cria um novo branch?",
+      "opcoes": ["git checkout", "git branch", "git commit", "git merge"], 
+      "resposta": 1
+    },
+    {
+      "id": 65,
+      "pergunta": "Em Java, qual método da classe String converte todos os caracteres em maiúsculas?",
+      "opcoes": ["toUpperCase()", "toLowerCase()", "upper()", "uppercase()"], 
+      "resposta": 0
+    },
+    {
+      "id": 66,
+      "pergunta": "O que é 'polimorfismo de sobrecarga'?",
+      "opcoes": ["Funções com mesmo nome, mas parâmetros diferentes", "Funções herdadas", "Função recursiva", "Função lambda"], 
+      "resposta": 0
+    },
+    {
+      "id": 67,
+      "pergunta": "Qual dos seguintes é um loop infinito em C++?",
+      "opcoes": ["for(;;)", "while(false)", "for(0;0;0)", "while(0)"], 
+      "resposta": 0
+    },
+    {
+      "id": 68,
+      "pergunta": "O que é 'lazy loading' em programação web?",
+      "opcoes": ["Carregar recursos sob demanda", "Carregar tudo de uma vez", "Loop infinito", "Criar banco de dados"], 
+      "resposta": 0
+    },
+    {
+      "id": 69,
+      "pergunta": "Em JavaScript, qual evento dispara quando um usuário pressiona uma tecla?",
+      "opcoes": ["keypress", "onclick", "onload", "onhover"], 
+      "resposta": 0
+    },
+    {
+      "id": 70,
+      "pergunta": "O que significa 'hot reload' em desenvolvimento de apps?",
+      "opcoes": ["Atualização sem reiniciar o app", "Compilação completa", "Exclusão de cache", "Atualização de banco de dados"], 
+      "resposta": 0
+    },
+    {
+      "id": 71,
+      "pergunta": "Qual é a saída de console.log(typeof null) em JavaScript?",
+      "opcoes": ["object", "null", "undefined", "NaN"], 
+      "resposta": 0
+    },
+    {
+      "id": 72,
+      "pergunta": "Em Python, qual estrutura é usada para exceções?",
+      "opcoes": ["try-except", "catch-finally", "do-while", "if-else"], 
+      "resposta": 0
+    },
+    {
+      "id": 73,
+      "pergunta": "O que é a complexidade de tempo O(n!)?",
+      "opcoes": ["Linear", "Exponencial", "Fatorial", "Logarítmica"], 
+      "resposta": 2
+    },
+    {
+      "id": 74,
+      "pergunta": "Qual é a função de 'this' em JavaScript?",
+      "opcoes": ["Referenciar a função atual", "Referenciar objeto atual", "Criar variável global", "Referenciar array"], 
+      "resposta": 1
+    },
+    {
+      "id": 75,
+      "pergunta": "O que é uma thread em programação?",
+      "opcoes": ["Função anônima", "Unidade de execução independente dentro de um processo", "Classe abstrata", "Variável global"], 
+      "resposta": 1
+    },
+    {
+      "id": 76,
+      "pergunta": "Em programação orientada a objetos, o que é composição?",
+      "opcoes": ["Uma classe contém objetos de outra classe como membros", "Herdar métodos de outra classe", "Variável global", "Função lambda"], 
+      "resposta": 0
+    },
+    {
+      "id": 77,
+      "pergunta": "Qual dos seguintes é um tipo de herança em C++?",
+      "opcoes": ["Single", "Multiple", "Multilevel", "Todas as anteriores"], 
+      "resposta": 3
+    },
+    {
+      "id": 78,
+      "pergunta": "O que é um algoritmo guloso?",
+      "opcoes": ["Escolhe a melhor opção localmente a cada passo", "Escolhe sempre o pior caminho", "Loop infinito", "Armazena dados"], 
+      "resposta": 0
+    },
+    {
+      "id": 79,
+      "pergunta": "Em Java, qual operador verifica igualdade de objetos?",
+      "opcoes": ["==", "equals()", "=", "==="], 
+      "resposta": 1
+    },
+    {
+      "id": 80,
+      "pergunta": "O que é um 'dead code'?",
+      "opcoes": ["Código que nunca é executado", "Código principal", "Classe base", "Loop infinito"], 
+      "resposta": 0
+    },
+    {
+      "id": 81,
+      "pergunta": "Qual é a função do método 'map()' em arrays?",
+      "opcoes": ["Iterar e aplicar função a cada elemento", "Filtrar elementos", "Reduzir array a um valor", "Adicionar elemento"], 
+      "resposta": 0
+    },
+    {
+      "id": 82,
+      "pergunta": "Em C++, qual palavra-chave cria uma constante imutável?",
+      "opcoes": ["immutable", "constant", "const", "static"], 
+      "resposta": 2
+    },
+    {
+      "id": 83,
+      "pergunta": "O que é um 'binary search tree'?",
+      "opcoes": ["Árvore com dois filhos por nó", "Árvore balanceada automaticamente", "Árvore onde filho esquerdo < nó < filho direito", "Lista encadeada"], 
+      "resposta": 2
+    },
+    {
+      "id": 84,
+      "pergunta": "Qual é a finalidade de uma API?",
+      "opcoes": ["Interface que permite comunicação entre softwares", "Banco de dados", "Loop infinito", "Classe abstrata"], 
+      "resposta": 0
+    },
+    {
+      "id": 85,
+      "pergunta": "Em JavaScript, qual método retorna o índice do primeiro elemento que satisfaz a condição?",
+      "opcoes": ["findIndex()", "indexOf()", "search()", "find()"], 
+      "resposta": 0
+    },
+    {
+      "id": 86,
+      "pergunta": "Qual a saída de 3 > 2 && 2 > 1 em JavaScript?",
+      "opcoes": ["true", "false", "1", "0"], 
+      "resposta": 0
+    },
+    {
+      "id": 87,
+      "pergunta": "Em Python, qual método converte uma string para lista de caracteres?",
+      "opcoes": ["split()", "list()", "char()", "array()"], 
+      "resposta": 1
+    },
+    {
+      "id": 88,
+      "pergunta": "O que é programação defensiva?",
+      "opcoes": ["Escrever código que antecipa e previne erros", "Escrever loops recursivos", "Ignorar erros", "Criar variáveis globais"], 
+      "resposta": 0
+    },
+    {
+      "id": 89,
+      "pergunta": "Qual operador em C++ incrementa uma variável em 1?",
+      "opcoes": ["++", "+=", "*", "--"], 
+      "resposta": 0
+    },
+    {
+      "id": 90,
+      "pergunta": "Em Java, qual pacote contém classes para coleções?",
+      "opcoes": ["java.collection", "java.util", "java.list", "java.data"], 
+      "resposta": 1
+    },
+    {
+      "id": 91,
+      "pergunta": "O que é um 'binary heap'?",
+      "opcoes": ["Árvore binária com propriedade de heap", "Lista encadeada binária", "Heap com duas raízes", "Árvore AVL"], 
+      "resposta": 0
+    },
+    {
+      "id": 92,
+      "pergunta": "Em JavaScript, qual operador realiza comparação estrita?",
+      "opcoes": ["===", "==", "=", "!=="], 
+      "resposta": 0
+    },
+    {
+      "id": 93,
+      "pergunta": "O que é 'currying' em programação funcional?",
+      "opcoes": ["Transformar função com múltiplos argumentos em cadeia de funções com um argumento", "Loop infinito", "Classe abstrata", "Interface funcional"], 
+      "resposta": 0
+    },
+    {
+      "id": 94,
+      "pergunta": "Qual a diferença entre 'let' e 'var' em JavaScript?",
+      "opcoes": ["Ambos iguais", "'let' tem escopo de bloco e 'var' de função", "Var é imutável", "Let é global"], 
+      "resposta": 1
+    },
+    {
+      "id": 95,
+      "pergunta": "Qual é a finalidade do comando 'git merge'?",
+      "opcoes": ["Criar branch novo", "Combinar alterações de branches diferentes", "Atualizar repositório remoto", "Deletar branch"], 
+      "resposta": 1
+    },
+    {
+      "id": 96,
+      "pergunta": "O que significa 'asynchronous programming'?",
+      "opcoes": ["Execução sequencial", "Execução que não bloqueia o fluxo principal", "Loop infinito", "Compilação"], 
+      "resposta": 1
+    },
+    {
+      "id": 97,
+      "pergunta": "Qual comando em SQL remove uma tabela?",
+      "opcoes": ["DELETE", "DROP", "TRUNCATE", "REMOVE"], 
+      "resposta": 1
+    },
+    {
+      "id": 98,
+      "pergunta": "O que é uma 'interface' em Java?",
+      "opcoes": ["Classe abstrata sem métodos", "Classe que implementa múltiplas funções", "Tipo que define métodos que devem ser implementados por classes", "Classe com construtor privado"], 
+      "resposta": 2
+    },
+    {
+      "id": 99,
+      "pergunta": "Qual é a função de 'supervisor' em sistemas operacionais?",
+      "opcoes": ["Gerenciar threads", "Gerenciar processos e recursos do sistema", "Criar banco de dados", "Compilar código"], 
+      "resposta": 1
+    },
+    {
+      "id": 100,
+      "pergunta": "Em JavaScript, qual método retorna os valores de um objeto como array?",
+      "opcoes": ["Object.keys()", "Object.values()", "Object.entries()", "Object.array()"], 
+      "resposta": 1
+    },
+    {
+      "id": 101,
+      "pergunta": "O que é o escopo léxico?",
+      "opcoes": ["Escopo definido pelo local onde a variável é declarada no código", "Escopo global apenas", "Escopo de função apenas", "Loop infinito"], 
+      "resposta": 0
+    },
+    {
+      "id": 102,
+      "pergunta": "Em Python, qual operador realiza exponenciação?",
+      "opcoes": ["^", "**", "exp()", "pow()"], 
+      "resposta": 1
+    },
+    {
+      "id": 103,
+      "pergunta": "O que é um 'garbage collector'?",
+      "opcoes": ["Ferramenta de versionamento", "Componente que libera memória não utilizada automaticamente", "Classe abstrata", "Loop infinito"], 
+      "resposta": 1
+    },
+    {
+      "id": 104,
+      "pergunta": "Qual é a saída de 5 % 2 em Java?",
+      "opcoes": ["2", "1", "0", "Erro"], 
+      "resposta": 1
+    },
+    {
+      "id": 105,
+      "pergunta": "Em C++, qual função é chamada ao destruir um objeto?",
+      "opcoes": ["Constructor", "Destructor", "Main", "Finalize"], 
+      "resposta": 1
+    },
+    {
+      "id": 106,
+      "pergunta": "O que significa 'event loop' em JavaScript?",
+      "opcoes": ["Loop infinito", "Mecanismo que gerencia execução de callbacks e eventos assíncronos", "Loop recursivo", "Interface gráfica"], 
+      "resposta": 1
+    },
+    {
+      "id": 107,
+      "pergunta": "Em Java, qual é a classe base de todas as exceções?",
+      "opcoes": ["Throwable", "Exception", "Error", "RuntimeException"], 
+      "resposta": 0
+    },
+    {
+      "id": 108,
+      "pergunta": "O que é o padrão de projeto Observer?",
+      "opcoes": ["Permite que um objeto notifique múltiplos observadores quando seu estado muda", "Classe abstrata", "Loop recursivo", "Interface global"], 
+      "resposta": 0
+    },
+    {
+      "id": 109,
+      "pergunta": "Qual método em Python retorna o índice do primeiro elemento que satisfaz uma condição?",
+      "opcoes": ["index()", "find()", "next()", "filter()"], 
+      "resposta": 2
+    },
+    {
+      "id": 110,
+      "pergunta": "O que é um 'soft delete' em banco de dados?",
+      "opcoes": ["Remover dados permanentemente", "Marcar registros como inativos sem deletar", "Backup de dados", "Merge de tabelas"], 
+      "resposta": 1
+    },
+    {
+      "id": 111,
+      "pergunta": "Em JavaScript, qual método adiciona um elemento no início de um array?",
+      "opcoes": ["unshift()", "push()", "pop()", "shift()"], 
+      "resposta": 0
+    },
+    {
+      "id": 112,
+      "pergunta": "Qual a finalidade do operador '::' em C++?",
+      "opcoes": ["Acesso a métodos estáticos e membros de namespace", "Incremento de variável", "Comparação de ponteiros", "Chamar função externa"], 
+      "resposta": 0
+    },
+    {
+      "id": 113,
+      "pergunta": "O que significa DRY em programação?",
+      "opcoes": ["Don't Repeat Yourself", "Debug Regularly Yourself", "Design Reuse Yourself", "Data Reuse Yield"], 
+      "resposta": 0
+    },
+    {
+      "id": 114,
+      "pergunta": "Qual é a função do comando 'git pull'?",
+      "opcoes": ["Enviar alterações para o repositório remoto", "Trazer alterações do repositório remoto para o local", "Criar branch", "Mesclar branches locais"], 
+      "resposta": 1
+    },
+    {
+      "id": 115,
+      "pergunta": "O que é uma função pura?",
+      "opcoes": ["Função sem argumentos", "Função que não causa efeitos colaterais e retorna sempre o mesmo resultado para os mesmos inputs", "Função recursiva", "Função assíncrona"], 
+      "resposta": 1
+    },
+    {
+      "id": 116,
+      "pergunta": "Em JavaScript, qual método filtra elementos de um array?",
+      "opcoes": ["map()", "filter()", "reduce()", "forEach()"], 
+      "resposta": 1
+    },
+    {
+      "id": 117,
+      "pergunta": "O que é um deadlock detectado?",
+      "opcoes": ["Erro de compilação", "Sistema detecta e resolve deadlocks", "Loop infinito", "Função recursiva"], 
+      "resposta": 1
+    },
+    {
+      "id": 118,
+      "pergunta": "Em programação, o que é 'refactoring'?",
+      "opcoes": ["Adicionar novas funcionalidades", "Reescrever código para melhorar estrutura sem alterar comportamento", "Deletar código", "Criar variáveis globais"], 
+      "resposta": 1
+    },
+    {
+      "id": 119,
+      "pergunta": "Qual a finalidade do operador '??' em C#?",
+      "opcoes": ["Comparação de igualdade", "Operador de coalescência nula", "Incremento de variável", "Concatenação de strings"], 
+      "resposta": 1
+    },
+    {
+      "id": 120,
+      "pergunta": "O que é o algoritmo de Dijkstra?",
+      "opcoes": ["Algoritmo de ordenação", "Algoritmo de busca em profundidade", "Algoritmo para encontrar caminho mínimo em grafos", "Algoritmo de compressão de dados"], 
+      "resposta": 2
     }
   ]
 }

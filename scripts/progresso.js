@@ -16,6 +16,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     return;
   }
 
+
+
   historico.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
 
   const disciplinas = [...new Set(historico.map(h => h.disciplina))];
@@ -32,7 +34,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const slug = quiz.disciplina.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/\s+/g,"");
     let data;
     try {
-      data = await CarregarQuestoes(`../data/${slug}.json`);
+      data = await Loader(`../data/${slug}.json`);
   
       if (!Array.isArray(data.questoes)) return null;
     } catch { return null; }
@@ -46,16 +48,16 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     const dataFormatada = new Date(quiz.timestamp).toLocaleString("pt-PT");
 
-    let notaClass = nota >= 70 ? "verde" : nota >= 50 ? "amarela" : "vermelha";
+    let notaClass = nota >= 15 ? "verde" : nota >= 10 ? "amarela" : "vermelha";
 
     const header = document.createElement("div");
     header.className = "quiz-header";
     header.innerHTML = `
-      <span class="disciplina">${quiz.disciplina}</span>
-      <span class="nota ${notaClass}">${nota}%</span>
-      <span class="data">${dataFormatada}</span>
+      <span class="disciplina">Disciplina: ${quiz.disciplina}</span>
+      <span >Nota: <span class='nota ${notaClass}'> ${nota}${nota!==1?" valores ":" valor "}</span></span>
+      <span class="data" style='font-size:0.7em;color:#555'>${dataFormatada}</span>
       ${quiz.finalizadoPorTempo ? `<span style="color:#c0392b;">⏱ Tempo esgotado</span>` : ""}
-      <button class="btn-toggle-detalhes"><span class="chevron">&#9660;</span></button>
+      <button class="btn-toggle-detalhes"><span class="chevron"><i class='bi bi-chevron-down'></i></span></button>
     `;
     card.appendChild(header);
 
@@ -66,7 +68,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         <div>Questões</div>
         <div>Certas</div>
         <div>Erradas</div>
-        <div>Não respondidas</div>
+        <div>Null</div>
       </div>
       <div class="linha dados">
         <div>${perguntas.length}</div>
@@ -119,25 +121,84 @@ document.addEventListener("DOMContentLoaded", async () => {
 });
 
 /* ===== Funções auxiliares ===== */
-function calcularNota(perguntas,respostas){
+function calcularNota(perguntas, respostas) {
   let acertos = 0;
-  perguntas.forEach((q,i)=>{if(respostas[i]===q.resposta) acertos++});
-  return Math.round((acertos/perguntas.length)*100);
+
+  perguntas.forEach((q, i) => {
+    if (respostas[i] === q.resposta) acertos++;
+  });
+
+  return Number(((acertos / perguntas.length) * 20).toFixed(1));
 }
+
+
+
 function contarCertas(p,r){ return p.filter((q,i)=>r[i]===q.resposta).length; }
 function contarErradas(p,r){ return p.filter((q,i)=>r[i]!==null && r[i]!==q.resposta).length; }
 function contarNaoRespondidas(p,r){ return p.filter((q,i)=>r[i]===null).length; }
-function criarGrupo(titulo, perguntas, respostas, tipo){
+function criarGrupo(titulo, perguntas, respostas, tipo) {
   const div = document.createElement("div");
   div.innerHTML = `<strong>${titulo}</strong>`;
-  perguntas.forEach((q,i)=>{
-    const status = respostas[i]===null?"nao-respondida":respostas[i]===q.resposta?"certa":"errada";
-    if(status!==tipo) return;
+
+  let encontrou = false; // controla se alguma pergunta foi adicionada
+
+  perguntas.forEach((q, i) => {
+    const status =
+      respostas[i] === null
+        ? "nao-respondida"
+        : respostas[i] === q.resposta
+        ? "certa"
+        : "errada";
+
+    if (status !== tipo) return;
+
+    encontrou = true;
+
     const el = document.createElement("div");
     el.className = `pergunta-item ${status}`;
-    el.textContent = `Q${i+1}: ${q.pergunta}`;
+
+    /* Texto da pergunta */
+    const perguntaTxt = document.createElement("div");
+    perguntaTxt.textContent = `Q${i + 1}: ${q.pergunta}`;
+    el.appendChild(perguntaTxt);
+
+    /* Hashtags da resposta correta */
+    if (Array.isArray(q.opcoes) && typeof q.resposta === "number") {
+      const textoOpcao = q.opcoes[q.resposta];
+
+      if (textoOpcao) {
+        const tagsWrap = document.createElement("div");
+        tagsWrap.className = "hashtags";
+
+        textoOpcao.split(/\s+v\s+/i).forEach(r => {
+          const tag = document.createElement("span");
+          tag.className = "hashtag";
+          tag.innerHTML = `Resposta Correta: <span style='font-weight:bold'> ${r}</span>`;
+          tagsWrap.appendChild(tag);
+        });
+
+        el.appendChild(tagsWrap);
+      }
+    }
+
     div.appendChild(el);
   });
+
+
+  if (!encontrou) {
+    const msg = document.createElement("div");
+    msg.className = "grupo-vazio";
+
+    if (tipo === "errada") {
+      msg.textContent = "Não houve nenhuma resposta errada neste quiz.";
+    } else if (tipo === "nao-respondida") {
+      msg.textContent = "Todas as perguntas foram respondidas.";
+    } else if (tipo === "certa") {
+      msg.textContent = "Nenhuma resposta correta registada.";
+    }
+
+    div.appendChild(msg);
+  }
+
   return div;
 }
-

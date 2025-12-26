@@ -1,229 +1,246 @@
 {
   "disciplina": "História",
+  "duracao": 4500,
   "questoes": [
-
     {
       "id": 1,
-      "tipo": "multipla",
-      "pergunta": "A principal consequência da Conferência de Berlim (1884–1885) para África foi:",
-      "opcoes": [
-        "O fim do tráfico de escravos",
-        "A independência imediata das colónias",
-        "A partilha e ocupação efetiva do continente africano",
-        "A criação da União Africana"
-      ],
-      "resposta": 2,
-      "explicacao": "A conferência definiu regras para a ocupação colonial europeia."
+      "pergunta": "O que se entende por ‘história’ enquanto disciplina científica?",
+      "opcoes": ["Conjunto de mitos de um povo", "Narrativa de acontecimentos sem análise", "Estudo sistemático do passado através de fontes", "Tratado de eventos fictícios"],
+      "resposta": 2
     },
-
     {
       "id": 2,
-      "tipo": "multipla",
-      "pergunta": "O sistema de prazos da Coroa em Moçambique caracterizava-se por:",
-      "opcoes": [
-        "Propriedade privada africana",
-        "Administração direta do Estado português",
-        "Concessão de terras a particulares com poderes administrativos",
-        "Exploração exclusiva por companhias majestáticas"
-      ],
-      "resposta": 2,
-      "explicacao": "Os prazeiros exerciam poder político e económico."
+      "pergunta": "Qual foi uma das principais características da CIDADE‑ESTADO na Grécia Antiga?",
+      "opcoes": ["Centralização imperial", "Estratificação feudal", "Autonomia política e vida cívica ativa", "Sociedade teocrática única"],
+      "resposta": 2
     },
-
     {
       "id": 3,
-      "tipo": "vf",
-      "pergunta": "As Companhias Majestáticas tinham soberania total e independente de Portugal.",
-      "resposta": false,
-      "explicacao": "Estavam subordinadas ao Estado colonial português."
+      "pergunta": "O Código de Hamurabi é importante porque representa:",
+      "opcoes": ["Uma compilação de tratados filosóficos", "Um código de leis escritas do Antigo Oriente", "Uma obra literária religiosa", "Um conjunto de poemas épicos"],
+      "resposta": 1
     },
-
     {
       "id": 4,
-      "tipo": "multipla",
-      "pergunta": "A economia colonial moçambicana baseava-se principalmente em:",
-      "opcoes": [
-        "Industrialização pesada",
-        "Economia de subsistência africana",
-        "Exploração agrícola, mineira e mão de obra forçada",
-        "Comércio livre e igualitário"
-      ],
-      "resposta": 2,
-      "explicacao": "A economia servia os interesses da metrópole."
+      "pergunta": "Durante a Idade Média, qual instituição detinha maior poder político e cultural na Europa?",
+      "opcoes": ["Monarquias absolutas", "Império Bizantino", "Igreja Católica", "Cidades‑estados italianas"],
+      "resposta": 2
     },
-
     {
       "id": 5,
-      "tipo": "input",
-      "pergunta": "Indique o ano da independência de Moçambique.",
-      "resposta": ["1975"],
-      "explicacao": "Moçambique tornou-se independente a 25 de junho de 1975."
+      "pergunta": "O Renascimento, surgido na Europa, foi um movimento que enfatizou:",
+      "opcoes": ["A supremacia do Estado sobre a religião", "O retorno às tradições bárbaras", "O humanismo e redescoberta das artes clássicas", "A centralização militar"],
+      "resposta": 2
     },
-
     {
       "id": 6,
-      "tipo": "multipla",
-      "pergunta": "A FRELIMO foi fundada em 1962 com o principal objetivo de:",
-      "opcoes": [
-        "Defender os interesses coloniais",
-        "Promover reformas administrativas",
-        "Lutar pela independência nacional",
-        "Criar partidos regionais"
-      ],
-      "resposta": 2,
-      "explicacao": "A FRELIMO liderou a luta de libertação nacional."
+      "pergunta": "Qual foi o principal motivo da expansão marítima europeia nos séculos XV e XVI?",
+      "opcoes": ["Isolamento econômico", "Busca por novas rotas e recursos", "Redução das atividades comerciais", "Uniformização religiosa"],
+      "resposta": 1
     },
-
     {
       "id": 7,
-      "tipo": "multipla",
-      "pergunta": "A luta armada de libertação em Moçambique iniciou-se em:",
-      "opcoes": ["1960", "1962", "1964", "1970"],
-      "resposta": 2,
-      "explicacao": "O início oficial foi em 25 de setembro de 1964."
+      "pergunta": "O sistema colonial português em Moçambique se caracterizou principalmente por:",
+      "opcoes": ["Autonomia política total dos povos locais", "Exploração econômica e desigualdades sociais", "Integração equitativa dos povos africanos", "Formação de uma república indígena"],
+      "resposta": 1
     },
-
     {
       "id": 8,
-      "tipo": "vf",
-      "pergunta": "O Acordo de Lusaka pôs fim à guerra de libertação em Moçambique.",
-      "resposta": true,
-      "explicacao": "O acordo foi assinado em 1974."
+      "pergunta": "O movimento de resistência contra o colonialismo em Moçambique foi liderado por:",
+      "opcoes": ["RENAMO", "FRELIMO", "Movimento XYZ", "MPLA"],
+      "resposta": 1
     },
-
     {
       "id": 9,
-      "tipo": "multipla",
-      "pergunta": "O sistema de trabalho forçado no período colonial ficou conhecido como:",
-      "opcoes": ["Chibalo", "Mussoco", "Xibalo", "Regedorias"],
-      "resposta": 0,
-      "explicacao": "O chibalo foi amplamente utilizado."
+      "pergunta": "A independência de Moçambique foi proclamada em:",
+      "opcoes": ["25 de Junho de 1964", "25 de Setembro de 1974", "25 de Junho de 1975", "11 de Novembro de 1975"],
+      "resposta": 2
     },
-
     {
       "id": 10,
-      "tipo": "multipla",
-      "pergunta": "A Guerra Fria caracterizou-se essencialmente por:",
-      "opcoes": [
-        "Conflitos diretos entre EUA e URSS",
-        "Confronto ideológico, político e económico",
-        "Colonização da Europa",
-        "Expansão do fascismo"
-      ],
-      "resposta": 1,
-      "explicacao": "Tratou-se de um conflito indireto."
+      "pergunta": "O Acordo Geral de Paz de 1992 em Moçambique encerrou:",
+      "opcoes": ["A colonização portuguesa", "A Primeira Guerra Mundial", "A Guerra Civil", "A Revolução Industrial"],
+      "resposta": 2
     },
-
     {
       "id": 11,
-      "tipo": "vf",
-      "pergunta": "Moçambique alinhou-se inicialmente ao bloco socialista após a independência.",
-      "resposta": true,
-      "explicacao": "Adotou um modelo marxista-leninista."
+      "pergunta": "A Revolução Industrial começou no país:",
+      "opcoes": ["França", "Inglaterra", "Estados Unidos", "Império Otomano"],
+      "resposta": 1
     },
-
     {
       "id": 12,
-      "tipo": "multipla",
-      "pergunta": "O principal objetivo da RENAMO durante a guerra civil era:",
-      "opcoes": [
-        "Restaurar o colonialismo",
-        "Defender o socialismo",
-        "Combater o regime da FRELIMO",
-        "Unificar África Austral"
-      ],
-      "resposta": 2,
-      "explicacao": "A RENAMO opôs-se ao governo da FRELIMO."
+      "pergunta": "O Tratado de Versalhes, após a Primeira Guerra Mundial, teve como consequência:",
+      "opcoes": ["Fim da Guerra Fria", "Reconfiguração das fronteiras europeias", "Início da Revolução Industrial", "Formação do Império Romano"],
+      "resposta": 1
     },
-
     {
       "id": 13,
-      "tipo": "input",
-      "pergunta": "Indique o ano da assinatura do Acordo Geral de Paz em Moçambique.",
-      "resposta": ["1992"],
-      "explicacao": "O acordo foi assinado em Roma."
+      "pergunta": "A Guerra Fria foi um conflito principalmente entre:",
+      "opcoes": ["China e Japão", "Estados Unidos e União Soviética", "França e Inglaterra", "Brasil e Argentina"],
+      "resposta": 1
     },
-
     {
       "id": 14,
-      "tipo": "multipla",
-      "pergunta": "O Pan-Africanismo defendia principalmente:",
-      "opcoes": [
-        "A dominação europeia",
-        "A união e libertação dos povos africanos",
-        "A separação racial",
-        "A colonização interna"
-      ],
-      "resposta": 1,
-      "explicacao": "Movimento de unidade africana."
+      "pergunta": "O movimento dos Pan‑Africanismo buscou:",
+      "opcoes": ["A supremacia cultural europeia", "A integração e autonomia dos povos africanos", "A expansão do colonialismo", "A retirada das potências africanas"],
+      "resposta": 1
     },
-
     {
       "id": 15,
-      "tipo": "vf",
-      "pergunta": "Kwame Nkrumah foi uma figura central do Pan-Africanismo.",
-      "resposta": true,
-      "explicacao": "Foi líder do Gana e defensor da unidade africana."
+      "pergunta": "A expansão do tráfico transatlântico de escravos ocorreu principalmente entre:",
+      "opcoes": ["Ásia e Europa", "África e Américas", "Europa e Oceania", "África e Ásia"],
+      "resposta": 1
     },
-
     {
       "id": 16,
-      "tipo": "multipla",
-      "pergunta": "A Revolução Industrial iniciou-se primeiro em:",
-      "opcoes": ["França", "Alemanha", "Inglaterra", "Estados Unidos"],
-      "resposta": 2,
-      "explicacao": "A Inglaterra reunia as condições necessárias."
+      "pergunta": "A queda do Muro de Berlim, em 1989, simbolizou:",
+      "opcoes": ["O fim do colonialismo em África", "O fim da Guerra Fria", "A unificação da China", "O início da Primeira Guerra Mundial"],
+      "resposta": 1
     },
-
     {
       "id": 17,
-      "tipo": "multipla",
-      "pergunta": "Uma consequência social direta da Revolução Industrial foi:",
-      "opcoes": [
-        "O fim das classes sociais",
-        "O surgimento do proletariado",
-        "A redução da urbanização",
-        "A abolição do trabalho infantil"
-      ],
-      "resposta": 1,
-      "explicacao": "Formou-se uma nova classe trabalhadora."
+      "pergunta": "Os Acordos de Lusaka (1974) contribuíram para:",
+      "opcoes": ["A independência de Moçambique", "A unificação de Portugal", "A criação da ONU", "O fim da escravidão"],
+      "resposta": 0
     },
-
     {
       "id": 18,
-      "tipo": "vf",
-      "pergunta": "A Primeira Guerra Mundial teve início em 1914.",
-      "resposta": true,
-      "explicacao": "O estopim foi o assassinato do arquiduque Francisco Ferdinando."
+      "pergunta": "O conceito de historiografia refere‑se a:",
+      "opcoes": ["Estudo dos fósseis", "Escrita e interpretação crítica da história", "Livros de ciência natural", "Documentos religiosos"],
+      "resposta": 1
     },
-
     {
       "id": 19,
-      "tipo": "multipla",
-      "pergunta": "O Tratado de Versalhes foi considerado injusto porque:",
-      "opcoes": [
-        "Favoreceu excessivamente a Alemanha",
-        "Impôs duras sanções à Alemanha",
-        "Ignorou a França",
-        "Fortaleceu o Império Otomano"
-      ],
-      "resposta": 1,
-      "explicacao": "Gerou ressentimento alemão."
+      "pergunta": "A Batalha de Stalingrado foi um marco importantíssimo durante:",
+      "opcoes": ["A Primeira Guerra Mundial", "A Segunda Guerra Mundial", "A Guerra Civil Russa", "A Guerra do Vietname"],
+      "resposta": 1
     },
-
     {
       "id": 20,
-      "tipo": "multipla",
-      "pergunta": "O apartheid foi um regime de:",
-      "opcoes": [
-        "Integração racial",
-        "Segregação racial",
-        "Socialismo africano",
-        "Colonialismo direto"
-      ],
-      "resposta": 1,
-      "explicacao": "Sistema oficial de segregação na África do Sul."
+      "pergunta": "O Iluminismo foi um movimento que enfatizou:",
+      "opcoes": ["Autoritarismo monárquico", "Razão, ciência e direitos do indivíduo", "Artes marciais", "Economia colonial"],
+      "resposta": 1
+    },
+    {
+      "id": 21,
+      "pergunta": "A colonização de Moçambique pelos portugueses iniciou‑se oficialmente no século:",
+      "opcoes": ["XIV", "XV", "XVI", "XVII"],
+      "resposta": 2
+    },
+    {
+      "id": 22,
+      "pergunta": "A Conferência de Berlim (1884‑1885) teve como objetivo principal:",
+      "opcoes": ["Distribuir territórios africanos entre potências europeias", "Resolver a Primeira Guerra Mundial", "Proteger povos indígenas", "Abolir o comércio de escravos"],
+      "resposta": 0
+    },
+    {
+      "id": 23,
+      "pergunta": "O sistema escravista no Brasil foi extinto em:",
+      "opcoes": ["1888", "1865", "1901", "1875"],
+      "resposta": 0
+    },
+    {
+      "id": 24,
+      "pergunta": "Qual movimento libertou a Índia do domínio britânico?",
+      "opcoes": ["Movimento Sufragista", "Movimento Verde", "Movimento de Não‑Violência liderado por Gandhi", "Revolta dos Boxers"],
+      "resposta": 2
+    },
+    {
+      "id": 25,
+      "pergunta": "O Império Romano atingiu seu ápice territorial durante o reinado de:",
+      "opcoes": ["Júlio César", "Imperador Augusto", "Nero", "Constantino"],
+      "resposta": 1
+    },
+    {
+      "id": 26,
+      "pergunta": "A Revolução Francesa começou em:",
+      "opcoes": ["1789", "1804", "1750", "1815"],
+      "resposta": 0
+    },
+    {
+      "id": 27,
+      "pergunta": "O processo de independência das colônias africanas intensificou‑se após:",
+      "opcoes": ["Segunda Guerra Mundial", "Primeira Guerra Mundial", "Revolução Industrial", "Revolta dos Bóeres"],
+      "resposta": 0
+    },
+    {
+      "id": 28,
+      "pergunta": "O movimento Restauração da Independência de Moçambique foi liderado por:",
+      "opcoes": ["FRELIMO", "RENAMO", "PAIGC", "ANC"],
+      "resposta": 0
+    },
+    {
+      "id": 29,
+      "pergunta": "A Primeira Guerra Mundial terminou em:",
+      "opcoes": ["1914", "1918", "1939", "1923"],
+      "resposta": 1
+    },
+    {
+      "id": 30,
+      "pergunta": "No Pós‑Segunda Guerra Mundial, a África iniciou fortes movimentos de:",
+      "opcoes": ["Colonização europeia", "Independência e descolonização", "Isolamento económico", "Expansão da escravidão"],
+      "resposta": 1
+    },
+    {
+      "id": 31,
+      "pergunta": "A Revolução Russa de 1917 resultou na formação de:",
+      "opcoes": ["Império Russo", "União Soviética", "Reino Unido", "Alemanha Nazista"],
+      "resposta": 1
+    },
+    {
+      "id": 32,
+      "pergunta": "O Renascimento Comercial europeu ocorreu principalmente durante:",
+      "opcoes": ["Idade Média tardia", "Antiguidade Clássica", "Era Napoleônica", "Século XX"],
+      "resposta": 0
+    },
+    {
+      "id": 33,
+      "pergunta": "O Império do Monomotapa foi um importante estado na região do:",
+      "opcoes": ["Planalto da Etiópia", "Vale do Nilo", "Sul da África Austral", "Sahel"],
+      "resposta": 2
+    },
+    {
+      "id": 34,
+      "pergunta": "O Tratado de Nkomati (1959) foi um acordo entre:",
+      "opcoes": ["Moçambique e Zâmbia", "Portugal e África do Sul", "FRELIMO e RENAMO", "França e Inglaterra"],
+      "resposta": 1
+    },
+    {
+      "id": 35,
+      "pergunta": "A diáspora africana para as Américas foi causada principalmente por:",
+      "opcoes": ["Tráfico transatlântico de escravos", "Migração por guerra civil", "Exploração petrolífera", "Turismo"],
+      "resposta": 0
+    },
+    {
+      "id": 36,
+      "pergunta": "O movimento Iluminista influenciou diretamente a:",
+      "opcoes": ["Comercialização do sal", "Revolução Industrial e ideias democráticas", "Colonização da Austrália", "Criação de fardo de tributos"],
+      "resposta": 1
+    },
+    {
+      "id": 37,
+      "pergunta": "A política do Apartheid foi implantada em:",
+      "opcoes": ["Brasil", "África do Sul", "Egito", "Marrocos"],
+      "resposta": 1
+    },
+    {
+      "id": 38,
+      "pergunta": "Qual destes eventos marcou o início da Idade Moderna?",
+      "opcoes": ["Queda de Roma", "Descobrimentos europeus", "Iluminismo", "Guerras Napoleônicas"],
+      "resposta": 1
+    },
+    {
+      "id": 39,
+      "pergunta": "A escravidão no Brasil foi oficialmente abolida por meio da:",
+      "opcoes": ["Lei Áurea", "Revolta dos Malês", "Independência", "Proclamação da República"],
+      "resposta": 0
+    },
+    {
+      "id": 40,
+      "pergunta": "A principal função da interpretação de fontes históricas em exames é:",
+      "opcoes": ["Recontar eventos sem análise crítica", "Avaliar conhecimento factual isolado", "Relacionar evidências com contexto histórico", "Enumerar datas sem explicação"],
+      "resposta": 2
     }
-
   ]
 }

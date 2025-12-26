@@ -4,13 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Plataforma de exames de admissão em formato de quiz interativo">
-    <title>Infratech Oficial</title>
+    <link rel="shortcut icon" href="assets/tech.png" type="image/x-icon">
+    <title>Infratech</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/bootstrap-icons/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <style>
+        
+    .content-loader{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: var(--color-grey);
+        backdrop-filter: blur(18px);
+        z-index: 9999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Segoe UI', Verdana, sans-serif;
+    }
+
+    .content-loader h2 {
+        font-size: clamp(2.2em,4.54vw,2.8em);
+        text-transform: uppercase;
+        font-weight: bold;
+        -webkit-text-stroke: 0.1vw var(--w-color); 
+        color: transparent; 
+        position: relative;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .content-loader h2::before {
+        content: attr(data-load);
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: var(--w-color); 
+        -webkit-text-stroke:0;
+        overflow: hidden;
+        white-space: nowrap;
+        width: 0;
+        animation: typing 2s linear infinite;
+    }
+
+@keyframes typing {
+    0%{width: -120%; }
+    100% { width: 120%; } 
+}
+    </style>
 </head>
 <body>
     <main class="wrapper-main">
@@ -44,13 +91,11 @@
                         <p>O conhecimento é o primeiro passo para alcançar o poder</p>
                         <div class="content-buttons">
                             <button onclick="javascript:window.location.href='https://infratechweb.netlify.app'">Infratech</button>
-                            <button>Sobre</button>
+
+                            <button onclick="javascript:window.location.href='../auths/sobre.html'">Sobre</button>
                         </div>
                     </div>
-                    <div class="input-wrap">
-                        <input type="text" placeholder="Perquise por uma disciplina" id="filter">
-                        <button><i class="bi bi-search"></i></button>
-                    </div>
+                    
                 </div>
                 <div class="shower">
                     <i class="bi bi-chevron-down"></i>
@@ -100,6 +145,9 @@
         </div>
         </footer>
     </main>
+     <div class="content-loader" id="loader">
+        <h2 data-load="INFRATECH">INFRATECH</h2>
+    </div>
     <script src="scripts/Loader.js"></script>
     <script src="scripts/main.js"></script>
 </body>
