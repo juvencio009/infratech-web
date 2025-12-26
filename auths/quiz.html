@@ -12,100 +12,38 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/quiz.css">
-  <style>
-    
-    .content-loader{
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100vh;
-        background: var(--color-grey);
-        backdrop-filter: blur(18px);
-        z-index: 9999;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: 'Segoe UI', Verdana, sans-serif;
-    }
-
-    .content-loader h2 {
-        font-size: clamp(2.2em,4.54vw,2.8em);
-        text-transform: uppercase;
-        font-weight: bold;
-        -webkit-text-stroke: 0.1vw var(--w-color); 
-        color: transparent; 
-        position: relative;
-        overflow: hidden;
-        white-space: nowrap;
-    }
-
-    .content-loader h2::before {
-        content: attr(data-load);
-        position: absolute;
-        top: 0;
-        left: 0;
-        color: var(--w-color); 
-        -webkit-text-stroke:0;
-        overflow: hidden;
-        white-space: nowrap;
-        width: 0;
-        animation: typing 2s linear infinite;
-    }
-
-@keyframes typing {
-    0%{width: -120%; }
-    100% { width: 120%; } 
-}
-  </style>
+  
 </head>
 <body>
-   <div class="content-loader" id="loader">
-        <h2 data-load="INFRATECH">INFRATECH</h2>
-    </div>
+
 <div class="intro" id="intro" style="
   position: fixed;
   inset: 0;
-  background: rgba(250, 250, 250);
+  background: #fafafa;
   display: flex;
+  height: auto;
   align-items: center;
+  overflow-y: auto;
   justify-content: center;
   z-index: 9999;">
   <div class="modal-content" style="background: #fff;">
-    <div class="header" style="
-        width: 100%;
-        padding: 5px 10px;
-        display: flex;
-        flex-flow: column;
-        align-items: start;
-        text-align: left;
-      ">
-        <h2 class="disc" style="
-        margin-bottom: 10px;
-         text-transform: capitalize;
-          color: #0046df;
-          font-family:'DynaPuff';
-          ">Disciplina : <span id="subject" style="font-family: 'DynaPuff';font-weight: 400;"></span></h2>
+    <div class="header">
+        <h2 class="disc">Disciplina : <span id="subject" style="font-family: 'DynaPuff';font-weight: 400;"></span></h2>
         <p style="color: #283723;font-weight: 600; font-family:'Inter';">O quiz tem duração de <span class="duracao"></span></p>
     </div>
-    <div class="sector" style=" width: 100%;
-        padding: 10px 20px;
-        display: flex;
-        flex-flow: column;
-        align-items: start;
-        text-align: left;">
+    <div class="sector">
         <h2>Instruções</h2>
-        <div class="info" style="text-align: left;margin: 10px 0; color: #29394e;font-weight: 600;">
-          <p style="border:1px dashed;margin-bottom: 10px;border-radius: 10px;padding: 10px;" id="textIntrution"></p>
-        <ul style="list-style: none; width: 100%;text-align: left;margin-top: 10px;" id="listIns">
+        <div class="info">
+          <p id="textIntrution"></p>
+        <ul id="listIns">
     
         </ul>
         </div>
      
     </div>
-    <div class="links" style="padding: 0px 20px; width: 100%; display: flex;align-items: center;justify-content: space-between;">
-        <a href="../index.html"><button class="btn cancelar">Cancelar</button></a>
-        <button class="btn ok" id="startBtn" ><i class="bi bi-play-fill"></i>Sim, Começar</button>
+    <div class="links">
+        <button class="btn cancelar" onclick="javascript:window.location.href='../index.html'">Cancelar</button>
+        <button class="btn ok" id="startBtn" ><i class="bi bi-play-fill"></i>Começar</button>
     </div>
   </div>
     

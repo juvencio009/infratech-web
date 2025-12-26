@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   let historico = JSON.parse(localStorage.getItem(STORAGE_HISTORICO) || "[]");
   if (!historico.length) {
-    listaQuizzes.innerHTML = "<p class='empty'>Nenhum quiz realizado ainda.</p>";
+    listaQuizzes.innerHTML = "<div class='empty'><p class='emptytext'>Nenhum quiz realizado ainda.</p><a href='../index.html#Quizes' style='text-decoration:none;' class='emptylink'>Fazer Agora</a></div>";
     totalQuizzesEl.textContent = 0;
     maiorNotaEl.textContent = 0;
     mediaNotasEl.textContent = 0;

@@ -3,70 +3,61 @@
     "card":[
           {
             "disciplina":"portugues",
-            "scripts":"../assets/img3.png",
+            "scripts":"../assets/port.png",
             "parag":"Exercicíos baseados em exames de admissão dos ultimos 5 anos, das universidades nacionais",
-            "title":"Quiz De Português",
-            "overlay":"Visitar Agora"
+            "title":"Quiz De Português"
         },
         {
             "disciplina":"matematica",
-            "scripts":"../assets/img4.png",
+            "scripts":"../assets/maths.jpg",
             "parag":"Exercicíos baseados em exames de admissão dos ultimos 5 anos, das universidades nacionais",
-            "title":"Quiz De Matemática",
-            "overlay":"Visitar Agora"
+            "title":"Quiz De Matemática"
         },
         {
             "disciplina":"fisica",
-            "scripts":"../assets/img7.png",
+            "scripts":"../assets/fisic.png",
             "parag":"Exercicíos baseados em exames de admissão dos ultimos 5 anos, das universidades nacionais",
-            "title":"Quiz De Física",
-            "overlay":"Visitar Agora"
+            "title":"Quiz De Física"
 
         },
         {
             "disciplina":"historia",
-            "scripts":"../assets/img3.png",
+            "scripts":"../assets/history.png",
             "parag":"Exercicíos baseados em exames de admissão dos ultimos 5 anos, das universidades nacionais",
-            "title":"Quiz De História",
-            "overlay":"Visitar Agora"
+            "title":"Quiz De História"
 
         },
         {
             "disciplina":"quimica",
-            "scripts":"../assets/img8.png",
+            "scripts":"../assets/quimic.png",
             "parag":"Exercicíos baseados em exames de admissão dos ultimos 5 anos, das universidades nacionais",
-            "title":"Quiz De Quimica",
-            "overlay":"Visitar Agora"
+            "title":"Quiz De Quimica"
 
         },
         {
             "disciplina":"biologia",
-            "scripts":"../assets/img4.png",
+            "scripts":"../assets/biology.png",
             "parag":"Exercicíos baseados em exames de admissão dos ultimos 5 anos, das universidades nacionais",
-            "title":"Quiz De Biológia",
-            "overlay":"Visitar Agora"
+            "title":"Quiz De Biológia"
         },
       
         {
             "disciplina":"geografia",
-            "scripts":"../assets/img5.png",
+            "scripts":"../assets/geograf.png",
             "parag":"Exercicíos baseados em exames de admissão dos ultimos 5 anos, das universidades nacionais",
-            "title":"Quiz De Geográfia",
-            "overlay":"Visitar Agora"
+            "title":"Quiz De Geográfia"
         },
         {
             "disciplina":"ingles",
-            "scripts":"../assets/img6.png",
+            "scripts":"../assets/ingles.png",
             "parag":"Exercicíos baseados em exames de admissão dos ultimos 5 anos, das universidades nacionais",
-            "title":"Quiz De Inglês",
-            "overlay":"Visitar Agora"
+            "title":"Quiz De Inglês"
         },
         {
             "disciplina":"programacao",
-            "scripts":"../assets/img8.png",
+            "scripts":"../assets/tech.png",
             "parag":"Exercicíos baseados em exames de admissão dos ultimos 5 anos, das universidades nacionais",
-            "title":"Quiz De Programação",
-            "overlay":"Visitar Agora"
+            "title":"Quiz De Programação"
         }
 
     ]

@@ -12,57 +12,8 @@
 <link rel="stylesheet" href="assets/bootstrap-icons/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="../assets/bootstrap-icons/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="../css/progresso.css">
-<style>
-  
-    .content-loader{
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100vh;
-        background: var(--color-grey);
-        backdrop-filter: blur(18px);
-        z-index: 9999;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: 'Segoe UI', Verdana, sans-serif;
-    }
-
-    .content-loader h2 {
-        font-size: clamp(2.2em,4.54vw,2.8em);
-        text-transform: uppercase;
-        font-weight: bold;
-        -webkit-text-stroke: 0.1vw var(--w-color); 
-        color: transparent; 
-        position: relative;
-        overflow: hidden;
-        white-space: nowrap;
-    }
-
-    .content-loader h2::before {
-        content: attr(data-load);
-        position: absolute;
-        top: 0;
-        left: 0;
-        color: var(--w-color); 
-        -webkit-text-stroke:0;
-        overflow: hidden;
-        white-space: nowrap;
-        width: 0;
-        animation: typing 2s linear infinite;
-    }
-
-@keyframes typing {
-    0%{width: -120%; }
-    100% { width: 120%; } 
-}
-</style>
 </head>
 <body>
-     <div class="content-loader" id="loader">
-        <h2 data-load="INFRATECH">INFRATECH</h2>
-    </div>
 
   <header class="header">
     <button style="padding: 10px;border: none; color: #123;font-size: 1.5em;background: #0000;cursor: pointer;" onclick="javascript:window.location.href='../index.html'"><i class="bi bi-box-arrow-left"></i></button>
@@ -71,9 +22,9 @@
     </div>
     <div class="estatisticas">
         <div class="total card"><i class="bi bi-bar-chart-line-fill"></i> Todos Quizes : <span id="totalQuizzes"></span></div>    
-        <div class="max card" ><i class="bi bi-box-arrow-up-right"></i> Nota Máxima : <span id="maiorNota"></span>%
+        <div class="max card" ><i class="bi bi-box-arrow-up-right"></i> Nota Máxima : <span id="maiorNota"></span>
         </div>    
-        <div class="Medio card" ><i class="bi bi-graph-up-arrow"></i> Média de todas Notas : <span id="mediaNotas"></span>%</div>    
+        <div class="Medio card" ><i class="bi bi-graph-up-arrow"></i> Média de todas Notas : <span id="mediaNotas"></span></div>    
     </div>
   </header>
 

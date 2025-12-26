@@ -99,15 +99,23 @@ header h1 { font-size: 2rem; text-align: center; margin-bottom: 15px; color: #2f
 .quizEspecifico{margin-bottom: 10px;}
 .empty{
   text-align: center;
+}
+
+.emptytext{
   font-size: clamp(1.2em,2vw,3em);
+}
+.emptylink{
+  color: #2563eb;
 }
 
  .lg {     font-size: 2em;
     text-transform: uppercase;
-    color: #2563eb;
+     color: #2563eb;
     font-weight: 600; }
- .lg span {   color: #2563eb;
-    font-weight: 400;}
+ .lg span {   
+  color: var(--grey-x);
+    font-weight: 400;
+  }
 
     .hashtags {
   margin-top: 6px;

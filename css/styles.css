@@ -491,7 +491,7 @@ footer,.wrap-nav {
 }
 
 .mainSrt h1, .mainSrt h2 {
-    font-family: 'DynaPuff', cursive;
+    font-family: 'Inter',sans-serif;
     color: var(--primary-color);
     margin-bottom: 20px;
     text-align: center;

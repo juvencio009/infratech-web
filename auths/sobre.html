@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Sobre a plataforma Infratech - Termos de uso e privacidade">
-    <link rel="shortcut icon" href="assets/tech.png" type="image/x-icon">
+<link rel="shortcut icon" href="../assets/tech.png" type="image/x-icon">
     <title>Termos de Uso - Infratech</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/bootstrap-icons/font/bootstrap-icons.min.css
+    ">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
@@ -18,7 +19,7 @@
 
 
             </div>
-                     <nav class="nav-bar" id="nav-bar">
+            <nav class="nav-bar" id="nav-bar">
                 <ul>
                     <a href="../index.html">Ínicio
                         <i class="bi bi-chevron-right nop"></i>
@@ -28,12 +29,6 @@
                     </a>
                     <a href="progresso.html">Progresso
                         <i class="bi bi-chevron-right nop"></i>
-                    </a>
-                    <a href="#" class="btn nop-mobile">Exames de Admissão
-                        <i class="bi bi-arrow-right-circle nop"></i>
-                    </a>
-                    <a href="#" class="nop" >Exames de Admissão
-                        <i class="bi bi-arrow-right-circle nop"></i>
                     </a>
                 </ul>
             </nav>
@@ -96,8 +91,9 @@
                     <h4>Links úteis</h4>
                     <ul>
                         <li><a href="../index.html">Início</a></li>
-                        <li><a href="sobre.html">Sobre / Termos</a></li>
-                        <li><a href="auths/progresso.html">Progresso</a></li>
+                        <li><a href="../index.html#Quizes">Quizes</a></li>
+                        <li><a href="#">Termos & Condições de Uso</a></li>
+                        <li><a href="progresso.html">Progresso</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
@@ -106,8 +102,7 @@
                         <i class="bi bi-whatsapp"></i> WhatsApp
                     </a>
                     <div class="socials">
-                        <a href="#"><i class="bi bi-facebook"></i></a>
-                        <a href="#"><i class="bi bi-github"></i></a>
+                        <a href="https://github.com/juvenciofilipepenga009"><i class="bi bi-github"></i></a>
                         <a href="#"><i class="bi bi-linkedin"></i></a>
                     </div>
                 </div>
@@ -119,6 +114,25 @@
     </main>
 
     <script>
+            /*======== Config Variables ========*/
+    const nav = document.getElementById("nav-bar");
+    const menu = document.getElementById("menu");
+    const CardsContent = document.querySelector(".wrap-quiz-card");
+            
+    /*======= Nav Mobile ========*/
+    function NavMobile(){
+            let list = document.querySelector('.bi-list');
+            let x = document.querySelector('.bi-x-lg');
+
+            list.classList.toggle("disabled");
+            x.classList.toggle("disabled");
+            nav.classList.toggle("disabled")
+        }
+
+        menu.addEventListener('click',()=>{
+            NavMobile();
+        });
+
         document.getElementById('year').textContent = new Date().getFullYear();
     </script>
 </body>

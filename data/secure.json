@@ -1,0 +1,11 @@
+{
+  "disciplina": "secure",
+  "duracao": 30,
+  "questoes": [
+    {
+      "id": 1,
+      "pergunta": "O Que é cyber segurança?",
+      "opcoes": ["Hack de segurança", "Método de segurança com hackers mal intencionados", "Proteção contra virus de computadores", "Nenhuma das alternativas"],
+      "resposta": 1
+    }
+]}

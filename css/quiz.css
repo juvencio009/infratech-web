@@ -21,13 +21,10 @@ body { width: 100%; height: 100vh; background: var(--card-bg); }
 
 button { background: #1d4ed8; color: #fff; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; font-size: 14px; }
 
-/*intro*/
 
-/*Quiz content*/
 .mainWrapp {
   display: flex;
   gap: 20px;
-  /* padding: 20px; */
   width: 100%;
   height: 100vh;
 }
@@ -56,7 +53,8 @@ header .logoY
   gap: 5px;
   max-height: 90vh;
   overflow-y: auto;
-  padding-top: 20px;
+  padding: 20px;
+
 }
 .idQuestions::-webkit-scrollbar{
   width: 4px;
@@ -98,10 +96,6 @@ header .logoY
 }
 
 #quiz header.ctx { display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; }
-
-
-
-
 
 #quiz .timer { font-weight: 600; font-size: 0.95rem; padding: 6px 12px; border-radius: 999px; background: #e5e7eb; color: #111827; }
 
@@ -148,7 +142,6 @@ header .logoY
 @media(max-width:768px){
   #finishQuizBtn { width: 100%; margin-top: 20px; }
 }
-/* Cor visual para questões respondidas no aside */
 .idQuestions .alternativaFoq.respondida {
   background: rgba(6, 236, 129, 0.35);
   color: #064e3b;
@@ -256,4 +249,68 @@ header .logoY
 
 .ok:hover{
   transform: skew(-4deg);
+}
+
+#listIns{
+  list-style: none; width: 100%;text-align: left;margin-top: 10px; max-height: 200px; overflow-y: auto;
+}
+#textIntrution{
+  border:1px dashed;margin-bottom: 10px;border-radius: 10px;padding: 10px;
+}
+.info{
+  text-align: left;margin: 10px 0; color: #29394e;font-weight: 600
+}
+.sector{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+    text-align: left;
+}
+.header{
+   width: 100%;
+    padding: 5px 10px;
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+    text-align: left;
+}
+.disc{
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    color: #0046df;
+    font-family:'DynaPuff';
+}
+.sector h2{
+  font-size: 1em;
+}
+  .links{
+    padding: 0px 20px; width: 100%; display: flex;align-items: center;justify-content: space-between;
+  }
+@media screen and (max-width:500px){
+  .sector{
+    padding: 6px 10px;
+  }
+  #listIns{
+    font-size: 0.75em;
+  }
+  #textIntrution{
+    font-size: 0.8em;
+  }
+  .disc{
+    font-size: 1.3em;
+  }
+
+  .header p{
+    font-size: 0.75em;
+  }
+  .links{
+    flex-flow: column-reverse;
+    gap: 20px;
+  }
+  .links button{
+    width:100%;
+    font-size: 0.9em;
+  }
 }
